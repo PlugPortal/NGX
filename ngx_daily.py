@@ -178,11 +178,18 @@ def call_anthropic(system_prompt: str, user_payload: str) -> str:
         data=json.dumps(body),
         timeout=120,
     )
-    resp.raise_for_status()
+    if resp.status_code >= 300:
+        # Surface the API's own error message instead of an opaque HTTPError.
+        raise RuntimeError(
+            f"Anthropic API {resp.status_code}: {resp.text[:600]}"
+        )
     data = resp.json()
-    return "".join(
+    text = "".join(
         block["text"] for block in data.get("content", []) if block.get("type") == "text"
     ).strip()
+    if not text:
+        raise RuntimeError(f"Anthropic returned no text. Raw: {json.dumps(data)[:600]}")
+    return text
 
 
 # --------------------------------------------------------------------------- #
