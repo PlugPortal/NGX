@@ -1,0 +1,24 @@
+name: Probe data sources
+on:
+  push:
+    branches: [claude/probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt pypdf
+      - run: python probe.py
+      - name: Commit probe output to probe-data branch
+        run: |
+          git config user.name "ngx-bot"; git config user.email "ngx-bot@users.noreply.github.com"
+          mv probe_out /tmp/probe_out
+          git checkout --orphan claude/probe-data
+          git rm -rq --cached . ; rm -rf ./*  .github
+          cp -r /tmp/probe_out/* .
+          git add -A; git commit -qm "probe output $(date -u +%FT%TZ)"
+          git push -f origin claude/probe-data
