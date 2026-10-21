@@ -1,0 +1,151 @@
+{
+ "generated": "2026-10-21T03:19:16+01:00",
+ "ideas": [
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": null,
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "HBM Nigeria Plc",
+   "passed": 8,
+   "plan": {
+    "entry": 393.8,
+    "entry_low": 393.8,
+    "entry_text": "Buy-stop above the 52-week high: ₦393.80",
+    "notes": [
+     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+    ],
+    "price_action": {
+     "below_52w_high_pct": 2.8,
+     "chg_1d": 6.76,
+     "chg_1y": 178.68,
+     "chg_30d": 9.79,
+     "chg_7d": 6.76,
+     "chg_ytd": 181.78,
+     "high_52w": 389.9,
+     "low_52w": 130.0,
+     "price": 379.0,
+     "range_position_pct": 95.81,
+     "rs_rank": 94.24
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Breakout watch",
+    "shares_per_1m_capital": 317,
+    "stop": 362.3,
+    "stop_pct": 8,
+    "target_2r": 456.81,
+    "target_3r": 488.31
+   },
+   "sector": "INDUSTRIAL GOODS",
+   "ticker": "HBMNG"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": {
+     "date": "2026-10-09",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48062_ZENITH_BANK_PLC-_QUARTER_2_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "",
+     "title": "ZENITH BANK PLC- QUARTER 2 - FINANCIAL STATEMENT FOR 2026"
+    },
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "Zenith Bank Plc",
+   "passed": 8,
+   "plan": {
+    "entry": 123.5,
+    "entry_low": 119.8,
+    "entry_text": "Entry zone ₦119.80 – ₦123.50",
+    "notes": [
+     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+    ],
+    "price_action": {
+     "below_52w_high_pct": 9.79,
+     "chg_1d": -0.4,
+     "chg_1y": 80.03,
+     "chg_30d": -3.82,
+     "chg_7d": -3.52,
+     "chg_ytd": 99.84,
+     "high_52w": 136.9,
+     "low_52w": 53.7,
+     "price": 123.5,
+     "range_position_pct": 83.89,
+     "rs_rank": 83.45
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 1012,
+    "stop": 113.62,
+    "stop_pct": 8,
+    "target_2r": 143.26,
+    "target_3r": 153.14
+   },
+   "sector": "FINANCIAL SERVICES",
+   "ticker": "ZENITHBANK"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [
+     {
+      "date": "2026-10-07",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/215_Notification_of_Share_Dealing_by_Insider-_Moses_Oyerinde.pdf",
+      "price": 819.38,
+      "shares": 25000,
+      "side": "SELL"
+     }
+    ],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": null,
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "MTN Nigeria Communications Plc",
+   "passed": 8,
+   "plan": {
+    "entry": 825.0,
+    "entry_low": 800.25,
+    "entry_text": "Entry zone ₦800.25 – ₦825.00",
+    "notes": [
+     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+    ],
+    "price_action": {
+     "below_52w_high_pct": 9.84,
+     "chg_1d": 0.0,
+     "chg_1y": 71.88,
+     "chg_30d": -7.3,
+     "chg_7d": -2.25,
+     "chg_ytd": 61.45,
+     "high_52w": 915.0,
+     "low_52w": 429.3,
+     "price": 825.0,
+     "range_position_pct": 81.47,
+     "rs_rank": 74.82
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 151,
+    "stop": 759.0,
+    "stop_pct": 8,
+    "target_2r": 957.0,
+    "target_3r": 1023.0
+   },
+   "sector": "ICT",
+   "ticker": "MTNN"
+  }
+ ],
+ "week_of": "2026-10-19"
+}

@@ -1,0 +1,69 @@
+NGX data run 2026-10-21 03:02 WAT for 141 tickers
+prices: ok {"rows": 141, "missing": []}
+fundamentals: ok {"rows": 119, "missing": ["AFRINSURE", "AFROMEDIA", "AIRTELAFRI", "AVACAP", "AVAIF", "BAPLC", "DANGSUGAR", "EKOCORP", "EUNISELL", "GEREGU", "GOLDBREW", "HMCALL", "LEGENDINT", "LIVESTOCK", "MANSARD", "MORISON", "NNFM", "SCOA", "TANTALIZER", "TRANSEXPR", "TRIPPLEG", "ZICHIS"]}
+market_wrap: ok {"rows": 0, "note": "No market wrap published yet for 2026-10-21"}
+fx: ok {"rows": 1, "rates": {"USD/NGN": "\u20a61333.65", "EUR/NGN": "\u20a61497.29", "GBP/NGN": "\u20a61784.69", "CNY/NGN": "\u20a6199.70"}}
+  disclosures page for ACADEMY failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ACADEMY
+  disclosures page for AFROMEDIA failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/AFROMEDIA
+  disclosures page for ALEX failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ALEX
+  disclosures page for AUSTINLAZ failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/AUSTINLAZ
+  disclosures page for AVACAP failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/AVACAP
+  disclosures page for AVAIF failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/AVAIF
+  disclosures page for BAPLC failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/BAPLC
+  disclosures page for BETAGLAS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/BETAGLAS
+  disclosures page for CAVERTON failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CAVERTON
+  disclosures page for CHAMPION failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CHAMPION
+  disclosures page for CHAMS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CHAMS
+  disclosures page for CHELLARAM failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CHELLARAM
+  disclosures page for CILEASING failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CILEASING
+  disclosures page for CNIF failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CNIF
+  disclosures page for CONOIL failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CONOIL
+  disclosures page for CWG failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/CWG
+  disclosures page for EKOCORP failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/EKOCORP
+  disclosures page for ELLAHLAKES failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ELLAHLAKES
+  disclosures page for ENAMELWA failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ENAMELWA
+  disclosures page for EUNISELL failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/EUNISELL
+  disclosures page for GOLDBREW failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/GOLDBREW
+  disclosures page for GUINEAINS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/GUINEAINS
+  disclosures page for IMG failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/IMG
+  disclosures page for INFINITY failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/INFINITY
+  disclosures page for INTENEGINS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/INTENEGINS
+  disclosures page for JAPAULGOLD failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/JAPAULGOLD
+  disclosures page for JOHNHOLT failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/JOHNHOLT
+  disclosures page for LEARNAFRCA failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/LEARNAFRCA
+  disclosures page for LEGENDINT failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/LEGENDINT
+  disclosures page for MAYBAKER failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/MAYBAKER
+  disclosures page for MCNICHOLS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/MCNICHOLS
+  disclosures page for MOFIREIF failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/MOFIREIF
+  disclosures page for MORISON failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/MORISON
+  disclosures page for NASCON failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/NASCON
+  disclosures page for NB failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/NB
+  disclosures page for NEM failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/NEM
+  disclosures page for NNFM failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/NNFM
+  disclosures page for NREIT failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/NREIT
+  disclosures page for OANDO failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/OANDO
+  disclosures page for OKOMUOIL failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/OKOMUOIL
+  disclosures page for PREMPAINTS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/PREMPAINTS
+  disclosures page for PRESCO failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/PRESCO
+  disclosures page for REDSTAREX failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/REDSTAREX
+  disclosures page for ROYALEX failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ROYALEX
+  disclosures page for RTBRISCOE failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/RTBRISCOE
+  disclosures page for SCOA failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/SCOA
+  disclosures page for SKYAVN failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/SKYAVN
+  disclosures page for SOVRENINS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/SOVRENINS
+  disclosures page for STERLINGNG failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/STERLINGNG
+  disclosures page for TANTALIZER failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/TANTALIZER
+  disclosures page for TIP failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/TIP
+  disclosures page for TRANSEXPR failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/TRANSEXPR
+  disclosures page for TRIPPLEG failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/TRIPPLEG
+  disclosures page for UHREIT failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/UHREIT
+  disclosures page for UNIONDICON failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/UNIONDICON
+  disclosures page for UNIVINSURE failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/UNIVINSURE
+  disclosures page for UPDCREIT failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/UPDCREIT
+  disclosures page for UPL failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/UPL
+  disclosures page for ZICHIS failed: 404 Client Error: Not Found for url: https://abokiforex.app/ngx-stocks/disclosures/ZICHIS
+disclosures: ok {"new": 141, "backfilled_tickers": 82, "total": 141}
+results: ok {"rows": 13}
+profiles: ok {"fetched": 141, "failed": [], "due": 141}
+swing_screen: ok {"candidates": 3, "scored": 141}
+Done: 8/8 steps succeeded
