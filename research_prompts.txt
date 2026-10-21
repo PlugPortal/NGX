@@ -1,0 +1,10 @@
+# Research prompts run for every ticker in watchlist.txt.
+# [TICKER] is replaced with each ticker symbol.
+# Separate prompts with a line containing only ===
+# Lines starting with # are ignored.
+
+For [TICKER], give me: last 4 quarters EPS and revenue growth rates with acceleration or deceleration trend, gross and operating margin trend over the same period, the primary business catalyst driving current growth, any near-term risks or headwinds including secondary offerings or insider selling, and industry group strength and main competitors. Be concise and factual.
+
+===
+
+For [TICKER], what is the core investment thesis that institutional investors are using to justify buying at current levels? What would need to be true for that thesis to break down? Be concise and specific.
