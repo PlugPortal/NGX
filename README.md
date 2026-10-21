@@ -11,7 +11,7 @@ Built for [MintWise NGX](https://github.com/PlugPortal).
 Every weekday at **15:35 WAT** (just after the 14:30 market close) it:
 
 1. Scrapes the day's filings from `abokiforex.app/ngx-stocks/disclosures`
-2. Scrapes live market stats (ASI, market cap, breadth, movers, FX) from `ngxpulse.ng`
+2. Scrapes the market wrap from Kobo Terminal (formerly `ngxpulse.ng`) and CBN FX from Aboki Forex
 3. Sends both to the Anthropic API with your fixed formatting template
 4. Writes `output/ngx-digest-YYYY-MM-DD.md` with three sections:
    - **Director dealings** — your emoji block format
@@ -72,42 +72,69 @@ To auto-post, add a step that reads `output/ngx-digest-*.md` and calls the X API
 `POST /2/tweets` endpoint per block. Keep the manual-review default until you trust
 the output.
 
-## Weekly ticker research
+## Daily data + research dashboard
 
-A second workflow, **NGX Weekly Research**, runs every Saturday at 08:00 WAT.
-For each ticker in `watchlist.txt` it asks Claude, with live web search, the
-questions in `research_prompts.txt`:
+A second workflow, **NGX Daily Data**, runs every weekday at 20:15 WAT (after
+Kobo Terminal publishes the day's market wrap). It:
 
-1. Last 4 quarters EPS and revenue growth (accelerating or decelerating), gross
-   and operating margin trend, the main growth catalyst, near-term risks
-   (including capital raises and director selling), and sector strength and
-   competitors.
-2. The core institutional investment thesis at current levels, and what would
-   break it.
+1. Collects free data for every ticker in `watchlist.txt` into `data/`:
+   prices (Kobo Terminal), P/E, EPS, ROE, dividend yield, P/B and score
+   (Aboki Forex), the market wrap, CBN FX, every NGX filing (director dealings,
+   capital raises, results), per-period figures from results summaries, and
+   sector / peers / 52-week range / broker consensus (refreshed weekly).
+2. Runs Claude research **only for tickers that filed new results** (up to 10 a
+   day by default). Claude gets the filing itself (key pages, or the scanned PDF),
+   the collected context, and web search, and answers the two questions in
+   `research_prompts.txt`. Answers are saved to `data/research/TICKER.json`.
+3. Commits `data/` to the repo.
 
-The answers, with numbered source links, go to `output/ngx-research-YYYY-MM-DD.md`.
-Any answer with no cited sources is labelled unverified.
+The Streamlit dashboard in `dashboard/app.py` only reads `data/`. Opening it
+never calls Claude or any data site.
 
-**To set it up:** add your tickers to `watchlist.txt`, one per line (e.g. `GTCO`).
-It uses the same `ANTHROPIC_API_KEY` secret as the daily digest. To run it now,
-go to **Actions** → NGX Weekly Research → Run workflow.
+### Deploy the dashboard (one-time)
 
-**Optional repository variables:** `RESEARCH_MODEL` (defaults to the model in
-`ngx_daily.py`) and `MAX_SEARCHES` (web searches per question, default 8).
+1. Go to https://share.streamlit.io → **Create app** → deploy from GitHub.
+2. Repository `PlugPortal/NGX`, branch `main`, main file path `dashboard/app.py`.
+3. Deploy. Streamlit copies each new commit, so the dashboard updates after
+   every daily run.
 
-**Cost:** each ticker is 2 API calls. Web search is billed at $10 per 1,000
-searches, plus tokens — and search results count as input tokens, so token cost
-is the larger part. Check current rates at
-https://platform.claude.com/docs/en/about-claude/pricing.
+Streamlit Community Cloud allows **one private app** per account. An app from a
+public repo is public by default — see "Keep it private" below.
 
-**Editing:** change the questions in `research_prompts.txt` (keep `[TICKER]`,
-separate prompts with a line containing only `===`). NGX context and accuracy
-rules for the analyst live in `research_system_prompt.txt`.
+### Keep it private
 
-Preview what will be asked, without calling the API:
+Kobo Terminal's terms say free access doesn't grant redistribution rights, and
+this repo is public, so anything in `data/` is visible on GitHub. To keep it to
+yourself: make the repo private (Settings → General → Danger Zone → Change
+visibility), then the Streamlit app deployed from it is private by default.
+
+### Research controls (optional repository variables)
+
+| Variable | Default | What it does |
+|---|---|---|
+| `MAX_RESEARCH_PER_RUN` | 10 | Tickers with new results researched per day; the rest wait for the next run |
+| `RESEARCH_BACKFILL_PER_RUN` | 0 | Extra never-researched tickers per day, largest first |
+| `RESEARCH_MODEL` | model in `ngx_daily.py` | Model used for research |
+| `MAX_SEARCHES` | 6 | Web searches per question |
+
+To research specific tickers now: **Actions** → NGX Daily Data → Run workflow →
+type tickers (e.g. `GTCO,ZENITHBANK`). Tick "Collect data only" to skip Claude.
+
+**Cost:** web search is $10 per 1,000 searches plus tokens; filing pages and
+search results count as input tokens. Each research run logs its token use.
+Check current rates at https://platform.claude.com/docs/en/about-claude/pricing.
+
+Preview what research is due, without calling the API:
 
 ```bash
 python ngx_research.py --dry-run
+```
+
+Run the dashboard on your own computer:
+
+```bash
+pip install -r requirements.txt -r dashboard/requirements.txt
+streamlit run dashboard/app.py
 ```
 
 ## Files
@@ -118,9 +145,13 @@ python ngx_research.py --dry-run
 | `system_prompt.txt` | Your tweet templates (edit freely) |
 | `requirements.txt` | Python deps |
 | `.github/workflows/ngx-daily.yml` | Daily schedule + manual trigger |
-| `ngx_research.py` | Weekly per-ticker research with web search |
-| `watchlist.txt` | Tickers for the weekly research |
+| `ngx_sources.py` | Scrapers for Kobo Terminal and Aboki Forex (shared) |
+| `ngx_data.py` | Daily free-data collector → `data/` |
+| `ngx_research.py` | Claude research for tickers with new results |
+| `watchlist.txt` | Tickers tracked |
 | `research_prompts.txt` | Questions asked about each ticker |
 | `research_system_prompt.txt` | NGX context and accuracy rules for research |
-| `.github/workflows/ngx-research.yml` | Weekly research schedule + manual trigger |
+| `dashboard/app.py` | Streamlit dashboard |
+| `.github/workflows/ngx-data.yml` | Daily data + research schedule + manual trigger |
+| `data/` | Collected data and research (auto-committed) |
 | `output/` | Generated digests (auto-committed) |

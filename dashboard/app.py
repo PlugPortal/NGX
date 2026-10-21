@@ -192,7 +192,11 @@ def build_screener() -> pd.DataFrame:
             "Last results": last_results.get(t),
             "Claude note": notes.get(t, {}).get("updated", "")[:10] or None,
         })
-    return pd.DataFrame(rows)
+    df = pd.DataFrame(rows)
+    for c in ["Price ₦", "1D %", "7D %", "30D %", "YTD %", "Mkt cap ₦bn", "P/E", "EPS ₦",
+              "ROE %", "Div %", "P/B", "Score"]:
+        df[c] = pd.to_numeric(df[c], errors="coerce")
+    return df
 
 
 # --------------------------------------------------------------------------- #
@@ -236,19 +240,20 @@ with tab_market:
 
     if not px.empty:
         wl = px[px.index.isin(tickers)].copy()
+        wl.index.name = "Ticker"
         g, l = st.columns(2)
         g.subheader("Top gainers today")
         g.dataframe(wl.nlargest(8, "chg_1d")[["name", "price", "chg_1d", "chg_7d"]],
                     column_config={"name": "Name", "price": st.column_config.NumberColumn("Price ₦", format="%.2f"),
                                    "chg_1d": st.column_config.NumberColumn("1D %", format="%+.2f"),
                                    "chg_7d": st.column_config.NumberColumn("7D %", format="%+.2f")},
-                    use_container_width=True)
+                    width="stretch")
         l.subheader("Top losers today")
         l.dataframe(wl.nsmallest(8, "chg_1d")[["name", "price", "chg_1d", "chg_7d"]],
                     column_config={"name": "Name", "price": st.column_config.NumberColumn("Price ₦", format="%.2f"),
                                    "chg_1d": st.column_config.NumberColumn("1D %", format="%+.2f"),
                                    "chg_7d": st.column_config.NumberColumn("7D %", format="%+.2f")},
-                    use_container_width=True)
+                    width="stretch")
 
     st.subheader("Watchlist filings — last 7 days")
     if filings.empty:
@@ -257,7 +262,7 @@ with tab_market:
         recent = filings[filings["date"] >= (pd.Timestamp.today() - pd.Timedelta(days=7)).strftime("%Y-%m-%d")]
         st.dataframe(recent[["date", "ticker", "category", "title", "pdf"]],
                      column_config={"pdf": st.column_config.LinkColumn("PDF", display_text="Open")},
-                     hide_index=True, use_container_width=True)
+                     hide_index=True, width="stretch")
 
 # ---- Screener -------------------------------------------------------------- #
 with tab_screen:
@@ -278,7 +283,7 @@ with tab_screen:
            ["Price ₦", "P/E", "EPS ₦", "ROE %", "Div %", "P/B", "Mkt cap ₦bn"]}
     num.update({c: st.column_config.NumberColumn(c, format="%+.2f") for c in ["1D %", "7D %", "30D %", "YTD %"]})
     num["Score"] = st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%.0f")
-    st.dataframe(view, column_config=num, hide_index=True, use_container_width=True, height=640)
+    st.dataframe(view, column_config=num, hide_index=True, width="stretch", height=640)
     st.caption(f"{len(view)} of {len(sc)} tickers. Signal and score are Aboki Forex's model, not advice. "
                "Blank cells mean that source does not cover the ticker.")
 
@@ -292,13 +297,21 @@ with tab_ticker:
     st.header(f"{name} ({t})")
     st.caption(" · ".join(x for x in [pr.get("sector"), f"profile updated {pr['updated']}" if pr.get("updated") else None] if x))
 
-    c = st.columns(6)
+    def fnum(key, fmt="{:,.2f}", suffix=""):
+        if f is None or pd.isna(f[key]):
+            return "—"
+        return fmt.format(float(f[key])) + suffix
+
+    c = st.columns(4)
     c[0].metric("Price", naira(p["price"]) if p is not None else "—", pct(p["chg_1d"]) if p is not None else None)
-    c[1].metric("7D / 30D", f"{pct(p['chg_7d']) if p is not None else '—'} / {pct(pr.get('chg_30d'))}")
-    c[2].metric("Market cap", naira(p["mcap"] if p is not None else (f["mcap"] if f is not None else None)))
-    c[3].metric("P/E · P/B", f"{f['pe'] if f is not None else '—'} · {f['pb'] if f is not None else '—'}")
-    c[4].metric("EPS · ROE", f"{naira(f['eps']) if f is not None else '—'} · {f['roe'] if f is not None else '—'}%")
-    c[5].metric("Div yield", f"{f['div_yield']}%" if f is not None and pd.notna(f["div_yield"]) else "—")
+    c[1].metric("7-day", pct(p["chg_7d"]) if p is not None else "—")
+    c[2].metric("30-day", pct(pr.get("chg_30d")))
+    c[3].metric("Market cap", naira(p["mcap"] if p is not None else (f["mcap"] if f is not None else None)))
+    c = st.columns(4)
+    c[0].metric("P/E", fnum("pe"))
+    c[1].metric("EPS", naira(f["eps"]) if f is not None else "—")
+    c[2].metric("ROE", fnum("roe", suffix="%"))
+    c[3].metric("Div yield · P/B", f"{fnum('div_yield', suffix='%')} · {fnum('pb')}")
     if pr.get("low_52w"):
         st.caption(f"52-week range {naira(pr['low_52w'])} – {naira(pr['high_52w'])} · "
                    f"YTD {pct(pr.get('chg_ytd'))} · 1Y {pct(pr.get('chg_1y'))}"
@@ -347,7 +360,7 @@ with tab_ticker:
             show["eps"] = show["eps"].map(lambda v: naira(v, 2))
             st.dataframe(show.rename(columns={"period": "Period", "basis": "Basis", "revenue": "Revenue",
                                               "pat": "PAT", "eps": "EPS", "filing_date": "Filed"}),
-                         hide_index=True, use_container_width=True)
+                         hide_index=True, width="stretch")
             st.caption("As summarised by Aboki Forex from the filings; EPS converted from kobo.")
 
         tf = filings[filings["ticker"] == t] if not filings.empty else pd.DataFrame()
@@ -360,7 +373,7 @@ with tab_ticker:
                 "Filed": dd["date"], "Side": dd["summary"].map(dealing_side),
                 "Value": dd["summary"].map(dealing_value), "PDF": dd["pdf"]}),
                 column_config={"PDF": st.column_config.LinkColumn("PDF", display_text="Open")},
-                hide_index=True, use_container_width=True)
+                hide_index=True, width="stretch")
             st.caption("Buy/sell read from the filing summary wording — open the PDF to confirm.")
         raises = tf[tf["is_raise"]] if not tf.empty else tf
         if not raises.empty:
@@ -374,7 +387,7 @@ with tab_ticker:
             pv = build_screener().set_index("Ticker")
             rows = [pv.loc[x] if x in pv.index else pd.Series({"Name": "(not in watchlist)"}, name=x) for x in peers]
             st.dataframe(pd.DataFrame(rows)[["Name", "Price ₦", "1D %", "Mkt cap ₦bn", "P/E", "ROE %", "Div %"]],
-                         use_container_width=True)
+                         width="stretch")
 
     st.subheader("All filings")
     if tf.empty:
@@ -406,5 +419,5 @@ with tab_filings:
             v = v[v["is_raise"]]
         st.dataframe(v[["date", "ticker", "category", "title", "pdf"]],
                      column_config={"pdf": st.column_config.LinkColumn("PDF", display_text="Open")},
-                     hide_index=True, use_container_width=True, height=640)
+                     hide_index=True, width="stretch", height=640)
         st.caption(f"{len(v)} filings for watchlist tickers since collection began.")
