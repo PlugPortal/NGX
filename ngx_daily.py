@@ -2,9 +2,9 @@
 """
 NGX Daily Automation Pipeline
 =============================
-Scrapes NGX corporate disclosures + live market data, sends them to the
-Anthropic API for formatting into ready-to-post tweet threads, and writes
-the output to a dated Markdown file (and optionally Notion).
+Scrapes NGX corporate disclosures + the market wrap + CBN FX, formats them
+into ready-to-post tweet text with fixed templates (ngx_digest.py — no AI,
+no API key), and writes a dated Markdown file (and optionally Notion).
 
 Author: MintWise NGX (github.com/PlugPortal)
 
@@ -20,7 +20,6 @@ without a headless browser, so we route through the mirrors above.
 
 Environment variables (set as GitHub Actions secrets)
 -----------------------------------------------------
-ANTHROPIC_API_KEY   required
 NOTION_TOKEN        optional  (only if PUSH_TO_NOTION=1)
 NOTION_PAGE_ID      optional  (parent page to append the daily digest under)
 PUSH_TO_NOTION      optional  ("1" to enable Notion push)
@@ -38,14 +37,12 @@ from zoneinfo import ZoneInfo
 import requests
 
 import ngx_sources as src
+import ngx_digest
 
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
 
-ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
-MODEL = "claude-opus-4-8"          # swap to claude-sonnet-4-6 for lower cost
-MAX_TOKENS = 4000
 WAT = ZoneInfo("Africa/Lagos")
 
 OUTPUT_DIR = "output"
@@ -62,67 +59,29 @@ def today_str() -> str:
 
 def todays_disclosures(today: dt.date) -> list[dict]:
     """Today's filings from the Aboki Forex feed, in the shape the prompt expects."""
-    return [
-        {"ticker": d["ticker"], "category": d["category"], "date": today_str(),
-         "title": d["title"], "details": " ".join((d.get("summary") or "").split())}
-        for d in src.scrape_disclosures_feed() if d["date"] == today.isoformat()
-    ]
+    return [d for d in src.scrape_disclosures_feed() if d["date"] == today.isoformat()]
 
 
 def todays_market(today: dt.date) -> dict:
-    """Today's market wrap (Kobo Terminal) and CBN official FX (Aboki Forex)."""
+    """Today's market wrap (Kobo Terminal, only if dated today) and CBN official FX."""
     try:
-        summary = src.scrape_market_wrap(today).get("summary")
+        wrap = src.scrape_market_wrap(today)
     except Exception as e:
         print(f"  market wrap failed: {e}")
-        summary = None
+        wrap = {}
     try:
         fx = src.scrape_cbn_fx()
     except Exception as e:
         print(f"  FX failed: {e}")
         fx = {}
-    return {"summary": summary or "Market summary unavailable.", "fx": fx}
+    return {"wrap": wrap, "fx": fx}
 
 
-# --------------------------------------------------------------------------- #
-# Anthropic formatting
-# --------------------------------------------------------------------------- #
-
-def load_system_prompt() -> str:
-    with open("system_prompt.txt", "r", encoding="utf-8") as f:
-        return f.read()
-
-
-def call_anthropic(system_prompt: str, user_payload: str) -> str:
-    api_key = os.environ["ANTHROPIC_API_KEY"]
-    body = {
-        "model": MODEL,
-        "max_tokens": MAX_TOKENS,
-        "system": system_prompt,
-        "messages": [{"role": "user", "content": user_payload}],
-    }
-    resp = requests.post(
-        ANTHROPIC_URL,
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        data=json.dumps(body),
-        timeout=120,
-    )
-    if resp.status_code >= 300:
-        # Surface the API's own error message instead of an opaque HTTPError.
-        raise RuntimeError(
-            f"Anthropic API {resp.status_code}: {resp.text[:600]}"
-        )
-    data = resp.json()
-    text = "".join(
-        block["text"] for block in data.get("content", []) if block.get("type") == "text"
-    ).strip()
-    if not text:
-        raise RuntimeError(f"Anthropic returned no text. Raw: {json.dumps(data)[:600]}")
-    return text
+def company_names() -> dict[str, str]:
+    try:
+        return {r["ticker"]: r["name"] for r in src.scrape_prices()}
+    except Exception:
+        return {}
 
 
 # --------------------------------------------------------------------------- #
@@ -196,21 +155,14 @@ def main() -> int:
 
     print("Fetching market data...")
     market = todays_market(today)
-    print(f"  market wrap: {'found' if 'unavailable' not in market['summary'] else 'not published yet'}; "
+    print(f"  market wrap: {'found' if market['wrap'].get('summary') else 'not published yet'}; "
           f"FX: {', '.join(market['fx']) or 'none'}")
 
-    if not disclosures and "unavailable" in market["summary"]:
+    if not disclosures and not market["wrap"].get("summary"):
         print("Nothing to format today. Exiting cleanly.")
         return 0
 
-    payload = json.dumps(
-        {"date": date_label, "market": market, "disclosures": disclosures},
-        ensure_ascii=False,
-        indent=2,
-    )
-
-    print("Calling Anthropic API...")
-    formatted = call_anthropic(load_system_prompt(), payload)
+    formatted = ngx_digest.build(disclosures, market["wrap"], market["fx"], company_names())
 
     path = write_markdown(date_label, formatted)
     print(f"Wrote {path}")

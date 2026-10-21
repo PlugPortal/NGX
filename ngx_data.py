@@ -14,6 +14,7 @@ data/fx.csv             daily CBN official rates
 data/disclosures.json   every filing seen, keyed by filing id
 data/results.csv        per-period revenue / PAT / EPS parsed from results summaries
 data/profiles.json      sector, peers, 52-week range, broker consensus (weekly)
+data/swing.csv          swing-trade scorecard per ticker (see ngx_swing.py)
 data/status.json        what ran, when, and any source errors
 
 Each source is independent: if one site is down the others still update,
@@ -105,7 +106,13 @@ def step_prices(day: str, tickers: set[str]) -> dict:
 
 
 def step_fundamentals(day: str, tickers: set[str]) -> dict:
-    rows = [dict(r, date=day) for r in src.scrape_fundamentals() if r["ticker"] in tickers]
+    raw = src.scrape_fundamentals()
+    have = {r["ticker"] for r in raw}
+    for r in raw:   # use an old symbol's row only when the current symbol has none
+        new = src.OLD_SYMBOLS.get(r["ticker"])
+        if new and new not in have:
+            r["ticker"] = new
+    rows = [dict(r, date=day) for r in raw if r["ticker"] in tickers]
     upsert_csv(f"{DATA}/fundamentals.csv", FUND_FIELDS, rows, ("date", "ticker"))
     return {"rows": len(rows), "missing": sorted(tickers - {r["ticker"] for r in rows})}
 
@@ -133,6 +140,7 @@ def step_disclosures(tickers: set[str], store: dict, scanned: set[str]) -> dict:
 
     def merge(items: list[dict]) -> None:
         for d in items:
+            d["ticker"] = src.OLD_SYMBOLS.get(d["ticker"], d["ticker"])
             if d["ticker"] not in tickers:
                 continue
             if d["id"] not in store:
@@ -187,6 +195,8 @@ def step_profiles(tickers: set[str], profiles: dict, max_fetch: int) -> dict:
         except Exception as e:
             failed.append(t)
             print(f"  profile for {t} failed: {e}")
+            if "404" in str(e):   # not listed on Kobo: retry weekly, not daily
+                profiles[t] = {"ticker": t, "updated": today.isoformat(), "error": "not listed on Kobo Terminal"}
         time.sleep(POLITE_DELAY)
     return {"fetched": fetched, "failed": failed, "due": len(due)}
 
@@ -233,9 +243,10 @@ def main() -> int:
     write_json(f"{DATA}/disclosures.json", store)
     write_json(f"{DATA}/profiles.json", profiles)
     write_json(f"{DATA}/meta.json", {"scanned_disclosure_pages": sorted(scanned)})
+
+    import ngx_swing   # scores tickers from the files just written
+    run_step(status, "swing_screen", ngx_swing.run)
     write_json(f"{DATA}/status.json", status)
-    if disc:
-        write_json(f"{DATA}/new_filings.json", disc["new_ids"])
 
     ok = [s for s in status["steps"].values() if s.get("ok")]
     print(f"Done: {len(ok)}/{len(status['steps'])} steps succeeded")

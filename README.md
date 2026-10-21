@@ -1,139 +1,90 @@
-# NGX Daily Digest
+# NGX Research Desk
 
-Automated daily pipeline that scrapes NGX corporate disclosures and live market
-data, formats them with Claude into ready-to-post tweet threads, and saves a
-dated digest to this repo (and optionally Notion).
+Free, automated NGX market data, a daily tweet digest, a swing-trade screen with
+weekly rule-based trade ideas, and a Streamlit dashboard. **No AI and no API keys**
+— everything runs on GitHub Actions and Streamlit Community Cloud's free tiers.
 
-Built for [MintWise NGX](https://github.com/PlugPortal).
+Built for [MintWise NGX](https://github.com/PlugPortal). Personal research only — not investment advice.
 
-## What it does
+## What runs, and when
 
-Every weekday at **15:35 WAT** (just after the 14:30 market close) it:
+| Workflow | When (WAT) | What it does |
+|---|---|---|
+| **NGX Daily Data** | Weekdays 20:15 | Collects free data for every ticker in `watchlist.txt` into `data/`, runs the swing screen, and on Fridays writes the weekly swing ideas |
+| **NGX Daily Digest** | Weekdays 20:30 | Turns the day's filings, market wrap and CBN FX into ready-to-post tweet text in `output/ngx-digest-YYYY-MM-DD.md` |
 
-1. Scrapes the day's filings from `abokiforex.app/ngx-stocks/disclosures`
-2. Scrapes the market wrap from Kobo Terminal (formerly `ngxpulse.ng`) and CBN FX from Aboki Forex
-3. Sends both to the Anthropic API with your fixed formatting template
-4. Writes `output/ngx-digest-YYYY-MM-DD.md` with three sections:
-   - **Director dealings** — your emoji block format
-   - **Other disclosures** — one ≤280-char tweet each
-   - **Market wrap** — a session-summary tweet + an FX companion tweet
-5. Commits the digest back to the repo, and (optionally) pushes it to Notion for review
+Both run after Kobo Terminal stamps the day's market wrap "As of 20:00 WAT", and the
+digest only uses a wrap dated today. Run either by hand from **Actions** → workflow →
+**Run workflow**.
 
-## Why these sources
+## Sources (free, public pages)
 
-`ngxgroup.com` and its disclosures page are JavaScript-gated and can't be scraped
-without a headless browser. `abokiforex.app` and `ngxpulse.ng` render the same data
-server-side as plain HTML, so they're reliable for automation.
+- **Kobo Terminal** (formerly ngxpulse.ng) — prices (30-min delayed), market wrap, sector,
+  peers, 52-week range, broker consensus
+- **Aboki Forex** — P/E, EPS, ROE, dividend yield, P/B, every NGX filing with summaries and
+  PDF links, CBN official FX
 
-## Setup (one-time)
+Kobo's terms say free access doesn't grant redistribution rights, so keep the data for
+personal use (see "Keep it private").
 
-1. **Create the repo** — push these files to a new repo, e.g. `PlugPortal/ngx-daily`.
+## Swing screen and weekly ideas
 
-2. **Add your Anthropic API key as a secret:**
-   - Repo → Settings → Secrets and variables → Actions → New repository secret
-   - Name: `ANTHROPIC_API_KEY`, Value: your key from console.anthropic.com
+`ngx_swing.py` scores every ticker daily against `swing_criteria.txt`, an NGX version of the
+MarketSmith checklist. You can edit the numbers there; no code changes are needed.
 
-3. **(Optional) Enable Notion push:**
-   - Add secrets `NOTION_TOKEN` (an internal integration token) and `NOTION_PAGE_ID`
-     (the parent page to file digests under).
-   - Add a repository *variable* `PUSH_TO_NOTION` = `1`.
-   - Share the target Notion page with your integration.
+| MarketSmith | NGX version |
+|---|---|
+| Price ≥ $15 | Price ≥ ₦2 |
+| Within 15% of 52-week high | Same |
+| 50-day avg volume ≥ 400k | Avg daily value traded ≥ ₦10m |
+| RS Rating ≥ 80 | RS rank ≥ 70 among the watchlist (weighted 1Y/YTD/30D/7D returns) |
+| Industry group top 40 | NGX sector in the top half by 30-day return |
+| ROE ≥ 17% | ROE ≥ 15% |
+| EPS / sales growth ≥ 25% | ≥ 15%, latest period vs same period last year (when the filing summary has figures) |
+| Up/down volume ≥ 1 | Same, once 10 trading days are collected |
+| SMR, Acc/Dis, estimates, surprise, IPO date | Dropped — no free NGX data |
+| — | Added: data-sanity check (implausible moves) and must have traded recently |
 
-4. **Allow the workflow to commit:**
-   - Settings → Actions → General → Workflow permissions → "Read and write permissions".
+On Fridays, `ngx_trade.py` writes a plan for every candidate to `data/trade_ideas.json` and
+`output/ngx-swing-YYYY-MM-DD.md`: price action, setup (breakout or pullback), entry,
+an 8% stop, 2R/3R targets, position size per ₦1m at 1% risk, and key facts from filings.
+The rules are at the top of `ngx_trade.py`.
 
-That's it. The schedule runs automatically. To run on demand, go to the **Actions**
-tab → NGX Daily Digest → Run workflow.
+Price history starts building from the first run, one point per trading day, so the
+history-based checks (up/down volume, 20-day trend) fill in over the first few weeks.
+
+## Dashboard (Streamlit)
+
+`dashboard/app.py` has five tabs: Market, Swing, Screener, Ticker and Filings. It reads
+`data/`, and its **Refresh prices now** button pulls the latest delayed prices from Kobo.
+
+### Deploy (one-time)
+
+1. Go to https://share.streamlit.io → **Create app** → deploy from GitHub.
+2. Repository `PlugPortal/NGX`, branch `main`, main file path `dashboard/app.py`.
+3. Deploy. Streamlit copies each new commit, so the dashboard updates after every daily run.
+
+### Keep it private
+
+This repo is public, so `data/` is visible on GitHub. To keep it to yourself, make the repo
+private (Settings → General → Danger Zone → Change visibility). An app deployed from a
+private repo is private by default. Streamlit Community Cloud allows **one private app** per account.
+
+## Setup
+
+1. **Workflow permissions:** Settings → Actions → General → Workflow permissions →
+   "Read and write permissions".
+2. **Optional Notion push for the digest:** secrets `NOTION_TOKEN` and `NOTION_PAGE_ID`,
+   repository variable `PUSH_TO_NOTION` = `1`.
+3. **Tickers:** edit `watchlist.txt`, one per line.
 
 ## Run locally
 
 ```bash
-pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
-python ngx_daily.py
-# digest appears in output/
-```
-
-## Cost
-
-Each run is one API call (~2–4k input tokens, ~2k output). On Opus that's a few
-US cents per weekday; switch `MODEL` in `ngx_daily.py` to `claude-sonnet-4-6` to cut
-that by roughly 5x with no real quality loss for this task.
-
-## Customising the format
-
-All formatting lives in `system_prompt.txt`. Edit the templates there — the Python
-code never needs to change to adjust how tweets look.
-
-## Posting to X/Twitter (optional next step)
-
-This pipeline stops at a reviewed digest by design (so nothing posts unchecked).
-To auto-post, add a step that reads `output/ngx-digest-*.md` and calls the X API v2
-`POST /2/tweets` endpoint per block. Keep the manual-review default until you trust
-the output.
-
-## Daily data + research dashboard
-
-A second workflow, **NGX Daily Data**, runs every weekday at 20:15 WAT (after
-Kobo Terminal publishes the day's market wrap). It:
-
-1. Collects free data for every ticker in `watchlist.txt` into `data/`:
-   prices (Kobo Terminal), P/E, EPS, ROE, dividend yield, P/B and score
-   (Aboki Forex), the market wrap, CBN FX, every NGX filing (director dealings,
-   capital raises, results), per-period figures from results summaries, and
-   sector / peers / 52-week range / broker consensus (refreshed weekly).
-2. Runs Claude research **only for tickers that filed new results** (up to 10 a
-   day by default). Claude gets the filing itself (key pages, or the scanned PDF),
-   the collected context, and web search, and answers the two questions in
-   `research_prompts.txt`. Answers are saved to `data/research/TICKER.json`.
-3. Commits `data/` to the repo.
-
-The Streamlit dashboard in `dashboard/app.py` only reads `data/`. Opening it
-never calls Claude or any data site.
-
-### Deploy the dashboard (one-time)
-
-1. Go to https://share.streamlit.io → **Create app** → deploy from GitHub.
-2. Repository `PlugPortal/NGX`, branch `main`, main file path `dashboard/app.py`.
-3. Deploy. Streamlit copies each new commit, so the dashboard updates after
-   every daily run.
-
-Streamlit Community Cloud allows **one private app** per account. An app from a
-public repo is public by default — see "Keep it private" below.
-
-### Keep it private
-
-Kobo Terminal's terms say free access doesn't grant redistribution rights, and
-this repo is public, so anything in `data/` is visible on GitHub. To keep it to
-yourself: make the repo private (Settings → General → Danger Zone → Change
-visibility), then the Streamlit app deployed from it is private by default.
-
-### Research controls (optional repository variables)
-
-| Variable | Default | What it does |
-|---|---|---|
-| `MAX_RESEARCH_PER_RUN` | 10 | Tickers with new results researched per day; the rest wait for the next run |
-| `RESEARCH_BACKFILL_PER_RUN` | 0 | Extra never-researched tickers per day, largest first |
-| `RESEARCH_MODEL` | model in `ngx_daily.py` | Model used for research |
-| `MAX_SEARCHES` | 6 | Web searches per question |
-
-To research specific tickers now: **Actions** → NGX Daily Data → Run workflow →
-type tickers (e.g. `GTCO,ZENITHBANK`). Tick "Collect data only" to skip Claude.
-
-**Cost:** web search is $10 per 1,000 searches plus tokens; filing pages and
-search results count as input tokens. Each research run logs its token use.
-Check current rates at https://platform.claude.com/docs/en/about-claude/pricing.
-
-Preview what research is due, without calling the API:
-
-```bash
-python ngx_research.py --dry-run
-```
-
-Run the dashboard on your own computer:
-
-```bash
 pip install -r requirements.txt -r dashboard/requirements.txt
+python ngx_data.py      # collect data + swing screen
+python ngx_trade.py     # weekly ideas
+python ngx_daily.py     # digest
 streamlit run dashboard/app.py
 ```
 
@@ -141,17 +92,13 @@ streamlit run dashboard/app.py
 
 | File | Purpose |
 |------|---------|
-| `ngx_daily.py` | Scraper + Anthropic call + output writer |
-| `system_prompt.txt` | Your tweet templates (edit freely) |
-| `requirements.txt` | Python deps |
-| `.github/workflows/ngx-daily.yml` | Daily schedule + manual trigger |
 | `ngx_sources.py` | Scrapers for Kobo Terminal and Aboki Forex (shared) |
-| `ngx_data.py` | Daily free-data collector → `data/` |
-| `ngx_research.py` | Claude research for tickers with new results |
+| `ngx_data.py` | Daily data collector → `data/` |
+| `ngx_swing.py` | Swing screen → `data/swing.csv` |
+| `swing_criteria.txt` | Swing screen thresholds (edit freely) |
+| `ngx_trade.py` | Weekly rule-based trade ideas |
+| `ngx_daily.py` + `ngx_digest.py` | Daily digest and its tweet templates |
 | `watchlist.txt` | Tickers tracked |
-| `research_prompts.txt` | Questions asked about each ticker |
-| `research_system_prompt.txt` | NGX context and accuracy rules for research |
 | `dashboard/app.py` | Streamlit dashboard |
-| `.github/workflows/ngx-data.yml` | Daily data + research schedule + manual trigger |
-| `data/` | Collected data and research (auto-committed) |
-| `output/` | Generated digests (auto-committed) |
+| `.github/workflows/` | Schedules |
+| `data/`, `output/` | Collected data, ideas and digests (auto-committed) |

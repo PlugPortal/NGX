@@ -42,6 +42,10 @@ HEADERS = {
     )
 }
 
+# Old NGX symbols that a source may still use, mapped to the current symbol.
+# Aboki Forex still lists UH REIT as UHOMREIT and keeps stale rows for the others.
+OLD_SYMBOLS = {"ABBEYBDS": "ABBEYBANK", "UHOMREIT": "UHREIT", "WAPCO": "HBMNG"}
+
 _session = requests.Session()
 _session.headers.update(HEADERS)
 
