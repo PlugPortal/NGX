@@ -250,9 +250,9 @@ CHECK_LABELS = {
 MARK = {"pass": "✅", "fail": "❌", "n/a": "➖"}
 
 
-def show_plan(i: dict) -> None:
+def show_plan(i: dict, narrow: bool = False) -> None:
     pl, pa, fa = i["plan"], i["plan"]["price_action"], i["facts"]
-    c = st.columns(4)
+    c = (st.columns(2) + st.columns(2)) if narrow else st.columns(4)
     c[0].metric("Setup", pl["setup"])
     c[1].metric("Entry", f"₦{pl['entry']:,.2f}" if pl["setup"].startswith("Breakout") else
                 f"₦{pl['entry_low']:,.2f}–{pl['entry']:,.2f}")
@@ -430,7 +430,7 @@ with tab_ticker:
         idea = next((i for i in ideas.get("ideas", []) if i["ticker"] == t), None)
         if idea:
             st.success(f"On this week's swing list (week of {ideas.get('week_of')}).")
-            show_plan(idea)
+            show_plan(idea, narrow=True)
         if not sw.empty and t in sw.index:
             r = sw.loc[t]
             st.caption(f"Today's screen: {'candidate' if r['candidate'] == 'yes' else 'not a candidate'} · "

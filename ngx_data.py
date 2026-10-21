@@ -156,7 +156,10 @@ def step_disclosures(tickers: set[str], store: dict, scanned: set[str]) -> dict:
             scanned.add(t)
             backfilled += 1
         except Exception as e:   # one ticker page failing shouldn't stop the run
-            print(f"  disclosures page for {t} failed: {e}")
+            if "404" in str(e):
+                scanned.add(t)   # Aboki has no page for this ticker; the main feed still covers it
+            else:
+                print(f"  disclosures page for {t} failed: {e}")
         time.sleep(POLITE_DELAY)
     return {"new": len(new_ids), "backfilled_tickers": backfilled, "total": len(store),
             "new_ids": new_ids}
