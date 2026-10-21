@@ -1,0 +1,75 @@
+{
+ "run_at": "2026-10-21T02:39:30",
+ "candidates": [
+  "HBMNG",
+  "ZENITHBANK",
+  "MTNN"
+ ],
+ "criteria": {
+  "min_price": 2.0,
+  "max_below_52w_high_pct": 15.0,
+  "min_avg_value_traded_naira": 10000000.0,
+  "min_rs_rank": 70.0,
+  "max_sector_rank_pct": 50.0,
+  "max_plausible_30d_move_pct": 150.0,
+  "require_recent_price_change": 1.0,
+  "min_roe_pct": 15.0,
+  "min_eps_growth_pct": 15.0,
+  "min_sales_growth_pct": 15.0,
+  "min_up_down_volume_ratio": 1.0
+ },
+ "sector_ranking": [
+  {
+   "sector": "FINANCIAL SERVICES",
+   "avg_30d": 23.26
+  },
+  {
+   "sector": "AGRICULTURE",
+   "avg_30d": 17.16
+  },
+  {
+   "sector": "INVESTMENT",
+   "avg_30d": 13.04
+  },
+  {
+   "sector": "INDUSTRIAL GOODS",
+   "avg_30d": 10.14
+  },
+  {
+   "sector": "HEALTHCARE",
+   "avg_30d": 5.28
+  },
+  {
+   "sector": "ICT",
+   "avg_30d": 4.7
+  },
+  {
+   "sector": "CONSUMER GOODS",
+   "avg_30d": 4.19
+  },
+  {
+   "sector": "CONGLOMERATES",
+   "avg_30d": 4.17
+  },
+  {
+   "sector": "CONSTRUCTION/REAL ESTATE",
+   "avg_30d": 3.99
+  },
+  {
+   "sector": "SERVICES",
+   "avg_30d": 3.29
+  },
+  {
+   "sector": "OIL AND GAS",
+   "avg_30d": 0.94
+  },
+  {
+   "sector": "UTILITIES",
+   "avg_30d": 0.0
+  },
+  {
+   "sector": "NATURAL RESOURCES",
+   "avg_30d": -2.86
+  }
+ ]
+}
