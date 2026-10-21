@@ -10,11 +10,13 @@ Author: MintWise NGX (github.com/PlugPortal)
 
 Sources
 -------
-- Disclosures:  https://abokiforex.app/ngx-stocks/disclosures   (server-rendered HTML)
-- Market data:  https://ngxpulse.ng/                            (server-rendered HTML)
+- Disclosures:  https://abokiforex.app/ngx-stocks/disclosures
+- Market wrap:  https://koboterminal.com/ngx-market-wrap/YYYY-MM-DD (formerly ngxpulse.ng)
+- FX:           https://abokiforex.app/cbn  (CBN official rates)
+Parsers live in ngx_sources.py.
 
 The NGX Group site (ngxgroup.com) is JavaScript-gated and not scrapeable
-without a headless browser, so we route through the two mirrors above.
+without a headless browser, so we route through the mirrors above.
 
 Environment variables (set as GitHub Actions secrets)
 -----------------------------------------------------
@@ -34,120 +36,51 @@ import datetime as dt
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
+
+import ngx_sources as src
 
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
 
-DISCLOSURES_URL = "https://abokiforex.app/ngx-stocks/disclosures"
-MARKET_URL = "https://ngxpulse.ng/"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-opus-4-8"          # swap to claude-sonnet-4-6 for lower cost
 MAX_TOKENS = 4000
 WAT = ZoneInfo("Africa/Lagos")
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
-}
-
 OUTPUT_DIR = "output"
 
 
 # --------------------------------------------------------------------------- #
-# Scraping
+# Scraping (shared parsers live in ngx_sources.py)
 # --------------------------------------------------------------------------- #
 
-def fetch(url: str) -> str:
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return resp.text
-
-
 def today_str() -> str:
-    """NGX trading date in '25 Jun 2026' style (matches abokiforex labels)."""
+    """NGX trading date in '25 Jun 2026' style, used in the digest title."""
     return dt.datetime.now(WAT).strftime("%-d %b %Y")
 
 
-CATEGORIES = [
-    "Financial Results", "Board Meeting", "AGM Notice", "Corporate Action",
-    "Director Dealing", "NGX Notice", "Earnings Forecast",
-    "Extra-Ordinary General Meeting (EGM)",
-]
-# Each filing's header renders on ONE line: "TICKER  Category  25 Jun 2026"
-_CAT_ALT = "|".join(re.escape(c) for c in CATEGORIES)
-HEADER_RE = re.compile(
-    r"^(?P<ticker>[A-Z0-9]+)\s+(?P<cat>" + _CAT_ALT +
-    r")\s+(?P<date>\d{1,2}\s+[A-Z][a-z]{2}\s+20\d{2})$"
-)
+def todays_disclosures(today: dt.date) -> list[dict]:
+    """Today's filings from the Aboki Forex feed, in the shape the prompt expects."""
+    return [
+        {"ticker": d["ticker"], "category": d["category"], "date": today_str(),
+         "title": d["title"], "details": " ".join((d.get("summary") or "").split())}
+        for d in src.scrape_disclosures_feed() if d["date"] == today.isoformat()
+    ]
 
 
-def scrape_disclosures(html: str, target_date: str) -> list[dict]:
-    """
-    Parse the abokiforex disclosures feed and return only entries whose date
-    label matches target_date (e.g. '25 Jun 2026').
-
-    Each filing block is: a header line ('TICKER Category 25 Jun 2026'),
-    a bold title line, then bullet detail lines, ending at 'View PDF' or the
-    next header. We walk the flattened text and reconstruct each block.
-    """
-    soup = BeautifulSoup(html, "html.parser")
-    text = soup.get_text("\n", strip=True)
-    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-
-    entries: list[dict] = []
-    i = 0
-    while i < len(lines):
-        m = HEADER_RE.match(lines[i])
-        if not m:
-            i += 1
-            continue
-
-        ticker, category, date = m.group("ticker"), m.group("cat"), m.group("date")
-        title = lines[i + 1] if i + 1 < len(lines) else ""
-        details: list[str] = []
-        j = i + 2
-        while j < len(lines):
-            ln = lines[j]
-            if ln.startswith("View PDF") or HEADER_RE.match(ln):
-                break
-            details.append(ln.lstrip("*•- ").strip())
-            j += 1
-
-        if date == target_date:
-            entries.append({
-                "ticker": ticker,
-                "category": category,
-                "date": date,
-                "title": title,
-                "details": " ".join(d for d in details if d).strip(),
-            })
-        i = j
-    return entries
-
-
-def scrape_market(html: str) -> dict:
-    """Pull the headline market-summary paragraph + FX block from NGX Pulse."""
-    soup = BeautifulSoup(html, "html.parser")
-    text = soup.get_text(" ", strip=True)
-
-    def grab(pattern: str) -> str | None:
-        m = re.search(pattern, text)
-        return m.group(0).strip() if m else None
-
-    summary = grab(
-        r"The Nigerian Exchange is .*?As of \d{1,2}:\d{2} WAT,.*?20\d{2}\."
-    )
-
-    fx = {}
-    for cur in ("USD", "EUR", "GBP", "CNY"):
-        m = re.search(rf"{cur}\s*/\s*NGN\s*₦([\d,]+\.\d{{2}})", text)
-        if m:
-            fx[f"{cur}/NGN"] = "₦" + m.group(1)
-
+def todays_market(today: dt.date) -> dict:
+    """Today's market wrap (Kobo Terminal) and CBN official FX (Aboki Forex)."""
+    try:
+        summary = src.scrape_market_wrap(today).get("summary")
+    except Exception as e:
+        print(f"  market wrap failed: {e}")
+        summary = None
+    try:
+        fx = src.scrape_cbn_fx()
+    except Exception as e:
+        print(f"  FX failed: {e}")
+        fx = {}
     return {"summary": summary or "Market summary unavailable.", "fx": fx}
 
 
@@ -255,12 +188,16 @@ def main() -> int:
     date_label = today_str()
     print(f"NGX daily run for {date_label}")
 
+    today = dt.datetime.now(WAT).date()
+
     print("Fetching disclosures...")
-    disclosures = scrape_disclosures(fetch(DISCLOSURES_URL), date_label)
+    disclosures = todays_disclosures(today)
     print(f"  found {len(disclosures)} disclosure(s) dated {date_label}")
 
     print("Fetching market data...")
-    market = scrape_market(fetch(MARKET_URL))
+    market = todays_market(today)
+    print(f"  market wrap: {'found' if 'unavailable' not in market['summary'] else 'not published yet'}; "
+          f"FX: {', '.join(market['fx']) or 'none'}")
 
     if not disclosures and "unavailable" in market["summary"]:
         print("Nothing to format today. Exiting cleanly.")
