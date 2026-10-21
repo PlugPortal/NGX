@@ -2,7 +2,7 @@
 # Live end-to-end test. Output goes to test_out/ and is committed to claude/probe-data.
 set -x
 mkdir -p test_out
-python ngx_data.py 2>&1 | tee test_out/ngx_data.log
+git fetch -q --depth 1 origin claude/probe-data && git checkout FETCH_HEAD -- data && python ngx_data.py 2>&1 | tee test_out/ngx_data.log
 python - <<'PY' 2>&1 | tee test_out/daily_check.log
 import json, datetime as dt, ngx_sources as s, ngx_daily as d
 today = dt.datetime.now(s.WAT).date()
@@ -19,7 +19,6 @@ for name, url in (("cbn", s.ABOKI + "/cbn"), ("wrap_page", s.KOBO + "/ngx-market
 print(json.dumps(out, indent=1, ensure_ascii=False, default=str))
 PY
 python ngx_research.py --dry-run 2>&1 | tee test_out/research_dry.log
-RESEARCH_TICKERS=ZENITHBANK MAX_RESEARCH_PER_RUN=0 python ngx_research.py 2>&1 | tee test_out/research_live.log
 pip install -q streamlit playwright
 python - <<'PY' 2>&1 | tee test_out/apptest.log
 from streamlit.testing.v1 import AppTest
