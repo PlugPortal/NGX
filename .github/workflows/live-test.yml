@@ -14,8 +14,6 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
       - name: Run live test
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: bash test/live_test.sh
       - name: Commit output to probe-data branch
         if: always()
@@ -23,7 +21,7 @@ jobs:
           set -e
           trap 'echo "::error::save step failed: $BASH_COMMAND"' ERR
           git config user.name "ngx-bot"; git config user.email "ngx-bot@users.noreply.github.com"
-          rm -rf /tmp/o && mkdir -p /tmp/o && cp -r data test_out /tmp/o/
+          rm -rf /tmp/o && mkdir -p /tmp/o && cp -r data test_out /tmp/o/ && cp -r output /tmp/o/ 2>/dev/null || true
           git reset -q --hard
           git clean -qfd
           git checkout -q --orphan probe-out-tmp
