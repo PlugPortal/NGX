@@ -1,0 +1,37 @@
+# NGX swing-trade screen — adapted from the MarketSmith checklist.
+# Edit the numbers after "=" to tighten or loosen the screen. No code changes needed.
+#
+# A ticker is a swing candidate when every "must pass" check passes and no
+# "fundamental" check fails. Fundamental checks that can't be measured yet
+# (not enough data) don't count against a ticker; they show as "n/a".
+
+# --- Must pass: price, trend, liquidity, strength ---------------------------
+# MarketSmith: price >= $15. NGX: avoid sub-₦2 penny stocks.
+min_price = 2
+# MarketSmith: within 15% of the 52-week high. Same.
+max_below_52w_high_pct = 15
+# MarketSmith: 50-day average volume >= 400,000 shares. NGX trades thinly, so
+# this uses average daily value traded (price x volume) over the days collected.
+min_avg_value_traded_naira = 10000000
+# MarketSmith RS Rating >= 80. NGX proxy: percentile rank among the watchlist of
+# weighted 1-year (40%), YTD (30%), 30-day (20%) and 7-day (10%) returns.
+min_rs_rank = 70
+# MarketSmith industry group rank in the top 40 of 197. NGX: sector in the top
+# half of NGX sectors by average 30-day return of watchlist stocks.
+max_sector_rank_pct = 50
+
+# Data sanity: a 30-day move bigger than this is treated as a data error (for
+# example a price not adjusted for a share reconstruction) and the ticker is held back.
+max_plausible_30d_move_pct = 150
+# Activity: the price must have moved in the last 30 days (stale prices on
+# rarely-traded NGX stocks can sit "at a 52-week high" without trading).
+require_recent_price_change = 1
+
+# --- Fundamental: must not fail (n/a allowed) -------------------------------
+# MarketSmith ROE >= 17%.
+min_roe_pct = 15
+# MarketSmith latest-quarter EPS and sales growth vs same quarter last year >= 25%.
+min_eps_growth_pct = 15
+min_sales_growth_pct = 15
+# MarketSmith up/down volume ratio >= 1 (needs 10+ days of collected history).
+min_up_down_volume_ratio = 1

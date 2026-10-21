@@ -2,22 +2,26 @@
 NGX Research Dashboard (Streamlit)
 ==================================
 Reads the files the daily GitHub Actions job saves under data/. Opening the
-dashboard never calls Claude or any data site — it only displays what was
-already collected.
+dashboard calls no AI. It displays what was already collected, and the
+"Refresh prices now" button pulls the latest delayed prices from Kobo Terminal.
 
 Run locally:   streamlit run dashboard/app.py
 """
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 import re
+import sys
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+DATA = ROOT / "data"
 WATCHLIST = Path(__file__).resolve().parent.parent / "watchlist.txt"
 
 st.set_page_config(page_title="NGX Research Desk", page_icon="📈", layout="wide")
@@ -56,23 +60,13 @@ def json_(name: str):
     return _json(name, _mtime(name))
 
 
-@st.cache_data
-def _research(mtime: float) -> dict:
-    out = {}
-    d = DATA / "research"
-    if d.exists():
-        for p in d.glob("*.json"):
-            try:
-                out[p.stem] = json.loads(p.read_text(encoding="utf-8"))
-            except json.JSONDecodeError:
-                pass
-    return out
-
-
-def research() -> dict:
-    d = DATA / "research"
-    m = max((p.stat().st_mtime for p in d.glob("*.json")), default=0.0) if d.exists() else 0.0
-    return _research(m)
+@st.cache_data(ttl=600, show_spinner="Pulling latest prices from Kobo Terminal…")
+def live_prices(_nonce: int) -> tuple[pd.DataFrame, str]:
+    """Latest (30-min delayed) prices straight from Kobo Terminal; cached 10 minutes."""
+    import ngx_sources
+    rows = ngx_sources.scrape_prices()
+    stamp = dt.datetime.now(ngx_sources.WAT).strftime("%H:%M WAT")
+    return pd.DataFrame(rows).set_index("ticker"), stamp
 
 
 def watchlist() -> list[str]:
@@ -155,11 +149,31 @@ results = csv_("results.csv")
 store = json_("disclosures.json")
 profiles = json_("profiles.json")
 status = json_("status.json")
-notes = research()
+swing = csv_("swing.csv")
+ideas = json_("trade_ideas.json")
 
 px = latest(prices)
+if st.session_state.get("live"):
+    try:
+        live, stamp = live_prices(st.session_state["live"])
+        px = px.copy()
+        for col in ["price", "chg_1d", "chg_7d", "mcap", "volume", "name"]:
+            px.loc[px.index.intersection(live.index), col] = live[col]
+        st.session_state["live_stamp"] = stamp
+    except Exception as e:
+        st.session_state["live_error"] = str(e)
 fd = latest(funds)
 filings = filings_df(store, tickers)
+
+
+sw = swing.set_index("ticker") if not swing.empty else pd.DataFrame()
+
+
+def sw_label(t: str) -> str | None:
+    if sw.empty or t not in sw.index:
+        return None
+    r = sw.loc[t]
+    return f"{'✅ candidate' if r['candidate'] == 'yes' else '—'} ({int(r['passed'])}/11)"
 
 
 def build_screener() -> pd.DataFrame:
@@ -190,7 +204,7 @@ def build_screener() -> pd.DataFrame:
             "Score": f["score"] if f is not None else None,
             "Broker consensus": pr.get("consensus"),
             "Last results": last_results.get(t),
-            "Claude note": notes.get(t, {}).get("updated", "")[:10] or None,
+            "Swing": sw_label(t),
         })
     df = pd.DataFrame(rows)
     for c in ["Price ₦", "1D %", "7D %", "30D %", "YTD %", "Mkt cap ₦bn", "P/E", "EPS ₦",
@@ -209,14 +223,66 @@ failed = [k for k, v in status.get("steps", {}).items() if not v.get("ok")]
 cap = f"Data last collected {run_at[:16].replace('T', ' ')} WAT" if run_at else "No data collected yet"
 cap += " · prices 30-min delayed (Kobo Terminal) · fundamentals and filings from Aboki Forex · personal use only"
 st.caption(cap)
+b1, b2 = st.columns([1, 5])
+if b1.button("Refresh prices now"):
+    st.session_state["live"] = int(dt.datetime.now().timestamp() // 600) + 1
+    st.rerun()
+if st.session_state.get("live_stamp"):
+    b2.caption(f"Showing live prices pulled at {st.session_state['live_stamp']} (Kobo Terminal, 30-min delayed). "
+               "Price history and the swing screen still use the daily collection.")
+if st.session_state.get("live_error"):
+    b2.warning("Couldn't pull live prices right now; showing the daily collection.")
 if failed:
     st.warning("Some sources failed on the last run and show older data: " + ", ".join(failed))
 if not tickers:
     st.error("watchlist.txt is empty.")
     st.stop()
 
-tab_market, tab_screen, tab_ticker, tab_filings = st.tabs(
-    ["Market", "Screener", "Ticker", "Filings"])
+tab_market, tab_swing, tab_screen, tab_ticker, tab_filings = st.tabs(
+    ["Market", "Swing", "Screener", "Ticker", "Filings"])
+
+CHECK_LABELS = {
+    "chk_data_sanity": "Data OK", "chk_active": "Trading", "chk_price": "Price ≥ ₦2",
+    "chk_near_52w_high": "Near 52w high", "chk_liquidity": "Liquidity", "chk_rs_rank": "RS rank",
+    "chk_sector_rank": "Sector rank", "chk_roe": "ROE", "chk_eps_growth": "EPS growth",
+    "chk_sales_growth": "Sales growth", "chk_up_down_volume": "Up/down vol",
+}
+MARK = {"pass": "✅", "fail": "❌", "n/a": "➖"}
+
+
+def show_plan(i: dict) -> None:
+    pl, pa, fa = i["plan"], i["plan"]["price_action"], i["facts"]
+    c = st.columns(4)
+    c[0].metric("Setup", pl["setup"])
+    c[1].metric("Entry", f"₦{pl['entry']:,.2f}" if pl["setup"].startswith("Breakout") else
+                f"₦{pl['entry_low']:,.2f}–{pl['entry']:,.2f}")
+    c[2].metric("Stop", f"₦{pl['stop']:,.2f}", f"-{pl['stop_pct']}%", delta_color="off")
+    c[3].metric("Targets 2R / 3R", f"₦{pl['target_2r']:,.2f} / {pl['target_3r']:,.2f}")
+    st.markdown(f"**Price action:** ₦{pa['price']:,.2f} · 1D {pct(pa['chg_1d'])} · 7D {pct(pa['chg_7d'])} · "
+                f"30D {pct(pa['chg_30d'])} · YTD {pct(pa['chg_ytd'])} · "
+                f"{pa['below_52w_high_pct']:.1f}% below the 52-week high ({naira(pa['high_52w'])})"
+                + (f" · {pa['range_position_pct']:.0f}% of the 52-week range" if pa.get("range_position_pct") is not None else "")
+                + f" · RS rank {pa['rs_rank']:.0f}")
+    st.markdown(f"**Plan:** {pl['entry_text']}. Stop ₦{pl['stop']:,.2f}. "
+                f"About {pl['shares_per_1m_capital']:,} shares per ₦1m of capital risks {pl['risk_per_trade_pct']}%.")
+    facts = []
+    if fa.get("eps_growth_pct") is not None:
+        facts.append(f"EPS growth {pct(fa['eps_growth_pct'])} ({fa['eps_basis']})")
+    if fa.get("sales_growth_pct") is not None:
+        facts.append(f"sales growth {pct(fa['sales_growth_pct'])} ({fa['sales_basis']})")
+    dd = fa.get("director_dealings_90d") or []
+    if dd:
+        facts.append(f"insider filings in 90 days: {sum(d['side'] == 'BUY' for d in dd)} buy, "
+                     f"{sum(d['side'] == 'SELL' for d in dd)} sell")
+    if fa.get("capital_raises_90d"):
+        facts.append("capital raise filed: " + "; ".join(r["title"].title() for r in fa["capital_raises_90d"]))
+    if fa.get("last_results"):
+        lr = fa["last_results"]
+        facts.append(f"last results filed {lr['date']}" + (f" ([PDF]({lr['pdf']}))" if lr.get("pdf") else ""))
+    if facts:
+        st.markdown("**Key facts:** " + " · ".join(facts))
+    for n in pl.get("notes", []):
+        st.caption("⚠️ " + n)
 
 # ---- Market ---------------------------------------------------------------- #
 with tab_market:
@@ -263,6 +329,41 @@ with tab_market:
         st.dataframe(recent[["date", "ticker", "category", "title", "pdf"]],
                      column_config={"pdf": st.column_config.LinkColumn("PDF", display_text="Open")},
                      hide_index=True, width="stretch")
+
+# ---- Swing ----------------------------------------------------------------- #
+with tab_swing:
+    if swing.empty:
+        st.info("The swing screen runs with the daily data collection. No results yet.")
+    else:
+        cands = swing[swing["candidate"] == "yes"]
+        st.subheader(f"This week's swing ideas ({len(ideas.get('ideas', []))})")
+        st.caption(f"Week of {ideas.get('week_of', '—')} · rule-based plans, refreshed every Friday · "
+                   "screen adapted from the MarketSmith checklist (edit swing_criteria.txt) · not investment advice")
+        if not ideas.get("ideas"):
+            st.info("No weekly ideas yet — they're generated on Fridays (or from a manual run).")
+        for i in ideas.get("ideas", []):
+            with st.expander(f"${i['ticker']} — {i['name']} · {i['plan']['setup']}", expanded=True):
+                show_plan(i)
+        st.subheader(f"Today's screen: {len(cands)} candidate(s)")
+        view = swing.rename(columns=CHECK_LABELS)
+        for lbl in CHECK_LABELS.values():
+            view[lbl] = view[lbl].map(lambda v: MARK.get(v, v))
+        cols = ["ticker", "name", "sector", "candidate", "passed", "price", "rs_rank", "below_52w_high_pct",
+                "avg_value_traded", "roe"] + list(CHECK_LABELS.values())
+        only = st.checkbox("Only candidates", value=False)
+        st.dataframe(view[view["candidate"] == "yes"][cols] if only else view[cols],
+                     column_config={
+                         "ticker": "Ticker", "name": "Name", "sector": "Sector", "candidate": "Candidate",
+                         "passed": st.column_config.NumberColumn("Passed", format="%d/11"),
+                         "price": st.column_config.NumberColumn("Price ₦", format="%.2f"),
+                         "rs_rank": st.column_config.NumberColumn("RS rank", format="%.0f"),
+                         "below_52w_high_pct": st.column_config.NumberColumn("% below 52w high", format="%.1f"),
+                         "avg_value_traded": st.column_config.NumberColumn("Avg value ₦", format="%.0f"),
+                         "roe": st.column_config.NumberColumn("ROE %", format="%.1f")},
+                     hide_index=True, width="stretch", height=560)
+        st.caption("✅ pass · ❌ fail · ➖ not measurable yet. Must pass: data OK, trading, price, near 52-week high, "
+                   "liquidity, RS rank, sector rank. Fundamentals (ROE, EPS, sales, up/down volume) must not fail. "
+                   "Up/down volume needs 10 trading days of collected history.")
 
 # ---- Screener -------------------------------------------------------------- #
 with tab_screen:
@@ -325,28 +426,20 @@ with tab_ticker:
 
     left, right = st.columns([3, 2])
     with left:
-        st.subheader("Claude research")
-        note = notes.get(t)
-        if not note:
-            st.info("No research yet. It runs automatically when this ticker files new results, "
-                    "or on demand from GitHub → Actions → NGX Daily Data → Run workflow (research tickers).")
-        else:
-            trig = note.get("trigger") or {}
-            st.caption(f"Updated {note['updated'][:16].replace('T', ' ')} WAT · {note.get('model')} · "
-                       f"reason: {note.get('reason')}"
-                       + (f" · filing: {trig.get('title')} ({trig.get('date')})" if trig.get("title") else "")
-                       + (f" · input: {note.get('filing_input')}" if note.get("filing_input") else ""))
-            if trig.get("pdf"):
-                st.markdown(f"[Open the results filing PDF]({trig['pdf']})")
-            for i, a in enumerate(note.get("answers", []), 1):
-                with st.expander(f"Q{i}: {a['question'][:110]}…", expanded=(i == 1)):
-                    st.markdown(a["answer"])
-                    if a.get("sources"):
-                        st.markdown("**Sources**\n\n" + "\n".join(
-                            f"{n}. [{s['title']}]({s['url']})" for n, s in enumerate(a["sources"], 1)))
-                    else:
-                        st.caption("No web sources cited — check figures against the filing.")
-            st.caption("AI-generated research. Verify figures against the cited sources and filing. Not investment advice.")
+        st.subheader("Swing setup")
+        idea = next((i for i in ideas.get("ideas", []) if i["ticker"] == t), None)
+        if idea:
+            st.success(f"On this week's swing list (week of {ideas.get('week_of')}).")
+            show_plan(idea)
+        if not sw.empty and t in sw.index:
+            r = sw.loc[t]
+            st.caption(f"Today's screen: {'candidate' if r['candidate'] == 'yes' else 'not a candidate'} · "
+                       f"{int(r['passed'])}/11 checks passed")
+            st.dataframe(pd.DataFrame({"Check": list(CHECK_LABELS.values()),
+                                       "Result": [MARK.get(r[k], r[k]) for k in CHECK_LABELS]}),
+                         hide_index=True, width="stretch")
+        elif not idea:
+            st.caption("Not scored yet.")
 
     with right:
         st.subheader("Reported results")

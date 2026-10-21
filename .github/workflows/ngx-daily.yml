@@ -2,8 +2,12 @@ name: NGX Daily Digest
 
 on:
   schedule:
-    - cron: "35 14 * * 1-5"
+    - cron: "30 19 * * 1-5"
   workflow_dispatch:
+
+concurrency:
+  group: ngx-repo-writes
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -25,7 +29,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
           PUSH_TO_NOTION: ${{ vars.PUSH_TO_NOTION }}
@@ -38,6 +41,7 @@ jobs:
           git add output/ || true
           if ! git diff --cached --quiet; then
             git commit -m "NGX digest $(date -u +%Y-%m-%d)"
+            git pull --rebase
             git push
           else
             echo "No new digest to commit."
