@@ -72,6 +72,44 @@ To auto-post, add a step that reads `output/ngx-digest-*.md` and calls the X API
 `POST /2/tweets` endpoint per block. Keep the manual-review default until you trust
 the output.
 
+## Weekly ticker research
+
+A second workflow, **NGX Weekly Research**, runs every Saturday at 08:00 WAT.
+For each ticker in `watchlist.txt` it asks Claude, with live web search, the
+questions in `research_prompts.txt`:
+
+1. Last 4 quarters EPS and revenue growth (accelerating or decelerating), gross
+   and operating margin trend, the main growth catalyst, near-term risks
+   (including capital raises and director selling), and sector strength and
+   competitors.
+2. The core institutional investment thesis at current levels, and what would
+   break it.
+
+The answers, with numbered source links, go to `output/ngx-research-YYYY-MM-DD.md`.
+Any answer with no cited sources is labelled unverified.
+
+**To set it up:** add your tickers to `watchlist.txt`, one per line (e.g. `GTCO`).
+It uses the same `ANTHROPIC_API_KEY` secret as the daily digest. To run it now,
+go to **Actions** → NGX Weekly Research → Run workflow.
+
+**Optional repository variables:** `RESEARCH_MODEL` (defaults to the model in
+`ngx_daily.py`) and `MAX_SEARCHES` (web searches per question, default 8).
+
+**Cost:** each ticker is 2 API calls. Web search is billed at $10 per 1,000
+searches, plus tokens — and search results count as input tokens, so token cost
+is the larger part. Check current rates at
+https://platform.claude.com/docs/en/about-claude/pricing.
+
+**Editing:** change the questions in `research_prompts.txt` (keep `[TICKER]`,
+separate prompts with a line containing only `===`). NGX context and accuracy
+rules for the analyst live in `research_system_prompt.txt`.
+
+Preview what will be asked, without calling the API:
+
+```bash
+python ngx_research.py --dry-run
+```
+
 ## Files
 
 | File | Purpose |
@@ -80,4 +118,9 @@ the output.
 | `system_prompt.txt` | Your tweet templates (edit freely) |
 | `requirements.txt` | Python deps |
 | `.github/workflows/ngx-daily.yml` | Daily schedule + manual trigger |
+| `ngx_research.py` | Weekly per-ticker research with web search |
+| `watchlist.txt` | Tickers for the weekly research |
+| `research_prompts.txt` | Questions asked about each ticker |
+| `research_system_prompt.txt` | NGX context and accuracy rules for research |
+| `.github/workflows/ngx-research.yml` | Weekly research schedule + manual trigger |
 | `output/` | Generated digests (auto-committed) |

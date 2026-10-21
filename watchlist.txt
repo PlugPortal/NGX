@@ -1,0 +1,5 @@
+# NGX tickers for the weekly research run — one per line, exactly as listed on NGX.
+# Lines starting with # are ignored. Each ticker costs 2 API calls with web search.
+# Example:
+# GTCO
+# ZENITHBANK
