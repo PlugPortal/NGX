@@ -1,0 +1,64 @@
+name: NGX Daily Data
+
+# Every weekday at 20:15 WAT (19:15 UTC), after Kobo Terminal publishes the
+# day's market wrap (stamped "As of 20:00 WAT"). Collects free data for every
+# ticker in watchlist.txt into data/ and runs the swing screen. On Fridays it
+# also writes the weekly rule-based swing ideas. No AI and no API keys.
+# The Streamlit dashboard reads data/.
+on:
+  schedule:
+    - cron: "15 19 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      weekly_ideas:
+        description: "Also generate this week's swing ideas now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ngx-repo-writes
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect free data and run the swing screen
+        run: python ngx_data.py
+
+      - name: Weekly swing ideas (Fridays, or when requested)
+        if: ${{ inputs.weekly_ideas || github.event_name == 'schedule' }}
+        run: |
+          if [ "${{ inputs.weekly_ideas }}" = "true" ] || [ "$(TZ=Africa/Lagos date +%u)" = "5" ]; then
+            python ngx_trade.py
+          else
+            echo "Not Friday — skipping weekly ideas."
+          fi
+
+      - name: Commit data
+        run: |
+          git config user.name "ngx-bot"
+          git config user.email "ngx-bot@users.noreply.github.com"
+          git add data/ output/ 2>/dev/null || git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "NGX data $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          else
+            echo "No data changes."
+          fi
