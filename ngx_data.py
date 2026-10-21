@@ -187,6 +187,8 @@ def step_profiles(tickers: set[str], profiles: dict, max_fetch: int) -> dict:
         except Exception as e:
             failed.append(t)
             print(f"  profile for {t} failed: {e}")
+            if "404" in str(e):   # not listed on Kobo: retry weekly, not daily
+                profiles[t] = {"ticker": t, "updated": today.isoformat(), "error": "not listed on Kobo Terminal"}
         time.sleep(POLITE_DELAY)
     return {"fetched": fetched, "failed": failed, "due": len(due)}
 

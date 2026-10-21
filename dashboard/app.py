@@ -285,7 +285,7 @@ with tab_screen:
     num["Score"] = st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%.0f")
     st.dataframe(view, column_config=num, hide_index=True, width="stretch", height=640)
     st.caption(f"{len(view)} of {len(sc)} tickers. Signal and score are Aboki Forex's model, not advice. "
-               "Blank cells mean that source does not cover the ticker.")
+               "None means that source does not cover the ticker (or has no value for it).")
 
 # ---- Ticker ---------------------------------------------------------------- #
 with tab_ticker:
