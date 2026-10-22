@@ -1389,6 +1389,56 @@
   "ticker": "GUINNESS",
   "title": "GUINNESS NIGERIA PLC-GUINNESS NIGERIA PLC - Q3F26 INTERIM DIVIDENDS"
  },
+ "48117": {
+  "category": "Corporate Action",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "48117",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48117_ABC_TRANSPORT_PLC-OUTCOME_OF_BOARD_MEETING_CORPORATE_ACTIONS_OCTOBER_2026.pdf",
+  "summary": "* ABC Transport Plc announced that its Board of Directors approved raising additional capital of N6.5 billion through a rights issue and bond issuance, subject to shareholder approval at the Annual General Meeting.\n* The company's closed period, which restricts insiders and directors from trading securities, will continue until 24 hours after the publication of the Unaudited Financial Statements for the period ended 30 September 2026 (2026 Q3 UFS).",
+  "ticker": "ABCTRANS",
+  "title": "ABC TRANSPORT PLC-OUTCOME OF BOARD MEETING"
+ },
+ "48118": {
+  "category": "Corporate Action",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "48118",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48118_FIRST_HOLDCO_PLC-NOTICE_OF_APPOINTMENT_OF_GWEN_MWABA_AS_NON-EXECUTIVE_DIRECTOR_CORPORATE_ACTIONS_OCTOBER_2026.pdf",
+  "summary": "* First HoldCo Plc announced the appointment of Gwen Mwaba as a Non-Executive Director, effective October 15, 2026, following approval from the Central Bank of Nigeria.\n* Mwaba brings nearly three decades of global banking and development finance experience, most recently serving as Managing Director, Trade Finance & Correspondent Banking at Afreximbank.",
+  "ticker": "FIRSTHOLDCO",
+  "title": "FIRST HOLDCO PLC-NOTICE OF APPOINTMENT OF GWEN MWABA AS NON-EXECUTIVE DIRECTOR"
+ },
+ "48119": {
+  "category": "AGM Notice",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "48119",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48119_ABC_TRANSPORT_PLC-_NOTICES_OF_ANNUAL_GENERAL_MEETING_(AGM)_-__ANNUAL_GENERAL_MEETING_(AGM)_OCTOBER_2026.pdf",
+  "summary": "",
+  "ticker": "ABCTRANS",
+  "title": "ABC TRANSPORT PLC- NOTICES OF ANNUAL GENERAL MEETING (AGM) -"
+ },
+ "48120": {
+  "category": "Board Meeting",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "48120",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48120_ABC_TRANSPORT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
+  "summary": "* ABC Transport PLC announced that its Board of Directors will approve the 2026 Third Quarter Unaudited Financial Statements (2026 Q3 UFS) for the period ended September 30, 2026, by written resolution.\n* The approved 2026 Q3 UFS is scheduled to be filed on or before October 30, 2026.\n* A closed period for trading on the company's securities commenced on October 1, 2026, and will expire 24 hours after the publication of the 2026 Q3 UFS at the Nigerian Exchange.\n* Insiders and their connected persons are strictly prohibited from dealing in the company's securities during this closed period.",
+  "ticker": "ABCTRANS",
+  "title": "ABC TRANSPORT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
+ },
+ "48123": {
+  "category": "Corporate Action",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "48123",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48123_ZICHIS_AGRO_ALLIED_INDUSTRIES_PLC-NOTICE_OF_BOARD_MEETING_CORPORATE_ACTIONS_OCTOBER_2026.pdf",
+  "summary": "* Zichis Agro-Allied Industries Plc is holding a Board Meeting on Friday, October 23, 2026, to consider and approve its Unaudited Interim Financial Statements for the nine-month period ended September 30, 2026 (2026 Q3 UFS).\n* The Board will also consider the commencement of the acquisition process for a 221-hectare palm plantation located in Ifon, Ondo State, belonging to The Amandel Palm Company Limited.\n* The closed period for trading in the Company's shares, which began on October 1, 2026, will continue until 24 hours after the 2026 Q3 UFS is filed with the NGX and the public.",
+  "ticker": "ZICHIS",
+  "title": "ZICHIS AGRO ALLIED INDUSTRIES PLC-NOTICE OF BOARD MEETING"
+ },
  "ACCESSCORP|2026-09-30|ACCESS HOLDINGS PLC - NOTICE OF BOARD MEETING AND CLOSED PERIOD": {
   "category": "Board Meeting",
   "date": "2026-09-30",
@@ -1398,6 +1448,16 @@
   "summary": "* The Board of Directors of Access Holdings Plc is scheduled to hold a meeting on October 29, 2026.\n* The purpose of the meeting is to consider and approve the Group’s Unaudited Financial Statements for the Quarter Ending September 30, 2026.\n* The previously declared Closed Period remains in effect, prohibiting insiders and connected persons from trading in the company's securities until 24 hours after the results are made public.",
   "ticker": "ACCESSCORP",
   "title": "ACCESS HOLDINGS PLC - NOTICE OF BOARD MEETING AND CLOSED PERIOD"
+ },
+ "CNIF|2026-10-22|CORONATION INFRASTRUCTURE FUND - QUARTERLY INVESTOR REPORT FOR THE PERIOD ENDED 30 SEPTEMBER 2026": {
+  "category": "Financial Results",
+  "date": "2026-10-22",
+  "first_seen": "2026-10-22T23:17:37+01:00",
+  "id": "CNIF|2026-10-22|CORONATION INFRASTRUCTURE FUND - QUARTERLY INVESTOR REPORT FOR THE PERIOD ENDED 30 SEPTEMBER 2026",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/CORONATION_INFRASTRUSTURE_FUND_QUARTERLY_REPORT_SEPTEMBER_2026.pdf",
+  "summary": "• Q3 2026 (9-month period ended Sept 2026) | Unaudited\n• Revenue: ₦1.36bn | PAT: ₦1.20bn | Equity: ₦9.44bn | Assets: ₦9.50bn\n• Total Income decreased to ₦1.36bn compared to ₦1.62bn in the 9-month period ended 30 September 2025, while operating profit stood at ₦1.20bn.",
+  "ticker": "CNIF",
+  "title": "CORONATION INFRASTRUCTURE FUND - QUARTERLY INVESTOR REPORT FOR THE PERIOD ENDED 30 SEPTEMBER 2026"
  },
  "FIDELITYBK|2026-10-06|FIDELITY BANK PLC - DELAY IN PUBLICATION OF AUDITED FINANCIAL STATEMENTS FOR THE HALF YEAR ENDED JUNE 30, 2026": {
   "category": "Corporate Action",

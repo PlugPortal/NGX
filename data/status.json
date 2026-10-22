@@ -1,23 +1,20 @@
 {
- "run_at": "2026-10-21T23:18:35+01:00",
+ "run_at": "2026-10-22T23:17:34+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 9,
+   "new": 6,
    "new_ids": [
-    "48116",
-    "48115",
-    "48114",
-    "48113",
-    "48110",
-    "48112",
-    "48111",
-    "48109",
-    "48107"
+    "48123",
+    "CNIF|2026-10-22|CORONATION INFRASTRUCTURE FUND - QUARTERLY INVESTOR REPORT FOR THE PERIOD ENDED 30 SEPTEMBER 2026",
+    "48120",
+    "48119",
+    "48118",
+    "48117"
    ],
    "ok": true,
-   "seconds": 11.9,
-   "total": 150
+   "seconds": 0.3,
+   "total": 156
   },
   "fundamentals": {
    "missing": [
@@ -46,30 +43,30 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦199.93",
-    "EUR/NGN": "₦1499.29",
-    "GBP/NGN": "₦1787.73",
-    "USD/NGN": "₦1334.72"
+    "CNY/NGN": "₦201.44",
+    "EUR/NGN": "₦1506.41",
+    "GBP/NGN": "₦1798.28",
+    "USD/NGN": "₦1344.40"
    },
    "rows": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   "market_wrap": {
    "ok": true,
    "rows": 1,
-   "seconds": 0.3,
-   "source": "https://koboterminal.com/ngx-market-wrap/2026-10-21"
+   "seconds": 0.6,
+   "source": "https://koboterminal.com/ngx-market-wrap/2026-10-22"
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 1.9
+   "seconds": 0.8
   },
   "profiles": {
    "due": 0,
