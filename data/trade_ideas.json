@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T03:39:30+01:00",
+ "generated": "2026-10-23T23:07:11+01:00",
  "ideas": [
   {
    "facts": {
@@ -15,32 +15,32 @@
    "name": "HBM Nigeria Plc",
    "passed": 8,
    "plan": {
-    "entry": 393.8,
-    "entry_low": 393.8,
-    "entry_text": "Buy-stop above the 52-week high: ₦393.80",
+    "entry": 350.0,
+    "entry_low": 339.5,
+    "entry_text": "Entry zone ₦339.50 – ₦350.00",
     "notes": [
-     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+     "Only 3 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 2.8,
-     "chg_1d": 6.76,
+     "below_52w_high_pct": 10.23,
+     "chg_1d": -7.65,
      "chg_1y": 178.68,
      "chg_30d": 9.79,
-     "chg_7d": 6.76,
+     "chg_7d": -1.41,
      "chg_ytd": 181.78,
      "high_52w": 389.9,
      "low_52w": 130.0,
-     "price": 379.0,
-     "range_position_pct": 95.81,
+     "price": 350.0,
+     "range_position_pct": 84.65,
      "rs_rank": 94.24
     },
     "risk_per_trade_pct": 1,
-    "setup": "Breakout watch",
-    "shares_per_1m_capital": 317,
-    "stop": 362.3,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 357,
+    "stop": 322.0,
     "stop_pct": 8,
-    "target_2r": 456.81,
-    "target_3r": 488.31
+    "target_2r": 406.0,
+    "target_3r": 434.0
    },
    "sector": "INDUSTRIAL GOODS",
    "ticker": "HBMNG"
@@ -64,35 +64,91 @@
    "name": "Zenith Bank Plc",
    "passed": 8,
    "plan": {
-    "entry": 123.5,
-    "entry_low": 119.8,
-    "entry_text": "Entry zone ₦119.80 – ₦123.50",
+    "entry": 120.9,
+    "entry_low": 117.27,
+    "entry_text": "Entry zone ₦117.27 – ₦120.90",
     "notes": [
-     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+     "Only 3 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 9.79,
-     "chg_1d": -0.4,
+     "below_52w_high_pct": 11.69,
+     "chg_1d": -0.49,
      "chg_1y": 80.03,
      "chg_30d": -3.82,
-     "chg_7d": -3.52,
+     "chg_7d": -4.05,
      "chg_ytd": 99.84,
      "high_52w": 136.9,
      "low_52w": 53.7,
-     "price": 123.5,
-     "range_position_pct": 83.89,
+     "price": 120.9,
+     "range_position_pct": 80.77,
      "rs_rank": 83.45
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 1012,
-    "stop": 113.62,
+    "shares_per_1m_capital": 1033,
+    "stop": 111.23,
     "stop_pct": 8,
-    "target_2r": 143.26,
-    "target_3r": 153.14
+    "target_2r": 140.24,
+    "target_3r": 149.92
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "ZENITHBANK"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": null,
+    "meetings_90d": [
+     {
+      "date": "2026-10-15",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48085_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
+     },
+     {
+      "date": "2026-09-30",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48008_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_SEPTEMBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
+     }
+    ],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "Dangote Cement Plc",
+   "passed": 8,
+   "plan": {
+    "entry": 1111.0,
+    "entry_low": 1077.67,
+    "entry_text": "Entry zone ₦1,077.67 – ₦1,111.00",
+    "notes": [
+     "Hit the ±10% daily limit last session — expect continuation or a gap; size down.",
+     "Only 3 day(s) of price history collected so far; trend checks build up over time."
+    ],
+    "price_action": {
+     "below_52w_high_pct": 6.56,
+     "chg_1d": 10.0,
+     "chg_1y": 68.0,
+     "chg_30d": -4.0,
+     "chg_7d": 4.15,
+     "chg_ytd": 65.52,
+     "high_52w": 1189.0,
+     "low_52w": 534.6,
+     "price": 1111.0,
+     "range_position_pct": 88.08,
+     "rs_rank": 75.54
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 112,
+    "stop": 1022.12,
+    "stop_pct": 8,
+    "target_2r": 1288.76,
+    "target_3r": 1377.64
+   },
+   "sector": "INDUSTRIAL GOODS",
+   "ticker": "DANGCEM"
   },
   {
    "facts": {
@@ -120,14 +176,14 @@
     "entry_low": 800.25,
     "entry_text": "Entry zone ₦800.25 – ₦825.00",
     "notes": [
-     "Only 1 day(s) of price history collected so far; trend checks build up over time."
+     "Only 3 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
      "below_52w_high_pct": 9.84,
      "chg_1d": 0.0,
      "chg_1y": 71.88,
      "chg_30d": -7.3,
-     "chg_7d": -2.25,
+     "chg_7d": 0.0,
      "chg_ytd": 61.45,
      "high_52w": 915.0,
      "low_52w": 429.3,
