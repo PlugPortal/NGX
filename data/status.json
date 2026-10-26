@@ -1,39 +1,32 @@
 {
- "run_at": "2026-10-23T23:07:07+01:00",
+ "run_at": "2026-10-27T00:06:32+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 25,
+   "new": 18,
    "new_ids": [
-    "48150",
-    "FTGINSURE|2026-10-23|FORTIS GLOBAL INSURANCE PLC - BOARD MEETING RESOLUTION",
-    "WAPIC|2026-10-23|CORONATION INSURANCE PLC - CAUTIONARY NOTICE AND UPDATE ON PROPOSED SCHEME OF ARRANGEMENT",
-    "48148",
-    "48149",
-    "48143",
-    "48146",
-    "48144",
-    "48142",
-    "UNILEVER|2026-10-23|UNILEVER NIGERIA PLC - INTERIM DIVIDEND ANNOUNCEMENT",
-    "GEREGU|2026-10-23|GEREGU POWER PLC - ANNOUNCEMENT ON THE PROCUREMENT OF THREE GENERATOR  TRANSFORMERS",
-    "48141",
-    "48138",
-    "48139",
-    "48136",
-    "48134",
-    "48133",
-    "48132",
-    "48131",
-    "48130",
-    "48126",
-    "48124",
-    "48129",
-    "48127",
-    "48128"
+    "48176",
+    "48172",
+    "48163",
+    "48169",
+    "48161",
+    "48158",
+    "48166",
+    "48165",
+    "48164",
+    "48162",
+    "48160",
+    "48159",
+    "48157",
+    "48154",
+    "48153",
+    "48155",
+    "48156",
+    "48151"
    ],
    "ok": true,
    "seconds": 0.2,
-   "total": 181
+   "total": 199
   },
   "fundamentals": {
    "missing": [
@@ -62,30 +55,30 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦204.16",
-    "EUR/NGN": "₦1525.12",
-    "GBP/NGN": "₦1821.46",
-    "USD/NGN": "₦1361.84"
+    "CNY/NGN": "₦205.09",
+    "EUR/NGN": "₦1530.35",
+    "GBP/NGN": "₦1825.75",
+    "USD/NGN": "₦1367.61"
    },
    "rows": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   "market_wrap": {
+   "note": "No market wrap published yet for 2026-10-27",
    "ok": true,
-   "rows": 1,
-   "seconds": 0.3,
-   "source": "https://koboterminal.com/ngx-market-wrap/2026-10-23"
+   "rows": 0,
+   "seconds": 0.9
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 2.6
+   "seconds": 1.3
   },
   "profiles": {
    "due": 0,
@@ -96,7 +89,7 @@
   },
   "results": {
    "ok": true,
-   "rows": 17,
+   "rows": 22,
    "seconds": 0.0
   },
   "swing_screen": {
