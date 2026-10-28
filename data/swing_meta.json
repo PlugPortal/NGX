@@ -1,10 +1,10 @@
 {
- "run_at": "2026-10-27T22:56:16",
+ "run_at": "2026-10-28T23:16:09",
  "candidates": [
   "HBMNG",
-  "ZENITHBANK",
   "DANGCEM",
-  "MTNN"
+  "ZENITHBANK",
+  "STANBIC"
  ],
  "criteria": {
   "min_price": 2.0,
@@ -22,55 +22,55 @@
  "sector_ranking": [
   {
    "sector": "FINANCIAL SERVICES",
-   "avg_30d": 23.26
-  },
-  {
-   "sector": "AGRICULTURE",
-   "avg_30d": 17.16
-  },
-  {
-   "sector": "INVESTMENT",
-   "avg_30d": 13.04
+   "avg_30d": 19.65
   },
   {
    "sector": "INDUSTRIAL GOODS",
-   "avg_30d": 10.14
+   "avg_30d": 5.12
   },
   {
-   "sector": "HEALTHCARE",
-   "avg_30d": 5.28
-  },
-  {
-   "sector": "ICT",
-   "avg_30d": 4.7
+   "sector": "AGRICULTURE",
+   "avg_30d": 4.76
   },
   {
    "sector": "CONSUMER GOODS",
-   "avg_30d": 4.19
-  },
-  {
-   "sector": "CONGLOMERATES",
-   "avg_30d": 4.17
+   "avg_30d": 2.72
   },
   {
    "sector": "CONSTRUCTION/REAL ESTATE",
-   "avg_30d": 3.99
+   "avg_30d": 2.13
   },
   {
-   "sector": "SERVICES",
-   "avg_30d": 3.29
+   "sector": "INVESTMENT",
+   "avg_30d": 1.64
   },
   {
-   "sector": "OIL AND GAS",
-   "avg_30d": 0.94
+   "sector": "ICT",
+   "avg_30d": 1.56
+  },
+  {
+   "sector": "NATURAL RESOURCES",
+   "avg_30d": 0.0
   },
   {
    "sector": "UTILITIES",
    "avg_30d": 0.0
   },
   {
-   "sector": "NATURAL RESOURCES",
-   "avg_30d": -2.86
+   "sector": "SERVICES",
+   "avg_30d": -0.54
+  },
+  {
+   "sector": "CONGLOMERATES",
+   "avg_30d": -0.69
+  },
+  {
+   "sector": "HEALTHCARE",
+   "avg_30d": -3.02
+  },
+  {
+   "sector": "OIL AND GAS",
+   "avg_30d": -4.32
   }
  ]
 }

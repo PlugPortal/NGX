@@ -1,29 +1,39 @@
 {
- "run_at": "2026-10-27T23:56:14+01:00",
+ "run_at": "2026-10-29T00:12:07+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 15,
+   "new": 25,
    "new_ids": [
-    "48191",
-    "48189",
-    "48186",
-    "48184",
-    "48183",
-    "48185",
-    "48181",
-    "48182",
-    "48179",
-    "48180",
-    "48178",
-    "48174",
-    "48177",
-    "TRANSCORP|2026-10-26|TRANSNATIONAL CORPORATION PLC - PRESS RELEASE ON Q3 2026 UNAUDITED FINANCIAL STATEMENTS",
-    "TRANSCORP|2026-10-26|TRANSNATIONAL CORPORATION PLC - BOARD MEETING RESOLUTION"
+    "65",
+    "48216",
+    "48215",
+    "48213",
+    "48210",
+    "48211",
+    "261",
+    "48209",
+    "48207",
+    "48208",
+    "48206",
+    "48205",
+    "48204",
+    "48203",
+    "48202",
+    "48198",
+    "48201",
+    "48199",
+    "48197",
+    "48196",
+    "48195",
+    "48193",
+    "48190",
+    "48188",
+    "48192"
    ],
    "ok": true,
    "seconds": 0.2,
-   "total": 214
+   "total": 239
   },
   "fundamentals": {
    "missing": [
@@ -57,36 +67,36 @@
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦202.90",
-    "EUR/NGN": "₦1508.59",
-    "GBP/NGN": "₦1803.24",
-    "USD/NGN": "₦1352.87"
+    "CNY/NGN": "₦202.13",
+    "EUR/NGN": "₦1500.34",
+    "GBP/NGN": "₦1790.86",
+    "USD/NGN": "₦1347.53"
    },
    "rows": 1,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   "market_wrap": {
+   "note": "No market wrap published yet for 2026-10-29",
    "ok": true,
-   "rows": 1,
-   "seconds": 0.7,
-   "source": "https://koboterminal.com/ngx-market-wrap/2026-10-27"
+   "rows": 0,
+   "seconds": 0.9
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   "profiles": {
-   "due": 0,
+   "due": 141,
    "failed": [],
-   "fetched": 0,
+   "fetched": 141,
    "ok": true,
-   "seconds": 0.0
+   "seconds": 239.6
   },
   "results": {
    "ok": true,
-   "rows": 23,
+   "rows": 32,
    "seconds": 0.0
   },
   "swing_screen": {
