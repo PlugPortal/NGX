@@ -1,39 +1,53 @@
 {
- "run_at": "2026-10-29T00:12:07+01:00",
+ "run_at": "2026-10-30T00:16:30+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 25,
+   "new": 39,
    "new_ids": [
-    "65",
-    "48216",
-    "48215",
-    "48213",
-    "48210",
-    "48211",
-    "261",
-    "48209",
-    "48207",
-    "48208",
-    "48206",
-    "48205",
-    "48204",
-    "48203",
-    "48202",
-    "48198",
-    "48201",
-    "48199",
-    "48197",
-    "48196",
-    "48195",
-    "48193",
-    "48190",
-    "48188",
-    "48192"
+    "48260",
+    "48259",
+    "48255",
+    "48254",
+    "48253",
+    "48252",
+    "48251",
+    "48250",
+    "48249",
+    "48246",
+    "48248",
+    "48247",
+    "48245",
+    "48244",
+    "FIDELITYBK|2026-10-29|FIDELITY BANK PLC - NOTICE OF FULL REDEMPTION OF EUROBOND",
+    "BUACEMENT|2026-10-29|BUA CEMENT PLC - UNAUDITED FINANCIAL STATEMENTS FOR THE PERIOD ENDED 30 SEPTEMBER 2026",
+    "48243",
+    "48242",
+    "48240",
+    "48241",
+    "48239",
+    "151",
+    "48238",
+    "48237",
+    "48235",
+    "48234",
+    "48231",
+    "48230",
+    "48229",
+    "48228",
+    "48227",
+    "48226",
+    "48225",
+    "48223",
+    "48218",
+    "48212",
+    "48221",
+    "48219",
+    "48220"
    ],
    "ok": true,
-   "seconds": 0.2,
-   "total": 239
+   "seconds": 0.3,
+   "total": 278
   },
   "fundamentals": {
    "missing": [
@@ -62,21 +76,21 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦202.13",
-    "EUR/NGN": "₦1500.34",
-    "GBP/NGN": "₦1790.86",
-    "USD/NGN": "₦1347.53"
+    "CNY/NGN": "₦202.18",
+    "EUR/NGN": "₦1498.57",
+    "GBP/NGN": "₦1794.09",
+    "USD/NGN": "₦1346.91"
    },
    "rows": 1,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-10-29",
+   "note": "No market wrap published yet for 2026-10-30",
    "ok": true,
    "rows": 0,
    "seconds": 0.9
@@ -85,18 +99,18 @@
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.5
+   "seconds": 0.3
   },
   "profiles": {
-   "due": 141,
+   "due": 0,
    "failed": [],
-   "fetched": 141,
+   "fetched": 0,
    "ok": true,
-   "seconds": 239.6
+   "seconds": 0.0
   },
   "results": {
    "ok": true,
-   "rows": 32,
+   "rows": 45,
    "seconds": 0.0
   },
   "swing_screen": {

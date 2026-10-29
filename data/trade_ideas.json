@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:07:11+01:00",
+ "generated": "2026-10-30T00:16:32+01:00",
  "ideas": [
   {
    "facts": {
@@ -7,7 +7,12 @@
     "director_dealings_90d": [],
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
-    "last_results": null,
+    "last_results": {
+     "date": "2026-10-29",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48223_HBM_NIGERIA_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦928.25bn | PAT: ₦272bn | EPS: 1,689k | Equity: ₦611.61bn | Assets: ₦1,219.04bn\n• Name changed from Lafarge Africa Plc to HBM Nigeria Plc on 6th May 2026.",
+     "title": "HBM NIGERIA PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+    },
     "meetings_90d": [],
     "sales_basis": "no comparable periods",
     "sales_growth_pct": null
@@ -19,20 +24,20 @@
     "entry_low": 339.5,
     "entry_text": "Entry zone ₦339.50 – ₦350.00",
     "notes": [
-     "Only 3 day(s) of price history collected so far; trend checks build up over time."
+     "Only 6 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
      "below_52w_high_pct": 10.23,
-     "chg_1d": -7.65,
-     "chg_1y": 178.68,
-     "chg_30d": 9.79,
-     "chg_7d": -1.41,
-     "chg_ytd": 181.78,
+     "chg_1d": 0.0,
+     "chg_1y": 145.61,
+     "chg_30d": -2.91,
+     "chg_7d": -7.65,
+     "chg_ytd": 160.22,
      "high_52w": 389.9,
      "low_52w": 130.0,
      "price": 350.0,
      "range_position_pct": 84.65,
-     "rs_rank": 94.24
+     "rs_rank": 90.65
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
@@ -44,6 +49,71 @@
    },
    "sector": "INDUSTRIAL GOODS",
    "ticker": "HBMNG"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": {
+     "date": "2026-10-27",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48191_DANGOTE_CEMENT_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "",
+     "title": "DANGOTE CEMENT PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+    },
+    "meetings_90d": [
+     {
+      "date": "2026-10-28",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48190_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
+     },
+     {
+      "date": "2026-10-15",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48085_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
+     },
+     {
+      "date": "2026-09-30",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48008_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_SEPTEMBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
+     }
+    ],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "Dangote Cement Plc",
+   "passed": 8,
+   "plan": {
+    "entry": 1434.2,
+    "entry_low": 1434.2,
+    "entry_text": "Buy-stop above the 52-week high: ₦1,434.20",
+    "notes": [
+     "Only 6 day(s) of price history collected so far; trend checks build up over time."
+    ],
+    "price_action": {
+     "below_52w_high_pct": 0.0,
+     "chg_1d": 5.82,
+     "chg_1y": 101.79,
+     "chg_30d": 25.8,
+     "chg_7d": 40.59,
+     "chg_ytd": 120.34,
+     "high_52w": 1420.0,
+     "low_52w": 534.6,
+     "price": 1420.0,
+     "range_position_pct": 100.0,
+     "rs_rank": 88.49
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Breakout watch",
+    "shares_per_1m_capital": 87,
+    "stop": 1319.46,
+    "stop_pct": 8,
+    "target_2r": 1663.67,
+    "target_3r": 1778.41
+   },
+   "sector": "INDUSTRIAL GOODS",
+   "ticker": "DANGCEM"
   },
   {
    "facts": {
@@ -64,32 +134,32 @@
    "name": "Zenith Bank Plc",
    "passed": 8,
    "plan": {
-    "entry": 120.9,
-    "entry_low": 117.27,
-    "entry_text": "Entry zone ₦117.27 – ₦120.90",
+    "entry": 120.0,
+    "entry_low": 116.4,
+    "entry_text": "Entry zone ₦116.40 – ₦120.00",
     "notes": [
-     "Only 3 day(s) of price history collected so far; trend checks build up over time."
+     "Only 6 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 11.69,
-     "chg_1d": -0.49,
-     "chg_1y": 80.03,
-     "chg_30d": -3.82,
-     "chg_7d": -4.05,
-     "chg_ytd": 99.84,
+     "below_52w_high_pct": 12.34,
+     "chg_1d": -0.25,
+     "chg_1y": 89.27,
+     "chg_30d": -11.37,
+     "chg_7d": -1.23,
+     "chg_ytd": 94.17,
      "high_52w": 136.9,
      "low_52w": 53.7,
-     "price": 120.9,
-     "range_position_pct": 80.77,
-     "rs_rank": 83.45
+     "price": 120.0,
+     "range_position_pct": 79.69,
+     "rs_rank": 84.17
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 1033,
-    "stop": 111.23,
+    "shares_per_1m_capital": 1041,
+    "stop": 110.4,
     "stop_pct": 8,
-    "target_2r": 140.24,
-    "target_3r": 149.92
+    "target_2r": 139.2,
+    "target_3r": 148.8
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "ZENITHBANK"
@@ -100,108 +170,49 @@
     "director_dealings_90d": [],
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
-    "last_results": null,
-    "meetings_90d": [
-     {
-      "date": "2026-10-15",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48085_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
-     },
-     {
-      "date": "2026-09-30",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48008_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_SEPTEMBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
-     }
-    ],
-    "sales_basis": "no comparable periods",
-    "sales_growth_pct": null
-   },
-   "name": "Dangote Cement Plc",
-   "passed": 8,
-   "plan": {
-    "entry": 1111.0,
-    "entry_low": 1077.67,
-    "entry_text": "Entry zone ₦1,077.67 – ₦1,111.00",
-    "notes": [
-     "Hit the ±10% daily limit last session — expect continuation or a gap; size down.",
-     "Only 3 day(s) of price history collected so far; trend checks build up over time."
-    ],
-    "price_action": {
-     "below_52w_high_pct": 6.56,
-     "chg_1d": 10.0,
-     "chg_1y": 68.0,
-     "chg_30d": -4.0,
-     "chg_7d": 4.15,
-     "chg_ytd": 65.52,
-     "high_52w": 1189.0,
-     "low_52w": 534.6,
-     "price": 1111.0,
-     "range_position_pct": 88.08,
-     "rs_rank": 75.54
+    "last_results": {
+     "date": "2026-10-23",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48136_STANBIC_IBTC__HOLDINGS_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• Q3 2026 | Unaudited\n• Revenue: ₦817.77bn | PAT: ₦370.36bn | EPS: 2,303k | Equity: ₦1.43tn | Assets: ₦9.60tn\n• Total income grew significantly to ₦817.77bn for the 9-month period ended 30 September 2026, driven by strong growth in non-interest revenue and trading revenue.",
+     "title": "STANBIC IBTC  HOLDINGS PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
     },
-    "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 112,
-    "stop": 1022.12,
-    "stop_pct": 8,
-    "target_2r": 1288.76,
-    "target_3r": 1377.64
-   },
-   "sector": "INDUSTRIAL GOODS",
-   "ticker": "DANGCEM"
-  },
-  {
-   "facts": {
-    "capital_raises_90d": [],
-    "director_dealings_90d": [
-     {
-      "date": "2026-10-07",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/215_Notification_of_Share_Dealing_by_Insider-_Moses_Oyerinde.pdf",
-      "price": 819.38,
-      "shares": 25000,
-      "side": "SELL"
-     }
-    ],
-    "eps_basis": "no comparable periods",
-    "eps_growth_pct": null,
-    "last_results": null,
     "meetings_90d": [],
     "sales_basis": "no comparable periods",
     "sales_growth_pct": null
    },
-   "name": "MTN Nigeria Communications Plc",
+   "name": "Stanbic IBTC Holdings Plc",
    "passed": 8,
    "plan": {
-    "entry": 825.0,
-    "entry_low": 800.25,
-    "entry_text": "Entry zone ₦800.25 – ₦825.00",
+    "entry": 164.9,
+    "entry_low": 159.95,
+    "entry_text": "Entry zone ₦159.95 – ₦164.90",
     "notes": [
-     "Only 3 day(s) of price history collected so far; trend checks build up over time."
+     "Only 6 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 9.84,
+     "below_52w_high_pct": 12.54,
      "chg_1d": 0.0,
-     "chg_1y": 71.88,
-     "chg_30d": -7.3,
-     "chg_7d": 0.0,
-     "chg_ytd": 61.45,
-     "high_52w": 915.0,
-     "low_52w": 429.3,
-     "price": 825.0,
-     "range_position_pct": 81.47,
-     "rs_rank": 74.82
+     "chg_1y": 49.91,
+     "chg_30d": 0.55,
+     "chg_7d": 3.06,
+     "chg_ytd": 64.9,
+     "high_52w": 188.55,
+     "low_52w": 94.6,
+     "price": 164.9,
+     "range_position_pct": 74.83,
+     "rs_rank": 70.5
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 151,
-    "stop": 759.0,
+    "shares_per_1m_capital": 758,
+    "stop": 151.71,
     "stop_pct": 8,
-    "target_2r": 957.0,
-    "target_3r": 1023.0
+    "target_2r": 191.28,
+    "target_3r": 204.48
    },
-   "sector": "ICT",
-   "ticker": "MTNN"
+   "sector": "FINANCIAL SERVICES",
+   "ticker": "STANBIC"
   }
  ],
- "week_of": "2026-10-19"
+ "week_of": "2026-10-26"
 }
