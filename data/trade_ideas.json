@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T00:16:32+01:00",
+ "generated": "2026-10-30T23:57:21+01:00",
  "ideas": [
   {
    "facts": {
@@ -31,7 +31,7 @@
      "chg_1d": 0.0,
      "chg_1y": 145.61,
      "chg_30d": -2.91,
-     "chg_7d": -7.65,
+     "chg_7d": 0.0,
      "chg_ytd": 160.22,
      "high_52w": 389.9,
      "low_52w": 130.0,
@@ -93,10 +93,10 @@
     ],
     "price_action": {
      "below_52w_high_pct": 0.0,
-     "chg_1d": 5.82,
+     "chg_1d": 0.0,
      "chg_1y": 101.79,
      "chg_30d": 25.8,
-     "chg_7d": 40.59,
+     "chg_7d": 27.81,
      "chg_ytd": 120.34,
      "high_52w": 1420.0,
      "low_52w": 534.6,
@@ -122,10 +122,10 @@
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
     "last_results": {
-     "date": "2026-10-09",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48062_ZENITH_BANK_PLC-_QUARTER_2_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "",
-     "title": "ZENITH BANK PLC- QUARTER 2 - FINANCIAL STATEMENT FOR 2026"
+     "date": "2026-10-30",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48295_ZENITH_BANK_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• Period ended 30 September 2026 | Unaudited\n• Revenue: ₦2.87bn | PAT: ₦675.83bn | EPS: ₦16.41 | Equity: ₦5.07tn | Assets: ₦34.39tn\n• Zenith Bank acquired 100% of the issued share capital of Paramount Bank Kenya Limited (\"Paramount Bank\") on 11 May 2026 and incorporated Zenith Bank Cote d'Ivoire as a wholly owned subsidiary in April 2026.",
+     "title": "ZENITH BANK PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
     },
     "meetings_90d": [],
     "sales_basis": "no comparable periods",
@@ -134,32 +134,32 @@
    "name": "Zenith Bank Plc",
    "passed": 8,
    "plan": {
-    "entry": 120.0,
-    "entry_low": 116.4,
-    "entry_text": "Entry zone ₦116.40 – ₦120.00",
+    "entry": 119.0,
+    "entry_low": 115.43,
+    "entry_text": "Entry zone ₦115.43 – ₦119.00",
     "notes": [
      "Only 6 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 12.34,
-     "chg_1d": -0.25,
+     "below_52w_high_pct": 13.08,
+     "chg_1d": -0.83,
      "chg_1y": 89.27,
      "chg_30d": -11.37,
-     "chg_7d": -1.23,
+     "chg_7d": -1.57,
      "chg_ytd": 94.17,
      "high_52w": 136.9,
      "low_52w": 53.7,
-     "price": 120.0,
-     "range_position_pct": 79.69,
+     "price": 119.0,
+     "range_position_pct": 78.49,
      "rs_rank": 84.17
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 1041,
-    "stop": 110.4,
+    "shares_per_1m_capital": 1050,
+    "stop": 109.48,
     "stop_pct": 8,
-    "target_2r": 139.2,
-    "target_3r": 148.8
+    "target_2r": 138.04,
+    "target_3r": 147.56
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "ZENITHBANK"
@@ -183,32 +183,32 @@
    "name": "Stanbic IBTC Holdings Plc",
    "passed": 8,
    "plan": {
-    "entry": 164.9,
-    "entry_low": 159.95,
-    "entry_text": "Entry zone ₦159.95 – ₦164.90",
+    "entry": 162.0,
+    "entry_low": 157.14,
+    "entry_text": "Entry zone ₦157.14 – ₦162.00",
     "notes": [
      "Only 6 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 12.54,
-     "chg_1d": 0.0,
+     "below_52w_high_pct": 14.08,
+     "chg_1d": -1.76,
      "chg_1y": 49.91,
      "chg_30d": 0.55,
-     "chg_7d": 3.06,
+     "chg_7d": 1.25,
      "chg_ytd": 64.9,
      "high_52w": 188.55,
      "low_52w": 94.6,
-     "price": 164.9,
-     "range_position_pct": 74.83,
+     "price": 162.0,
+     "range_position_pct": 71.74,
      "rs_rank": 70.5
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 758,
-    "stop": 151.71,
+    "shares_per_1m_capital": 771,
+    "stop": 149.04,
     "stop_pct": 8,
-    "target_2r": 191.28,
-    "target_3r": 204.48
+    "target_2r": 187.92,
+    "target_3r": 200.88
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "STANBIC"
