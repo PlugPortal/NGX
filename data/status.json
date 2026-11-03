@@ -1,33 +1,22 @@
 {
- "run_at": "2026-11-03T02:32:41+01:00",
+ "run_at": "2026-11-04T00:57:56+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 19,
+   "new": 8,
    "new_ids": [
-    "48353",
-    "48352",
-    "48348",
-    "CONOIL|2026-11-02|Conoil Oil Plc Unaudited Financial Statement for the Period ended 30 Sept 2026",
-    "ACCESSCORP|2026-11-02|Access Holdings Plc Six Months 2026 Group Unaudited Results Press Release",
-    "ACCESSCORP|2026-11-02|Access Holdings Plc Nine Months 2026 Group Unaudited Results Press Release",
-    "48351",
-    "48347",
-    "48343",
-    "48346",
-    "48345",
-    "48344",
-    "48341",
-    "48340",
-    "48339",
-    "48337",
-    "48335",
-    "48334",
-    "48333"
+    "48362",
+    "48361",
+    "48360",
+    "48359",
+    "48357",
+    "48356",
+    "48354",
+    "48355"
    ],
    "ok": true,
-   "seconds": 0.4,
-   "total": 363
+   "seconds": 0.3,
+   "total": 371
   },
   "fundamentals": {
    "missing": [
@@ -61,25 +50,25 @@
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦202.73",
+    "CNY/NGN": "₦201.92",
     "EUR/NGN": "₦1512.26",
-    "GBP/NGN": "₦1809.34",
-    "USD/NGN": "₦1347.94"
+    "GBP/NGN": "₦1807.72",
+    "USD/NGN": "₦1346.93"
    },
    "rows": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-03",
+   "note": "No market wrap published yet for 2026-11-04",
    "ok": true,
    "rows": 0,
-   "seconds": 1.1
+   "seconds": 0.9
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.4
+   "seconds": 0.5
   },
   "profiles": {
    "due": 0,
@@ -94,7 +83,7 @@
    "seconds": 0.0
   },
   "swing_screen": {
-   "candidates": 3,
+   "candidates": 4,
    "ok": true,
    "scored": 141,
    "seconds": 0.0
