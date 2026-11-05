@@ -69,6 +69,16 @@
   "ticker": "WEMABANK",
   "title": "WEMA BANK PLC. DIRECTORSDEALINGS"
  },
+ "198": {
+  "category": "Director Dealing",
+  "date": "2026-11-04",
+  "first_seen": "2026-11-05T01:21:55+01:00",
+  "id": "198",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/198_ZBPLC_Share_Dealing_Kennedy_Okwudi_Nov_4_2026.pdf",
+  "summary": "* **Notification type:** Initial notification of share dealing by an insider (Executive Director OKWUDILI, KENNEDY ONUWA).\n* **Transaction details:** Purchase of 280,283 Zenith Bank Plc shares at N116.90 per unit.\n* **Date and venue:** Executed on November 3, 2026, at the Nigerian Exchange Group (NGX).",
+  "ticker": "ZENITHBANK",
+  "title": "ZENITH BANK PLC DIRECTORSDEALINGS"
+ },
  "209": {
   "category": "Earnings Forecast",
   "date": "2026-09-29",
@@ -3448,6 +3458,46 @@
   "summary": "* MTN Nigeria Communications PLC announced five appointments to its Board of Directors, effective December 1, 2026.\n* The newly appointed directors are Mr. Ibrahim Dikko (Independent Non-Executive Director), Mr. Boye Olusanya (Independent Non-Executive Director), Professor Fabian Ajogwu, OFR, SAN (Non-Executive Director), Ms. Imoni Akpofure (Non-Executive Director), and Mr. Lwazi Bam (Non-Executive Director).",
   "ticker": "MTNN",
   "title": "MTN NIGERIA COMMUNICATIONS PLC-NGX NOTIFICATION ON BOARD CHANGES"
+ },
+ "48363": {
+  "category": "Corporate Action",
+  "date": "2026-11-04",
+  "first_seen": "2026-11-05T01:21:55+01:00",
+  "id": "48363",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48363_MCNICHOLS_CONSOLIDATED_PLC-NOTIFICATION_OF_APPOINTMENT_OF_FINANCE_MANAGER_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* McNichols Consolidated Plc announced the appointment of Ucheoma Victoria Nnamerenwa as its substantive Finance Manager, effective November 1, 2026.\n* Ucheoma Victoria Nnamerenwa holds a Bachelor's Degree in Accounting from Micheal Okpara University, Umudike, and is an Associate of the Institute of Chartered Accountants of Nigeria (ACA).\n* The Board of Directors expressed gratitude to Mrs. Janet Ifare Peter for serving as Acting Finance Manager for the past six months.",
+  "ticker": "MCNICHOLS",
+  "title": "MCNICHOLS CONSOLIDATED PLC-NOTIFICATION OF APPOINTMENT OF FINANCE MANAGER"
+ },
+ "48365": {
+  "category": "Corporate Action",
+  "date": "2026-11-04",
+  "first_seen": "2026-11-05T01:21:55+01:00",
+  "id": "48365",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48365_DANGOTE_CEMENT_PLC-UPDATED_NINE_MONTHS_EARNINGS_RELEASE_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* **Record Financial Performance (9M 2026):** Group revenue rose 19.6% year-on-year to ₦3,774.2 billion, EBITDA increased 23.7% to ₦1,766.3 billion (46.8% margin), and profit after tax grew 31.2% to a record ₦974.8 billion.\n* **Balance Sheet Transformation:** Through ₦1.8 trillion in operating cash flow and ₦539.0 billion in loan repayments, Dangote Cement swung from a net debt position of ₦682.9 billion at the end of 2025 to a net cash position of ₦51.1 billion.\n* **Operational Highlights:** Total group volumes grew 9.4% to 22.1Mt (comprising 14.05Mt in Nigeria and 9.05Mt in Pan-Africa), with customer advances surging 45% to ₦208.4 billion. \n* **Strategic Outlook:** The company is guiding for annual revenue growth of approximately 20%+, broadly stable EBITDA margins, and ongoing capacity expansion led by the first phase of the 6Mta Itori plant.",
+  "ticker": "DANGCEM",
+  "title": "DANGOTE CEMENT PLC-UPDATED NINE MONTHS EARNINGS RELEASE"
+ },
+ "48366": {
+  "category": "Financial Results",
+  "date": "2026-11-04",
+  "first_seen": "2026-11-05T01:21:55+01:00",
+  "id": "48366",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48366_BRICLINKS_AFRICA_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_NOVEMBER_2026.pdf",
+  "summary": "• Q3 2026 | Unaudited\n• Revenue: ₦152.41m | PAT: ₦22.88m | EPS: ₦2.29 | Equity: ₦150.05m | Assets: ₦7.98bn\n• Gross profit increased to ₦65.05m for the 3-month period ended 30 September 2026, compared to ₦47.21m in the corresponding period of 2025.\n\n• 9M 2026 | Unaudited\n• Revenue: ₦451.19m | PAT: ₦54.74m | EPS: ₦5.47 | Equity: ₦150.05m | Assets: ₦7.98bn\n• The company reported long-term loans of ₦7.19bn and director's current account liabilities of ₦628.87m as at 30 September 2026.",
+  "ticker": "BAPLC",
+  "title": "BRICLINKS AFRICA PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+ },
+ "48367": {
+  "category": "Financial Results",
+  "date": "2026-11-04",
+  "first_seen": "2026-11-05T01:21:55+01:00",
+  "id": "48367",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48367_JULI_PLC.-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_NOVEMBER_2026.pdf",
+  "summary": "• Q3 2026 (3 Months Ended 30 Sept 2026) | Unaudited\n• Revenue: ₦51.64m | Assets: ₦138.62m | Equity: (₦47.99m)\n• Turnover declined significantly compared to the corresponding period in 2025 (₦51.64m vs ₦113.87m).\n\n• 9 Months Ended 30 Sept 2026 | Unaudited\n• Revenue: ₦198.50m | Assets: ₦138.62m | Equity: (₦47.99m)\n• Company reported a gross margin loss of ₦43.67m for the 9-month period.",
+  "ticker": "JULI",
+  "title": "JULI PLC.- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
  },
  "65": {
   "category": "Director Dealing",
