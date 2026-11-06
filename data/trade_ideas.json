@@ -1,55 +1,6 @@
 {
- "generated": "2026-10-30T23:57:21+01:00",
+ "generated": "2026-11-06T01:11:51+01:00",
  "ideas": [
-  {
-   "facts": {
-    "capital_raises_90d": [],
-    "director_dealings_90d": [],
-    "eps_basis": "no comparable periods",
-    "eps_growth_pct": null,
-    "last_results": {
-     "date": "2026-10-29",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48223_HBM_NIGERIA_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦928.25bn | PAT: ₦272bn | EPS: 1,689k | Equity: ₦611.61bn | Assets: ₦1,219.04bn\n• Name changed from Lafarge Africa Plc to HBM Nigeria Plc on 6th May 2026.",
-     "title": "HBM NIGERIA PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
-    },
-    "meetings_90d": [],
-    "sales_basis": "no comparable periods",
-    "sales_growth_pct": null
-   },
-   "name": "HBM Nigeria Plc",
-   "passed": 8,
-   "plan": {
-    "entry": 350.0,
-    "entry_low": 339.5,
-    "entry_text": "Entry zone ₦339.50 – ₦350.00",
-    "notes": [
-     "Only 6 day(s) of price history collected so far; trend checks build up over time."
-    ],
-    "price_action": {
-     "below_52w_high_pct": 10.23,
-     "chg_1d": 0.0,
-     "chg_1y": 145.61,
-     "chg_30d": -2.91,
-     "chg_7d": 0.0,
-     "chg_ytd": 160.22,
-     "high_52w": 389.9,
-     "low_52w": 130.0,
-     "price": 350.0,
-     "range_position_pct": 84.65,
-     "rs_rank": 90.65
-    },
-    "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 357,
-    "stop": 322.0,
-    "stop_pct": 8,
-    "target_2r": 406.0,
-    "target_3r": 434.0
-   },
-   "sector": "INDUSTRIAL GOODS",
-   "ticker": "HBMNG"
-  },
   {
    "facts": {
     "capital_raises_90d": [],
@@ -83,34 +34,36 @@
     "sales_growth_pct": null
    },
    "name": "Dangote Cement Plc",
-   "passed": 8,
+   "passed": 9,
    "plan": {
-    "entry": 1434.2,
-    "entry_low": 1434.2,
-    "entry_text": "Buy-stop above the 52-week high: ₦1,434.20",
+    "entry": 1341.0,
+    "entry_low": 1300.77,
+    "entry_text": "Entry zone ₦1,300.77 – ₦1,341.00",
     "notes": [
-     "Only 6 day(s) of price history collected so far; trend checks build up over time."
+     "Hit the ±10% daily limit last session — expect continuation or a gap; size down.",
+     "Only 10 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 0.0,
-     "chg_1d": 0.0,
-     "chg_1y": 101.79,
-     "chg_30d": 25.8,
-     "chg_7d": 27.81,
-     "chg_ytd": 120.34,
-     "high_52w": 1420.0,
+     "below_52w_high_pct": 10.0,
+     "chg_1d": -10.0,
+     "chg_1y": 125.76,
+     "chg_30d": 39.68,
+     "chg_7d": -5.56,
+     "chg_ytd": 144.66,
+     "high_52w": 1490.0,
      "low_52w": 534.6,
-     "price": 1420.0,
-     "range_position_pct": 100.0,
-     "rs_rank": 88.49
+     "price": 1341.0,
+     "range_position_pct": 84.4,
+     "rs_rank": 89.93,
+     "volume_vs_avg": 0.75
     },
     "risk_per_trade_pct": 1,
-    "setup": "Breakout watch",
-    "shares_per_1m_capital": 87,
-    "stop": 1319.46,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 93,
+    "stop": 1233.72,
     "stop_pct": 8,
-    "target_2r": 1663.67,
-    "target_3r": 1778.41
+    "target_2r": 1555.56,
+    "target_3r": 1662.84
    },
    "sector": "INDUSTRIAL GOODS",
    "ticker": "DANGCEM"
@@ -118,101 +71,119 @@
   {
    "facts": {
     "capital_raises_90d": [],
-    "director_dealings_90d": [],
+    "director_dealings_90d": [
+     {
+      "date": "2026-10-07",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/215_Notification_of_Share_Dealing_by_Insider-_Moses_Oyerinde.pdf",
+      "price": 819.38,
+      "shares": 25000,
+      "side": "SELL"
+     }
+    ],
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
     "last_results": {
      "date": "2026-10-30",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48295_ZENITH_BANK_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• Period ended 30 September 2026 | Unaudited\n• Revenue: ₦2.87bn | PAT: ₦675.83bn | EPS: ₦16.41 | Equity: ₦5.07tn | Assets: ₦34.39tn\n• Zenith Bank acquired 100% of the issued share capital of Paramount Bank Kenya Limited (\"Paramount Bank\") on 11 May 2026 and incorporated Zenith Bank Cote d'Ivoire as a wholly owned subsidiary in April 2026.",
-     "title": "ZENITH BANK PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48321_MTN_NIGERIA_COMMUNICATIONS_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦4.61tr | PAT: ₦1,165.17bn | EPS: ₦55.60 | DPS: ₦26.00 | Equity: ₦843.91bn | Assets: ₦5,974.11bn\n• Profit before taxation increased by 59.4% year-on-year to ₦1,795.65bn, driven by strong growth in data revenue (up 35.9% to ₦2,684.17bn).\n• The company paid an interim dividend of ₦26.00 per share and a final dividend for 2025 of ₦15.00 per share during the period.",
+     "title": "MTN NIGERIA COMMUNICATIONS PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
     },
     "meetings_90d": [],
     "sales_basis": "no comparable periods",
     "sales_growth_pct": null
    },
-   "name": "Zenith Bank Plc",
+   "name": "MTN Nigeria Communications Plc",
    "passed": 8,
    "plan": {
-    "entry": 119.0,
-    "entry_low": 115.43,
-    "entry_text": "Entry zone ₦115.43 – ₦119.00",
+    "entry": 850.0,
+    "entry_low": 824.5,
+    "entry_text": "Entry zone ₦824.50 – ₦850.00",
     "notes": [
-     "Only 6 day(s) of price history collected so far; trend checks build up over time."
+     "Only 10 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 13.08,
-     "chg_1d": -0.83,
-     "chg_1y": 89.27,
-     "chg_30d": -11.37,
-     "chg_7d": -1.57,
-     "chg_ytd": 94.17,
-     "high_52w": 136.9,
-     "low_52w": 53.7,
-     "price": 119.0,
-     "range_position_pct": 78.49,
-     "rs_rank": 84.17
+     "below_52w_high_pct": 7.1,
+     "chg_1d": 0.0,
+     "chg_1y": 63.43,
+     "chg_30d": 0.95,
+     "chg_7d": 3.03,
+     "chg_ytd": 66.34,
+     "high_52w": 915.0,
+     "low_52w": 429.3,
+     "price": 850.0,
+     "range_position_pct": 86.62,
+     "rs_rank": 74.82,
+     "volume_vs_avg": 0.54
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 1050,
-    "stop": 109.48,
+    "shares_per_1m_capital": 147,
+    "stop": 782.0,
     "stop_pct": 8,
-    "target_2r": 138.04,
-    "target_3r": 147.56
+    "target_2r": 986.0,
+    "target_3r": 1054.0
    },
-   "sector": "FINANCIAL SERVICES",
-   "ticker": "ZENITHBANK"
+   "sector": "ICT",
+   "ticker": "MTNN"
   },
   {
    "facts": {
     "capital_raises_90d": [],
-    "director_dealings_90d": [],
+    "director_dealings_90d": [
+     {
+      "date": "2026-09-29",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/197_director's_dealings_.pdf",
+      "price": 30.1,
+      "shares": 13132796,
+      "side": "BUY"
+     }
+    ],
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
     "last_results": {
-     "date": "2026-10-23",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48136_STANBIC_IBTC__HOLDINGS_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• Q3 2026 | Unaudited\n• Revenue: ₦817.77bn | PAT: ₦370.36bn | EPS: 2,303k | Equity: ₦1.43tn | Assets: ₦9.60tn\n• Total income grew significantly to ₦817.77bn for the 9-month period ended 30 September 2026, driven by strong growth in non-interest revenue and trading revenue.",
-     "title": "STANBIC IBTC  HOLDINGS PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+     "date": "2026-10-30",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48279_WEMA_BANK_PLC.-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• 9 Months ended 30 September 2026 | Unaudited\n• Revenue: ₦673.24bn | PAT: ₦219.84bn | EPS: 730.63k | Equity: ₦790.13bn | Assets: ₦7.43tn\n• Interest income grew to ₦543.56bn for the 9-month period, while deposits from customers increased to ₦3.86tn as of 30 September 2026.\n\n• FY 2025 | Unaudited\n• Revenue: ₦660.59bn | PAT: ₦194.46bn | EPS: 712.80k | Equity: ₦620.47bn | Assets: ₦5.07tn\n• Net interest income for the full year 2025 stood at ₦361.01bn against total interest expenses of ₦214.26bn.",
+     "title": "WEMA BANK PLC.- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
     },
     "meetings_90d": [],
     "sales_basis": "no comparable periods",
     "sales_growth_pct": null
    },
-   "name": "Stanbic IBTC Holdings Plc",
-   "passed": 8,
+   "name": "Wema Bank Plc",
+   "passed": 9,
    "plan": {
-    "entry": 162.0,
-    "entry_low": 157.14,
-    "entry_text": "Entry zone ₦157.14 – ₦162.00",
+    "entry": 32.6,
+    "entry_low": 31.62,
+    "entry_text": "Entry zone ₦31.62 – ₦32.60",
     "notes": [
-     "Only 6 day(s) of price history collected so far; trend checks build up over time."
+     "Only 10 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 14.08,
-     "chg_1d": -1.76,
-     "chg_1y": 49.91,
-     "chg_30d": 0.55,
-     "chg_7d": 1.25,
-     "chg_ytd": 64.9,
-     "high_52w": 188.55,
-     "low_52w": 94.6,
-     "price": 162.0,
-     "range_position_pct": 71.74,
-     "rs_rank": 70.5
+     "below_52w_high_pct": 9.44,
+     "chg_1d": 0.62,
+     "chg_1y": 58.44,
+     "chg_30d": 2.86,
+     "chg_7d": 5.16,
+     "chg_ytd": 58.82,
+     "high_52w": 36.0,
+     "low_52w": 17.1,
+     "price": 32.6,
+     "range_position_pct": 82.01,
+     "rs_rank": 71.94,
+     "volume_vs_avg": 0.76
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 771,
-    "stop": 149.04,
+    "shares_per_1m_capital": 3834,
+    "stop": 29.99,
     "stop_pct": 8,
-    "target_2r": 187.92,
-    "target_3r": 200.88
+    "target_2r": 37.82,
+    "target_3r": 40.42
    },
    "sector": "FINANCIAL SERVICES",
-   "ticker": "STANBIC"
+   "ticker": "WEMABANK"
   }
  ],
- "week_of": "2026-10-26"
+ "week_of": "2026-11-02"
 }

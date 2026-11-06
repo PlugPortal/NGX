@@ -1,19 +1,16 @@
 {
- "run_at": "2026-11-05T01:21:52+01:00",
+ "run_at": "2026-11-06T01:11:49+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 5,
+   "new": 2,
    "new_ids": [
-    "48367",
-    "198",
-    "48366",
-    "48365",
-    "48363"
+    "48369",
+    "48368"
    ],
    "ok": true,
-   "seconds": 0.3,
-   "total": 376
+   "seconds": 0.2,
+   "total": 378
   },
   "fundamentals": {
    "missing": [
@@ -42,37 +39,37 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.7
+   "seconds": 0.5
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦201.99",
-    "EUR/NGN": "₦1519.51",
-    "GBP/NGN": "₦1819.53",
-    "USD/NGN": "₦1347.80"
+    "CNY/NGN": "₦202.24",
+    "EUR/NGN": "₦1513.96",
+    "GBP/NGN": "₦1817.02",
+    "USD/NGN": "₦1348.74"
    },
    "rows": 1,
-   "seconds": 0.6
+   "seconds": 0.1
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-05",
+   "note": "No market wrap published yet for 2026-11-06",
    "ok": true,
    "rows": 0,
-   "seconds": 1.0
+   "seconds": 0.8
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.5
+   "seconds": 0.3
   },
   "profiles": {
-   "due": 141,
+   "due": 0,
    "failed": [],
-   "fetched": 141,
+   "fetched": 0,
    "ok": true,
-   "seconds": 242.9
+   "seconds": 0.0
   },
   "results": {
    "ok": true,
@@ -80,7 +77,7 @@
    "seconds": 0.0
   },
   "swing_screen": {
-   "candidates": 5,
+   "candidates": 3,
    "ok": true,
    "scored": 141,
    "seconds": 0.0
