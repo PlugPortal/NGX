@@ -1,16 +1,16 @@
 {
- "run_at": "2026-11-06T01:11:49+01:00",
+ "run_at": "2026-11-07T00:43:09+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
    "new": 2,
    "new_ids": [
-    "48369",
-    "48368"
+    "48371",
+    "CNIF|2026-11-06|CORONATION INFRASTRUCTURE FUND MANAGEMENT ACCOUNT FOR PERIOD ENDED 30 SEPT 2026"
    ],
    "ok": true,
    "seconds": 0.2,
-   "total": 378
+   "total": 380
   },
   "fundamentals": {
    "missing": [
@@ -39,30 +39,30 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦202.24",
-    "EUR/NGN": "₦1513.96",
-    "GBP/NGN": "₦1817.02",
-    "USD/NGN": "₦1348.74"
+    "CNY/NGN": "₦201.87",
+    "EUR/NGN": "₦1504.10",
+    "GBP/NGN": "₦1803.63",
+    "USD/NGN": "₦1346.79"
    },
    "rows": 1,
    "seconds": 0.1
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-06",
+   "note": "No market wrap published yet for 2026-11-07",
    "ok": true,
    "rows": 0,
-   "seconds": 0.8
+   "seconds": 0.9
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.3
+   "seconds": 0.7
   },
   "profiles": {
    "due": 0,
@@ -77,7 +77,7 @@
    "seconds": 0.0
   },
   "swing_screen": {
-   "candidates": 3,
+   "candidates": 2,
    "ok": true,
    "scored": 141,
    "seconds": 0.0

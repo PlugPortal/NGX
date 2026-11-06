@@ -3519,6 +3519,16 @@
   "ticker": "OMATEK",
   "title": "OMATEK VENTURES PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
  },
+ "48371": {
+  "category": "Board Meeting",
+  "date": "2026-11-06",
+  "first_seen": "2026-11-07T00:43:11+01:00",
+  "id": "48371",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48371_UNIVERSITY_PRESS_PLC.-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_NOVEMBER_2026.pdf",
+  "summary": "",
+  "ticker": "UPL",
+  "title": "UNIVERSITY PRESS PLC.- NOTICES OF BOARD MEETING (BM) - NOTICE"
+ },
  "65": {
   "category": "Director Dealing",
   "date": "2026-10-28",
@@ -3578,6 +3588,16 @@
   "summary": "• Q3 2026 (9-month period ended Sept 2026) | Unaudited\n• Revenue: ₦1.36bn | PAT: ₦1.20bn | Equity: ₦9.44bn | Assets: ₦9.50bn\n• Total Income decreased to ₦1.36bn compared to ₦1.62bn in the 9-month period ended 30 September 2025, while operating profit stood at ₦1.20bn.",
   "ticker": "CNIF",
   "title": "CORONATION INFRASTRUCTURE FUND - QUARTERLY INVESTOR REPORT FOR THE PERIOD ENDED 30 SEPTEMBER 2026"
+ },
+ "CNIF|2026-11-06|CORONATION INFRASTRUCTURE FUND MANAGEMENT ACCOUNT FOR PERIOD ENDED 30 SEPT 2026": {
+  "category": "Financial Results",
+  "date": "2026-11-06",
+  "first_seen": "2026-11-07T00:43:11+01:00",
+  "id": "CNIF|2026-11-06|CORONATION INFRASTRUCTURE FUND MANAGEMENT ACCOUNT FOR PERIOD ENDED 30 SEPT 2026",
+  "pdf": "https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/CORONATION_INFRASTRUCTURE_FUND_MANAGEMENT_ACCOUNT_FOR_PERIOD_ENDED_30_SEPT_2026_.pdf",
+  "summary": "• Period ended 30 Sep 2026 (YTD) | Unaudited\n• Revenue (Interest income): ₦1.35bn | PAT (Total comprehensive income): ₦1.20bn | Equity: ₦9.44bn | Assets: ₦9.50bn\n• Infrastructure loans make up the vast majority of assets (₦9.50bn) and interest income (₦978.4m YTD).",
+  "ticker": "CNIF",
+  "title": "CORONATION INFRASTRUCTURE FUND MANAGEMENT ACCOUNT FOR PERIOD ENDED 30 SEPT 2026"
  },
  "CONOIL|2026-11-02|Conoil Oil Plc Unaudited Financial Statement for the Period ended 30 Sept 2026": {
   "category": "Financial Results",
