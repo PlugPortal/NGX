@@ -1,8 +1,7 @@
 {
- "run_at": "2026-11-06T23:43:11",
+ "run_at": "2026-11-10T02:03:46",
  "candidates": [
-  "DANGCEM",
-  "WEMABANK"
+  "DANGCEM"
  ],
  "criteria": {
   "min_price": 2.0,
