@@ -129,6 +129,16 @@
   "ticker": "AVACAP",
   "title": "AVA CAPITAL PLC DIRECTORSDEALINGS"
  },
+ "38": {
+  "category": "Director Dealing",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "38",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/38_INSIDER_DEALING_-NOVEMBER_2-BUY.pdf",
+  "summary": "* **Insider Share Dealing:** Creditville Nigeria Limited, a related party to Non-Executive Director Mr. Michael Uwakwe, purchased ordinary shares in Chams Holding Company Plc.\n* **Transaction Details:** The acquisition comprised 3,700,000 units in total, executed through three tranches between November 3 and November 5, 2026:\n  * 1,500,000 units at N3.18 per share\n  * 1,000,000 units at N3.22 per share\n  * 1,200,000 units at N3.20 per share\n* **Aggregate Pricing:** The aggregated volume of 3,700,000 units was acquired at an average price of N3.20 per share in Lagos, Nigeria.",
+  "ticker": "CHAMS",
+  "title": "CHAMS HOLDING COMPANY PLC DIRECTORSDEALINGS"
+ },
  "4": {
   "category": "Director Dealing",
   "date": "2026-10-01",
@@ -3568,6 +3578,66 @@
   "summary": "- Eunisell Interlinked Plc will hold its 45th Annual General Meeting virtually via Zoom on Wednesday, 2nd December 2026, at 11:00 a.m.\n- The agenda includes laying the audited accounts for the year ended June 30, 2026, the re-election of directors, appointing audit committee members, and approving director and auditor remuneration.\n- For the financial year ended June 30, 2026, revenue increased by 30% to ₦1,836,917,000, and profit after taxation increased by 31% to ₦249,452,000.",
   "ticker": "EUNISELL",
   "title": "EUNISELL INTERLINKED PLC- NOTICES OF ANNUAL GENERAL MEETING (AGM) -"
+ },
+ "48383": {
+  "category": "Corporate Action",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48383",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48383_AIRTEL_AFRICA_PLC-NOTIFICATION_OF_TRANSACTION_IN_OWN_SHARES_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Airtel Africa plc announced the purchase of 799,925 ordinary shares in aggregate between 5 November and 6 November 2026 from Citigroup Global Markets Limited as part of its share buyback programme.\n* The shares were purchased at a volume-weighted average price of 282.16 GBp per ordinary share and will all be cancelled.\n* Daily breakdown includes 353,051 shares purchased on 5 November 2026 at a volume-weighted average price of 287.52p, and 446,874 shares purchased on 6 November 2026 at 277.92p.",
+  "ticker": "AIRTELAFRI",
+  "title": "AIRTEL AFRICA PLC-NOTIFICATION OF TRANSACTION IN OWN SHARES"
+ },
+ "48384": {
+  "category": "Corporate Action",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48384",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48384_REGENCY_ALLIANCE_INSURANCE_PLC-AGM_RESOLUTIONS_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Regency Alliance Insurance Plc held its Annual General Meeting (AGM) on October 6, 2026, where shareholders approved the audited financial statements for the year ended December 31, 2025, alongside the reports of the directors, independent auditors, and audit committee.\n* Shareholders re-elected HRM Oba Dr. Francis Olusola Alao and Dr. Sammy Olaniyi as Non-Executive Directors, elected shareholder representatives to the Statutory Audit Committee, and appointed Messrs Adegoke Adewole & Co Chartered Accountants as the company's auditors.\n* Special resolutions were passed fixing the remuneration of Non-Executive Directors for the year ending December 31, 2026, and replacing Clause 44 of the Articles of Association to accommodate virtual and electronic general meetings.",
+  "ticker": "REGALINS",
+  "title": "REGENCY ALLIANCE INSURANCE PLC-AGM RESOLUTIONS"
+ },
+ "48385": {
+  "category": "Board Meeting",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48385",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48385_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_NOVEMBER_2026.pdf",
+  "summary": "* Dangote Cement PLC announced that it and its selling shareholder, Dangote Industries Limited (DIL), will not proceed with the proposed secondary listing and offering on the London Stock Exchange at this time.\n* The decision was made in light of current market conditions and the Company's strategic priorities following a Board of Directors meeting on 10 November 2026.\n* The Company's ordinary shares remain listed on the Nigerian Exchange Limited (NGX), and the decision does not affect its operations, business plans, or focus on delivering sustainable shareholder value.",
+  "ticker": "DANGCEM",
+  "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
+ },
+ "48386": {
+  "category": "Corporate Action",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48386",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48386_NEM_INSURANCE_PLC.-APPOINTMENT_OF_DIRECTORS_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* NEM Insurance Plc announced the appointment of Mr. Mounir Haliru Gwarzo as Independent Non-Executive Director.\n* The company appointed Ms. Adejoke Teluwo as Non-Executive Director.\n* Both board appointments took effect on October 28, 2026.",
+  "ticker": "NEM",
+  "title": "NEM INSURANCE PLC.-APPOINTMENT OF DIRECTORS"
+ },
+ "48387": {
+  "category": "Corporate Action",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48387",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48387_REGENCY_ALLIANCE_INSURANCE_PLC-AGM_RESOLUTIONS_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "- Regency Alliance Insurance Plc held its Annual General Meeting (AGM) on November 6, 2026, where shareholders approved the audited financial statements for the year ended December 31, 2025, and the reports of directors, independent auditors, and the audit committee.\n- Shareholders re-elected HRM Oba Dr. Francis Olusola Alao and Dr. Sammy Olaniyi as Non-Executive Directors and appointed Messrs Adegoke Adewole & Co as the company's auditors.\n- The company elected shareholder and board representatives to the Statutory Audit Committee and fixed the remuneration for Non-Executive Directors for the year ending December 31, 2026.\n- A special resolution was passed to replace Clause 44 of the company's Articles of Association to introduce provisions governing virtual/electronic general meetings.",
+  "ticker": "REGALINS",
+  "title": "REGENCY ALLIANCE INSURANCE PLC-AGM RESOLUTIONS"
+ },
+ "48388": {
+  "category": "Corporate Action",
+  "date": "2026-11-10",
+  "first_seen": "2026-11-11T01:02:02+01:00",
+  "id": "48388",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48388_VFD_GROUP_PLC-VFD_GROUP-NOTICE_OF_APPOINTMENT_OF_NON-EXECUTIVE_DIRECTOR_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* VFD Group Plc announced the appointment of Mrs. Omobola Fowler as a Non-Executive Director, effective November 16, 2026.\n* The appointment is subject to the approval of shareholders at a General Meeting and requisite regulators.\n* Mrs. Fowler brings over 17 years of experience in strategy, business development, and digital transformation across multiple sectors in West Africa and the United Kingdom, and previously served on the company's board from 2016 to 2019.",
+  "ticker": "VFDGROUP",
+  "title": "VFD GROUP PLC-VFD GROUP-NOTICE OF APPOINTMENT OF NON-EXECUTIVE DIRECTOR"
  },
  "65": {
   "category": "Director Dealing",
