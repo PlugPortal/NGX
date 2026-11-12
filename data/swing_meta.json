@@ -1,7 +1,8 @@
 {
- "run_at": "2026-11-11T00:02:02",
+ "run_at": "2026-11-12T01:33:58",
  "candidates": [
-  "DANGCEM"
+  "DANGCEM",
+  "HONYFLOUR"
  ],
  "criteria": {
   "min_price": 2.0,
@@ -18,56 +19,56 @@
  },
  "sector_ranking": [
   {
-   "sector": "FINANCIAL SERVICES",
-   "avg_30d": 17.4
-  },
-  {
    "sector": "UTILITIES",
-   "avg_30d": 7.02
-  },
-  {
-   "sector": "INDUSTRIAL GOODS",
-   "avg_30d": 5.72
+   "avg_30d": 15.17
   },
   {
    "sector": "CONSUMER GOODS",
-   "avg_30d": 4.27
+   "avg_30d": 3.13
   },
   {
    "sector": "ICT",
-   "avg_30d": 0.87
+   "avg_30d": 1.03
   },
   {
-   "sector": "AGRICULTURE",
-   "avg_30d": 0.08
+   "sector": "INDUSTRIAL GOODS",
+   "avg_30d": 0.98
   },
   {
    "sector": "NATURAL RESOURCES",
    "avg_30d": 0.0
   },
   {
-   "sector": "CONSTRUCTION/REAL ESTATE",
-   "avg_30d": -1.22
+   "sector": "OIL AND GAS",
+   "avg_30d": -0.42
   },
   {
    "sector": "HEALTHCARE",
-   "avg_30d": -2.38
+   "avg_30d": -1.07
   },
   {
-   "sector": "CONGLOMERATES",
-   "avg_30d": -4.04
+   "sector": "CONSTRUCTION/REAL ESTATE",
+   "avg_30d": -2.56
   },
   {
    "sector": "SERVICES",
-   "avg_30d": -4.81
+   "avg_30d": -2.71
   },
   {
-   "sector": "OIL AND GAS",
-   "avg_30d": -6.13
+   "sector": "FINANCIAL SERVICES",
+   "avg_30d": -3.49
+  },
+  {
+   "sector": "CONGLOMERATES",
+   "avg_30d": -3.94
+  },
+  {
+   "sector": "AGRICULTURE",
+   "avg_30d": -10.41
   },
   {
    "sector": "INVESTMENT",
-   "avg_30d": -7.46
+   "avg_30d": -15.79
   }
  ]
 }
