@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T01:11:51+01:00",
+ "generated": "2026-11-13T01:17:48+01:00",
  "ideas": [
   {
    "facts": {
@@ -15,6 +15,11 @@
     },
     "meetings_90d": [
      {
+      "date": "2026-11-10",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48385_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_NOVEMBER_2026.pdf",
+      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
+     },
+     {
       "date": "2026-10-28",
       "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48190_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
       "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
@@ -22,11 +27,6 @@
      {
       "date": "2026-10-15",
       "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48085_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
-     },
-     {
-      "date": "2026-09-30",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48008_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_SEPTEMBER_2026.pdf",
       "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
      }
     ],
@@ -36,34 +36,33 @@
    "name": "Dangote Cement Plc",
    "passed": 9,
    "plan": {
-    "entry": 1341.0,
-    "entry_low": 1300.77,
-    "entry_text": "Entry zone ₦1,300.77 – ₦1,341.00",
+    "entry": 1504.9,
+    "entry_low": 1504.9,
+    "entry_text": "Buy-stop above the 52-week high: ₦1,504.90",
     "notes": [
-     "Hit the ±10% daily limit last session — expect continuation or a gap; size down.",
-     "Only 10 day(s) of price history collected so far; trend checks build up over time."
+     "Only 15 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 10.0,
-     "chg_1d": -10.0,
-     "chg_1y": 125.76,
-     "chg_30d": 39.68,
-     "chg_7d": -5.56,
-     "chg_ytd": 144.66,
+     "below_52w_high_pct": 1.35,
+     "chg_1d": 0.0,
+     "chg_1y": 147.46,
+     "chg_30d": 37.8,
+     "chg_7d": 9.61,
+     "chg_ytd": 141.36,
      "high_52w": 1490.0,
      "low_52w": 534.6,
-     "price": 1341.0,
-     "range_position_pct": 84.4,
-     "rs_rank": 89.93,
-     "volume_vs_avg": 0.75
+     "price": 1469.9,
+     "range_position_pct": 97.9,
+     "rs_rank": 90.0,
+     "volume_vs_avg": 0.18
     },
     "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 93,
-    "stop": 1233.72,
+    "setup": "Breakout watch",
+    "shares_per_1m_capital": 83,
+    "stop": 1384.51,
     "stop_pct": 8,
-    "target_2r": 1555.56,
-    "target_3r": 1662.84
+    "target_2r": 1745.68,
+    "target_3r": 1866.08
    },
    "sector": "INDUSTRIAL GOODS",
    "ticker": "DANGCEM"
@@ -71,119 +70,59 @@
   {
    "facts": {
     "capital_raises_90d": [],
-    "director_dealings_90d": [
-     {
-      "date": "2026-10-07",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/215_Notification_of_Share_Dealing_by_Insider-_Moses_Oyerinde.pdf",
-      "price": 819.38,
-      "shares": 25000,
-      "side": "SELL"
-     }
-    ],
+    "director_dealings_90d": [],
     "eps_basis": "no comparable periods",
     "eps_growth_pct": null,
     "last_results": {
      "date": "2026-10-30",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48321_MTN_NIGERIA_COMMUNICATIONS_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦4.61tr | PAT: ₦1,165.17bn | EPS: ₦55.60 | DPS: ₦26.00 | Equity: ₦843.91bn | Assets: ₦5,974.11bn\n• Profit before taxation increased by 59.4% year-on-year to ₦1,795.65bn, driven by strong growth in data revenue (up 35.9% to ₦2,684.17bn).\n• The company paid an interim dividend of ₦26.00 per share and a final dividend for 2025 of ₦15.00 per share during the period.",
-     "title": "MTN NIGERIA COMMUNICATIONS PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48271_HONEYWELL_FLOUR_MILL_PLC-_QUARTER_2_-_FINANCIAL_STATEMENT_FOR_2027_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• Q2 2027 (6 months ended September 30, 2026) | Unaudited\n• Revenue: ₦233.79bn | PAT: ₦22.61bn | EPS: 285.09k | Equity: ₦74.95bn | Assets: ₦294.43bn\n• Group revenue increased by 41% year-on-year to ₦233.79 billion, driven by strong performance across operating segments.\n• Profit before tax surged by 1,115% to ₦31.40 billion, supported by improved gross profit and net finance income.",
+     "title": "HONEYWELL FLOUR MILL PLC- QUARTER 2 - FINANCIAL STATEMENT FOR 2027"
     },
-    "meetings_90d": [],
-    "sales_basis": "no comparable periods",
-    "sales_growth_pct": null
-   },
-   "name": "MTN Nigeria Communications Plc",
-   "passed": 8,
-   "plan": {
-    "entry": 850.0,
-    "entry_low": 824.5,
-    "entry_text": "Entry zone ₦824.50 – ₦850.00",
-    "notes": [
-     "Only 10 day(s) of price history collected so far; trend checks build up over time."
-    ],
-    "price_action": {
-     "below_52w_high_pct": 7.1,
-     "chg_1d": 0.0,
-     "chg_1y": 63.43,
-     "chg_30d": 0.95,
-     "chg_7d": 3.03,
-     "chg_ytd": 66.34,
-     "high_52w": 915.0,
-     "low_52w": 429.3,
-     "price": 850.0,
-     "range_position_pct": 86.62,
-     "rs_rank": 74.82,
-     "volume_vs_avg": 0.54
-    },
-    "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 147,
-    "stop": 782.0,
-    "stop_pct": 8,
-    "target_2r": 986.0,
-    "target_3r": 1054.0
-   },
-   "sector": "ICT",
-   "ticker": "MTNN"
-  },
-  {
-   "facts": {
-    "capital_raises_90d": [],
-    "director_dealings_90d": [
+    "meetings_90d": [
      {
-      "date": "2026-09-29",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/197_director's_dealings_.pdf",
-      "price": 30.1,
-      "shares": 13132796,
-      "side": "BUY"
+      "date": "2026-10-21",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48110_HONEYWELL_FLOUR_MILL_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
+      "title": "HONEYWELL FLOUR MILL PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
      }
     ],
-    "eps_basis": "no comparable periods",
-    "eps_growth_pct": null,
-    "last_results": {
-     "date": "2026-10-30",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48279_WEMA_BANK_PLC.-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• 9 Months ended 30 September 2026 | Unaudited\n• Revenue: ₦673.24bn | PAT: ₦219.84bn | EPS: 730.63k | Equity: ₦790.13bn | Assets: ₦7.43tn\n• Interest income grew to ₦543.56bn for the 9-month period, while deposits from customers increased to ₦3.86tn as of 30 September 2026.\n\n• FY 2025 | Unaudited\n• Revenue: ₦660.59bn | PAT: ₦194.46bn | EPS: 712.80k | Equity: ₦620.47bn | Assets: ₦5.07tn\n• Net interest income for the full year 2025 stood at ₦361.01bn against total interest expenses of ₦214.26bn.",
-     "title": "WEMA BANK PLC.- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
-    },
-    "meetings_90d": [],
     "sales_basis": "no comparable periods",
     "sales_growth_pct": null
    },
-   "name": "Wema Bank Plc",
+   "name": "Honeywell Flour Mills Plc",
    "passed": 9,
    "plan": {
-    "entry": 32.6,
-    "entry_low": 31.62,
-    "entry_text": "Entry zone ₦31.62 – ₦32.60",
+    "entry": 31.4,
+    "entry_low": 30.46,
+    "entry_text": "Entry zone ₦30.46 – ₦31.40",
     "notes": [
-     "Only 10 day(s) of price history collected so far; trend checks build up over time."
+     "Only 15 day(s) of price history collected so far; trend checks build up over time."
     ],
     "price_action": {
-     "below_52w_high_pct": 9.44,
-     "chg_1d": 0.62,
-     "chg_1y": 58.44,
-     "chg_30d": 2.86,
-     "chg_7d": 5.16,
-     "chg_ytd": 58.82,
-     "high_52w": 36.0,
-     "low_52w": 17.1,
-     "price": 32.6,
-     "range_position_pct": 82.01,
-     "rs_rank": 71.94,
-     "volume_vs_avg": 0.76
+     "below_52w_high_pct": 11.3,
+     "chg_1d": -4.85,
+     "chg_1y": 85.39,
+     "chg_30d": 84.36,
+     "chg_7d": 16.95,
+     "chg_ytd": 50.68,
+     "high_52w": 35.4,
+     "low_52w": 14.0,
+     "price": 31.4,
+     "range_position_pct": 81.31,
+     "rs_rank": 81.43,
+     "volume_vs_avg": 0.6
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 3834,
-    "stop": 29.99,
+    "shares_per_1m_capital": 3980,
+    "stop": 28.89,
     "stop_pct": 8,
-    "target_2r": 37.82,
-    "target_3r": 40.42
+    "target_2r": 36.42,
+    "target_3r": 38.94
    },
-   "sector": "FINANCIAL SERVICES",
-   "ticker": "WEMABANK"
+   "sector": "CONSUMER GOODS",
+   "ticker": "HONYFLOUR"
   }
  ],
- "week_of": "2026-11-02"
+ "week_of": "2026-11-09"
 }
