@@ -3729,6 +3729,16 @@
   "ticker": "CONOIL",
   "title": "CONOIL PLC-CONOIL PLC  56TH AGM NOTICE ANNOUNCEMENT"
  },
+ "48401": {
+  "category": "Corporate Action",
+  "date": "2026-11-16",
+  "first_seen": "2026-11-17T03:27:12+01:00",
+  "id": "48401",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48401_LASACO_ASSURANCE_PLC.-NOTIFICATION_OF_APPROVED_FREE_FLOAT_COMPLIANCE_EXTENSION_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "- Lasaco Assurance Plc announced that its free float is currently below the Nigerian Exchange Limited (NGX) minimum requirement of 20% for companies listed on the Main Board.\n- NGX Regulation Limited (NGX RegCo) has granted the company a one-year extension until November 2, 2027, to comply with the free float requirements.\n- The extension is provided under Rule 3.1.4 of The Exchange's Rules Governing Free Float Requirements, noting that trading may be suspended if compliance is not achieved within the timeframe.",
+  "ticker": "LASACO",
+  "title": "LASACO ASSURANCE PLC.-NOTIFICATION OF APPROVED FREE FLOAT COMPLIANCE EXTENSION"
+ },
  "65": {
   "category": "Director Dealing",
   "date": "2026-10-28",
@@ -3878,6 +3888,16 @@
   "summary": "* The Board of Directors of MTN Nigeria Communications Plc approved the Condensed Consolidated Interim Financial Statements for the nine months ended 30 September 2026 at its meeting on 29 October 2026.\n* A closed period remains in effect in line with Nigerian Exchange Limited (NGX) post-listing requirements until 24 hours after the financial statements are released to the public.\n* Insiders of the company and their connected persons are prohibited from directly or indirectly dealing in the company's securities during the closed period.",
   "ticker": "MTNN",
   "title": "MTN NIGERIA COMMUNICATIONS PLC - BOARD MEETING RESOLUTION"
+ },
+ "NGXGROUP|2026-11-16|https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/NGX_Group_Plc_Strategic_Stake_in_Nairobi_Securities_Exchange_.pdf": {
+  "category": "Corporate Action",
+  "date": "2026-11-16",
+  "first_seen": "2026-11-17T03:27:12+01:00",
+  "id": "NGXGROUP|2026-11-16|https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/NGX_Group_Plc_Strategic_Stake_in_Nairobi_Securities_Exchange_.pdf",
+  "pdf": "https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/NGX_Group_Plc_Strategic_Stake_in_Nairobi_Securities_Exchange_.pdf",
+  "summary": "* Nigerian Exchange Group Plc (NGX Group) has acquired a 10% equity stake in the Nairobi Securities Exchange (NSE) to advance its pan-African growth strategy.\n* The strategic investment follows a previous investment in the Ethiopian Securities Exchange (ESX) and supports three priorities: regional integration, portfolio diversification, and shareholder value.",
+  "ticker": "NGXGROUP",
+  "title": "https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/NGX_Group_Plc_Strategic_Stake_in_Nairobi_Securities_Exchange_.pdf"
  },
  "NIDF|2026-10-08|NIGERIA INFRASTRUCTURE DEBT FUND - Q3 2026 DISTRIBUTION ANNOUNCEMENT": {
   "category": "Corporate Action",
