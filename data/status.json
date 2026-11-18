@@ -1,16 +1,21 @@
 {
- "run_at": "2026-11-17T03:27:10+01:00",
+ "run_at": "2026-11-18T02:35:57+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 2,
+   "new": 7,
    "new_ids": [
-    "48401",
-    "NGXGROUP|2026-11-16|https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/NGX_Group_Plc_Strategic_Stake_in_Nairobi_Securities_Exchange_.pdf"
+    "48411",
+    "48410",
+    "48407",
+    "48404",
+    "48403",
+    "48405",
+    "48406"
    ],
    "ok": true,
-   "seconds": 0.4,
-   "total": 402
+   "seconds": 0.5,
+   "total": 409
   },
   "fundamentals": {
    "missing": [
@@ -44,16 +49,16 @@
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦203.57",
-    "EUR/NGN": "₦1495.08",
-    "GBP/NGN": "₦1792.04",
-    "USD/NGN": "₦1357.19"
+    "CNY/NGN": "₦203.37",
+    "EUR/NGN": "₦1488.81",
+    "GBP/NGN": "₦1800.78",
+    "USD/NGN": "₦1355.80"
    },
    "rows": 1,
    "seconds": 0.1
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-17",
+   "note": "No market wrap published yet for 2026-11-18",
    "ok": true,
    "rows": 0,
    "seconds": 0.9
@@ -62,7 +67,7 @@
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.3
+   "seconds": 0.5
   },
   "profiles": {
    "due": 0,
