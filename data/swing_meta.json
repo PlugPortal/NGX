@@ -1,9 +1,10 @@
 {
- "run_at": "2026-11-18T01:36:00",
+ "run_at": "2026-11-19T01:14:47",
  "candidates": [
-  "AIRTELAFRI",
+  "NGXGROUP",
   "DANGCEM",
-  "HONYFLOUR"
+  "HONYFLOUR",
+  "WEMABANK"
  ],
  "criteria": {
   "min_price": 2.0,
@@ -25,51 +26,51 @@
   },
   {
    "sector": "CONSUMER GOODS",
-   "avg_30d": 3.13
-  },
-  {
-   "sector": "ICT",
-   "avg_30d": 1.03
-  },
-  {
-   "sector": "INDUSTRIAL GOODS",
-   "avg_30d": 0.98
-  },
-  {
-   "sector": "NATURAL RESOURCES",
-   "avg_30d": 0.0
-  },
-  {
-   "sector": "OIL AND GAS",
-   "avg_30d": -0.42
-  },
-  {
-   "sector": "HEALTHCARE",
-   "avg_30d": -1.07
-  },
-  {
-   "sector": "CONSTRUCTION/REAL ESTATE",
-   "avg_30d": -2.56
-  },
-  {
-   "sector": "SERVICES",
-   "avg_30d": -2.71
+   "avg_30d": 5.18
   },
   {
    "sector": "FINANCIAL SERVICES",
-   "avg_30d": -3.49
+   "avg_30d": 0.29
+  },
+  {
+   "sector": "INDUSTRIAL GOODS",
+   "avg_30d": 0.09
+  },
+  {
+   "sector": "HEALTHCARE",
+   "avg_30d": -0.3
+  },
+  {
+   "sector": "CONSTRUCTION/REAL ESTATE",
+   "avg_30d": -1.28
+  },
+  {
+   "sector": "ICT",
+   "avg_30d": -2.31
+  },
+  {
+   "sector": "NATURAL RESOURCES",
+   "avg_30d": -3.3
+  },
+  {
+   "sector": "OIL AND GAS",
+   "avg_30d": -3.34
+  },
+  {
+   "sector": "SERVICES",
+   "avg_30d": -3.38
   },
   {
    "sector": "CONGLOMERATES",
-   "avg_30d": -3.94
+   "avg_30d": -3.65
   },
   {
    "sector": "AGRICULTURE",
-   "avg_30d": -10.41
+   "avg_30d": -13.82
   },
   {
    "sector": "INVESTMENT",
-   "avg_30d": -15.79
+   "avg_30d": -14.07
   }
  ]
 }
