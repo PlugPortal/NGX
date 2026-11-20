@@ -3839,6 +3839,26 @@
   "ticker": "CORNERST",
   "title": "CORNERSTONE INSURANCE PLC-EVOLUTION TO HOLDING COMPANY STRUCTURE"
  },
+ "48416": {
+  "category": "Board Meeting",
+  "date": "2026-11-19",
+  "first_seen": "2026-11-20T02:15:04+01:00",
+  "id": "48416",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48416_AIICO_INSURANCE_PLC.-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_NOVEMBER_2026.pdf",
+  "summary": "- AIICO Insurance Plc announced that its Board of Directors is scheduled to hold a meeting on Thursday, November 19, 2026.\n- The purpose of the meeting is to deliberate on certain strategic initiatives of the company.\n- The company assured the market that any material decisions or resolutions arising from the meeting will be duly communicated in accordance with applicable regulatory requirements.",
+  "ticker": "AIICO",
+  "title": "AIICO INSURANCE PLC.- NOTICES OF BOARD MEETING (BM) - NOTICE"
+ },
+ "48417": {
+  "category": "Corporate Action",
+  "date": "2026-11-19",
+  "first_seen": "2026-11-20T02:15:04+01:00",
+  "id": "48417",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48417_CORNERSTONE_INSURANCE_PLC-NOTICE_OF_BOARD_MEETING_OF_CORNERSTONE_PLC_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Cornerstone Plc will hold an ad-hoc meeting of its Board of Directors via teleconference on Thursday, 19th November 2026 at 4:00 pm (West African Time).\n* The Board will deliberate on certain strategic opportunities of the Company during the meeting.",
+  "ticker": "CORNERST",
+  "title": "CORNERSTONE INSURANCE PLC-NOTICE OF BOARD MEETING OF CORNERSTONE PLC"
+ },
  "65": {
   "category": "Director Dealing",
   "date": "2026-10-28",
@@ -3938,6 +3958,16 @@
   "summary": "* Fidelity Bank Plc announced the full redemption of its US$400 million 7.625% Senior Unsecured Eurobond at maturity on October 28, 2026.\n* The five-year bond, issued on October 28, 2021, carried a coupon rate of 7.625% per annum payable semi-annually.\n* The Bank met all scheduled coupon payments and repaid the outstanding principal and final coupon in full at maturity.",
   "ticker": "FIDELITYBK",
   "title": "FIDELITY BANK PLC - NOTICE OF FULL REDEMPTION OF EUROBOND"
+ },
+ "FIDELITYBK|2026-11-19|Fidelity Bank Plc Retirement and Appointment of CEO": {
+  "category": "Corporate Action",
+  "date": "2026-11-19",
+  "first_seen": "2026-11-20T02:15:04+01:00",
+  "id": "FIDELITYBK|2026-11-19|Fidelity Bank Plc Retirement and Appointment of CEO",
+  "pdf": "https://doclib.ngxgroup.com/Listings-site/corporate-disclosure-site/Documents/Fidelity_Bank_Plc_Retirement_and_Appointment_of_CEO_.pdf",
+  "summary": "* Mrs. Nneka Onyeali-Ikpe will retire as Managing Director/Chief Executive Officer of Fidelity Bank Plc effective December 31, 2026, upon the completion of her contract tenure.\n* Mr. Stanley Chiedozie Amuchie, currently Executive Director of Chief Operations and Information Officer (ED COIO), has been appointed as MD/CEO Designate and successor, effective January 1, 2027.\n* Under Mrs. Onyeali-Ikpe's leadership, the bank achieved significant growth, highlighted by Profit Before Tax (PBT) increasing from ₦28.1 billion in 2020 to ₦347.7 billion in 2025, and customer deposits growing from ₦1.699 trillion to ₦6.891 trillion.",
+  "ticker": "FIDELITYBK",
+  "title": "Fidelity Bank Plc Retirement and Appointment of CEO"
  },
  "FTGINSURE|2026-10-23|FORTIS GLOBAL INSURANCE PLC - BOARD MEETING RESOLUTION": {
   "category": "Corporate Action",

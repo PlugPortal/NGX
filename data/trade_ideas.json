@@ -1,6 +1,112 @@
 {
- "generated": "2026-11-13T01:17:48+01:00",
+ "generated": "2026-11-20T02:15:04+01:00",
  "ideas": [
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [
+     {
+      "date": "2026-10-16",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/236_Mr._Sehinde_Adenagbe_-_Share_Dealing_Notification.pdf",
+      "price": 168.9,
+      "shares": 40000,
+      "side": "BUY"
+     }
+    ],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": {
+     "date": "2026-10-23",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48151_NIGERIAN_EXCHANGE_GROUP_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• September 2026 Ytd | Unaudited\n• Revenue: ₦27.26bn | PAT: ₦14.69bn | Equity: ₦61.07bn | Assets: ₦79.11bn\n• Shareholders approved a 1-for-3 bonus share issue on 29 April 2026, increasing share capital by ₦367.4m via retained earnings.",
+     "title": "NIGERIAN EXCHANGE GROUP PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+    },
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "Nigerian Exchange Group Plc",
+   "passed": 9,
+   "plan": {
+    "entry": 173.0,
+    "entry_low": 167.81,
+    "entry_text": "Entry zone ₦167.81 – ₦173.00",
+    "notes": [],
+    "price_action": {
+     "below_52w_high_pct": 12.14,
+     "chg_1d": -1.14,
+     "chg_1y": 239.15,
+     "chg_30d": 6.06,
+     "chg_7d": 4.85,
+     "chg_ytd": 150.0,
+     "high_52w": 196.9,
+     "low_52w": 51.1,
+     "price": 173.0,
+     "range_position_pct": 83.61,
+     "rs_rank": 95.0,
+     "volume_vs_avg": 0.4,
+     "vs_20d_avg_pct": 4.71
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 722,
+    "stop": 159.16,
+    "stop_pct": 8,
+    "target_2r": 200.68,
+    "target_3r": 214.52
+   },
+   "sector": "FINANCIAL SERVICES",
+   "ticker": "NGXGROUP"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": {
+     "date": "2026-10-29",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48223_HBM_NIGERIA_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦928.25bn | PAT: ₦272bn | EPS: 1,689k | Equity: ₦611.61bn | Assets: ₦1,219.04bn\n• Name changed from Lafarge Africa Plc to HBM Nigeria Plc on 6th May 2026.",
+     "title": "HBM NIGERIA PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+    },
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "HBM Nigeria Plc",
+   "passed": 9,
+   "plan": {
+    "entry": 345.8,
+    "entry_low": 335.43,
+    "entry_text": "Entry zone ₦335.43 – ₦345.80",
+    "notes": [],
+    "price_action": {
+     "below_52w_high_pct": 11.31,
+     "chg_1d": 0.82,
+     "chg_1y": 155.97,
+     "chg_30d": -3.38,
+     "chg_7d": 9.4,
+     "chg_ytd": 155.02,
+     "high_52w": 389.9,
+     "low_52w": 132.8,
+     "price": 345.8,
+     "range_position_pct": 82.85,
+     "rs_rank": 90.71,
+     "volume_vs_avg": 1.92,
+     "vs_20d_avg_pct": 1.66
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 361,
+    "stop": 318.14,
+    "stop_pct": 8,
+    "target_2r": 401.13,
+    "target_3r": 428.79
+   },
+   "sector": "INDUSTRIAL GOODS",
+   "ticker": "HBMNG"
+  },
   {
    "facts": {
     "capital_raises_90d": [],
@@ -36,33 +142,32 @@
    "name": "Dangote Cement Plc",
    "passed": 9,
    "plan": {
-    "entry": 1504.9,
-    "entry_low": 1504.9,
-    "entry_text": "Buy-stop above the 52-week high: ₦1,504.90",
-    "notes": [
-     "Only 15 day(s) of price history collected so far; trend checks build up over time."
-    ],
+    "entry": 1323.0,
+    "entry_low": 1283.31,
+    "entry_text": "Entry zone ₦1,283.31 – ₦1,323.00",
+    "notes": [],
     "price_action": {
-     "below_52w_high_pct": 1.35,
+     "below_52w_high_pct": 11.21,
      "chg_1d": 0.0,
-     "chg_1y": 147.46,
-     "chg_30d": 37.8,
-     "chg_7d": 9.61,
-     "chg_ytd": 141.36,
+     "chg_1y": 147.47,
+     "chg_30d": 31.25,
+     "chg_7d": -9.99,
+     "chg_ytd": 117.24,
      "high_52w": 1490.0,
      "low_52w": 534.6,
-     "price": 1469.9,
-     "range_position_pct": 97.9,
+     "price": 1323.0,
+     "range_position_pct": 82.52,
      "rs_rank": 90.0,
-     "volume_vs_avg": 0.18
+     "volume_vs_avg": 0.11,
+     "vs_20d_avg_pct": -2.62
     },
     "risk_per_trade_pct": 1,
-    "setup": "Breakout watch",
-    "shares_per_1m_capital": 83,
-    "stop": 1384.51,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 94,
+    "stop": 1217.16,
     "stop_pct": 8,
-    "target_2r": 1745.68,
-    "target_3r": 1866.08
+    "target_2r": 1534.68,
+    "target_3r": 1640.52
    },
    "sector": "INDUSTRIAL GOODS",
    "ticker": "DANGCEM"
@@ -92,37 +197,93 @@
    "name": "Honeywell Flour Mills Plc",
    "passed": 9,
    "plan": {
-    "entry": 31.4,
-    "entry_low": 30.46,
-    "entry_text": "Entry zone ₦30.46 – ₦31.40",
-    "notes": [
-     "Only 15 day(s) of price history collected so far; trend checks build up over time."
-    ],
+    "entry": 38.88,
+    "entry_low": 38.88,
+    "entry_text": "Buy-stop above the 52-week high: ₦38.88",
+    "notes": [],
     "price_action": {
-     "below_52w_high_pct": 11.3,
-     "chg_1d": -4.85,
-     "chg_1y": 85.39,
-     "chg_30d": 84.36,
-     "chg_7d": 16.95,
-     "chg_ytd": 50.68,
-     "high_52w": 35.4,
+     "below_52w_high_pct": 0.0,
+     "chg_1d": 6.94,
+     "chg_1y": 80.9,
+     "chg_30d": 103.39,
+     "chg_7d": 22.61,
+     "chg_ytd": 64.38,
+     "high_52w": 38.5,
      "low_52w": 14.0,
-     "price": 31.4,
-     "range_position_pct": 81.31,
-     "rs_rank": 81.43,
-     "volume_vs_avg": 0.6
+     "price": 38.5,
+     "range_position_pct": 100.0,
+     "rs_rank": 83.57,
+     "volume_vs_avg": 0.42,
+     "vs_20d_avg_pct": 40.2
     },
     "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 3980,
-    "stop": 28.89,
+    "setup": "Breakout watch",
+    "shares_per_1m_capital": 3214,
+    "stop": 35.77,
     "stop_pct": 8,
-    "target_2r": 36.42,
-    "target_3r": 38.94
+    "target_2r": 45.11,
+    "target_3r": 48.22
    },
    "sector": "CONSUMER GOODS",
    "ticker": "HONYFLOUR"
+  },
+  {
+   "facts": {
+    "capital_raises_90d": [],
+    "director_dealings_90d": [
+     {
+      "date": "2026-09-29",
+      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/197_director's_dealings_.pdf",
+      "price": 30.1,
+      "shares": 13132796,
+      "side": "BUY"
+     }
+    ],
+    "eps_basis": "no comparable periods",
+    "eps_growth_pct": null,
+    "last_results": {
+     "date": "2026-10-30",
+     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48279_WEMA_BANK_PLC.-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
+     "summary": "• 9 Months ended 30 September 2026 | Unaudited\n• Revenue: ₦673.24bn | PAT: ₦219.84bn | EPS: 730.63k | Equity: ₦790.13bn | Assets: ₦7.43tn\n• Interest income grew to ₦543.56bn for the 9-month period, while deposits from customers increased to ₦3.86tn as of 30 September 2026.\n\n• FY 2025 | Unaudited\n• Revenue: ₦660.59bn | PAT: ₦194.46bn | EPS: 712.80k | Equity: ₦620.47bn | Assets: ₦5.07tn\n• Net interest income for the full year 2025 stood at ₦361.01bn against total interest expenses of ₦214.26bn.",
+     "title": "WEMA BANK PLC.- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
+    },
+    "meetings_90d": [],
+    "sales_basis": "no comparable periods",
+    "sales_growth_pct": null
+   },
+   "name": "Wema Bank Plc",
+   "passed": 9,
+   "plan": {
+    "entry": 33.0,
+    "entry_low": 32.01,
+    "entry_text": "Entry zone ₦32.01 – ₦33.00",
+    "notes": [],
+    "price_action": {
+     "below_52w_high_pct": 8.33,
+     "chg_1d": 0.0,
+     "chg_1y": 66.67,
+     "chg_30d": 10.37,
+     "chg_7d": 1.54,
+     "chg_ytd": 61.76,
+     "high_52w": 36.0,
+     "low_52w": 17.9,
+     "price": 33.0,
+     "range_position_pct": 83.43,
+     "rs_rank": 77.14,
+     "volume_vs_avg": 0.18,
+     "vs_20d_avg_pct": 3.35
+    },
+    "risk_per_trade_pct": 1,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 3787,
+    "stop": 30.36,
+    "stop_pct": 8,
+    "target_2r": 38.28,
+    "target_3r": 40.92
+   },
+   "sector": "FINANCIAL SERVICES",
+   "ticker": "WEMABANK"
   }
  ],
- "week_of": "2026-11-09"
+ "week_of": "2026-11-16"
 }
