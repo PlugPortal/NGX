@@ -1,17 +1,21 @@
 {
- "run_at": "2026-11-20T02:15:01+01:00",
+ "run_at": "2026-11-21T01:47:21+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
-   "new": 3,
+   "new": 7,
    "new_ids": [
-    "FIDELITYBK|2026-11-19|Fidelity Bank Plc Retirement and Appointment of CEO",
-    "48416",
-    "48417"
+    "48425",
+    "48424",
+    "48420",
+    "48423",
+    "48422",
+    "48421",
+    "48419"
    ],
    "ok": true,
-   "seconds": 0.3,
-   "total": 415
+   "seconds": 0.2,
+   "total": 422
   },
   "fundamentals": {
    "missing": [
@@ -40,30 +44,30 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦206.48",
-    "EUR/NGN": "₦1513.69",
-    "GBP/NGN": "₦1811.58",
-    "USD/NGN": "₦1376.58"
+    "CNY/NGN": "₦208.09",
+    "EUR/NGN": "₦1528.57",
+    "GBP/NGN": "₦1836.67",
+    "USD/NGN": "₦1389.73"
    },
    "rows": 1,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-20",
+   "note": "No market wrap published yet for 2026-11-21",
    "ok": true,
    "rows": 0,
-   "seconds": 1.2
+   "seconds": 0.8
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   "profiles": {
    "due": 0,
@@ -78,7 +82,7 @@
    "seconds": 0.0
   },
   "swing_screen": {
-   "candidates": 5,
+   "candidates": 4,
    "ok": true,
    "scored": 141,
    "seconds": 0.0
