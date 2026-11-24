@@ -1,21 +1,21 @@
 {
- "run_at": "2026-11-21T01:47:21+01:00",
+ "run_at": "2026-11-24T05:16:38+01:00",
  "steps": {
   "disclosures": {
    "backfilled_tickers": 0,
    "new": 7,
    "new_ids": [
-    "48425",
-    "48424",
-    "48420",
-    "48423",
-    "48422",
-    "48421",
-    "48419"
+    "48439",
+    "CORNERST|2026-11-23|CORNERSTONE PLC - INSUR INVESTMENT ACQUIRES 30.53% STAKE IN AIICO INSURANCE PLC",
+    "CORNERST|2026-11-23|CORNERSTONE PLC - PROPOSED MERGER",
+    "48435",
+    "48430",
+    "48428",
+    "48427"
    ],
    "ok": true,
-   "seconds": 0.2,
-   "total": 422
+   "seconds": 0.6,
+   "total": 429
   },
   "fundamentals": {
    "missing": [
@@ -44,30 +44,30 @@
    ],
    "ok": true,
    "rows": 119,
-   "seconds": 0.5
+   "seconds": 0.7
   },
   "fx": {
    "ok": true,
    "rates": {
-    "CNY/NGN": "₦208.09",
-    "EUR/NGN": "₦1528.57",
-    "GBP/NGN": "₦1836.67",
-    "USD/NGN": "₦1389.73"
+    "CNY/NGN": "₦209.15",
+    "EUR/NGN": "₦1524.91",
+    "GBP/NGN": "₦1822.67",
+    "USD/NGN": "₦1394.01"
    },
    "rows": 1,
-   "seconds": 0.1
+   "seconds": 0.4
   },
   "market_wrap": {
-   "note": "No market wrap published yet for 2026-11-21",
+   "note": "No market wrap published yet for 2026-11-24",
    "ok": true,
    "rows": 0,
-   "seconds": 0.8
+   "seconds": 0.7
   },
   "prices": {
    "missing": [],
    "ok": true,
    "rows": 141,
-   "seconds": 0.6
+   "seconds": 4.9
   },
   "profiles": {
    "due": 0,
