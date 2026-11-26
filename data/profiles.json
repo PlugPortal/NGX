@@ -1,8 +1,8 @@
 {
  "ABBEYBANK": {
-  "chg_1y": -3.85,
-  "chg_30d": -8.09,
-  "chg_ytd": -2.34,
+  "chg_1y": 6.15,
+  "chg_30d": 1.47,
+  "chg_ytd": 7.81,
   "high_52w": 16.35,
   "low_52w": 5.4,
   "peers": [
@@ -14,12 +14,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "ABBEYBANK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ABCTRANS": {
-  "chg_1y": 47.91,
-  "chg_30d": -6.61,
-  "chg_ytd": 37.8,
+  "chg_1y": 61.34,
+  "chg_30d": -15.91,
+  "chg_ytd": 35.37,
   "high_52w": 9.08,
   "low_52w": 2.88,
   "peers": [
@@ -31,7 +31,7 @@
   ],
   "sector": "SERVICES",
   "ticker": "ABCTRANS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ACADEMY": {
   "chg_1y": -23.88,
@@ -48,14 +48,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "ACADEMY",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ACCESSCORP": {
-  "chg_1y": 23.64,
-  "chg_30d": -2.68,
-  "chg_ytd": 29.52,
+  "chg_1y": 23.67,
+  "chg_30d": -7.25,
+  "chg_ytd": 21.9,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 36.0,
   "low_52w": 20.0,
   "peers": [
@@ -66,14 +66,14 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 8,
-   "hold": 0,
-   "n": 8,
+   "buy": 10,
+   "hold": 1,
+   "n": 11,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "ACCESSCORP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AFRINSURE": {
   "chg_1y": 0.0,
@@ -90,12 +90,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "AFRINSURE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AFRIPRUD": {
-  "chg_1y": -14.29,
-  "chg_30d": 9.09,
-  "chg_ytd": -18.92,
+  "chg_1y": -10.77,
+  "chg_30d": 7.41,
+  "chg_ytd": -21.62,
   "high_52w": 19.25,
   "low_52w": 10.0,
   "peers": [
@@ -107,7 +107,7 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "AFRIPRUD",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AFROMEDIA": {
   "chg_1y": 0.0,
@@ -124,16 +124,16 @@
   ],
   "sector": "SERVICES",
   "ticker": "AFROMEDIA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AIICO": {
-  "chg_1y": 7.74,
-  "chg_30d": -4.08,
-  "chg_ytd": -0.79,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 35.0,
+  "chg_30d": 8.27,
+  "chg_ytd": 13.98,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 5.21,
-  "low_52w": 3.15,
+  "low_52w": 3.2,
   "peers": [
    "FIRSTHOLDCO",
    "ZENITHBANK",
@@ -142,21 +142,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 1,
-   "n": 5,
+   "buy": 4,
+   "hold": 4,
+   "n": 9,
    "sell": 1
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "AIICO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AIRTELAFRI": {
   "chg_1y": 175.69,
   "chg_30d": -0.66,
   "chg_ytd": 175.69,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 6300.0,
   "low_52w": 2270.0,
   "peers": [
@@ -168,13 +168,13 @@
   ],
   "ratings": {
    "buy": 0,
-   "hold": 7,
-   "n": 8,
+   "hold": 9,
+   "n": 10,
    "sell": 1
   },
   "sector": "ICT",
   "ticker": "AIRTELAFRI",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ALEX": {
   "chg_1y": 38.46,
@@ -189,14 +189,14 @@
   ],
   "sector": "NATURAL RESOURCES",
   "ticker": "ALEX",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ARADEL": {
-  "chg_1y": 65.21,
-  "chg_30d": -22.23,
+  "chg_1y": 69.04,
+  "chg_30d": -18.99,
   "chg_ytd": 74.09,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 2024.0,
   "low_52w": 670.0,
   "peers": [
@@ -208,17 +208,17 @@
   ],
   "ratings": {
    "buy": 8,
-   "hold": 0,
-   "n": 8,
+   "hold": 1,
+   "n": 9,
    "sell": 0
   },
   "sector": "OIL AND GAS",
   "ticker": "ARADEL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AUSTINLAZ": {
   "chg_1y": 3.81,
-  "chg_30d": -23.68,
+  "chg_30d": -7.55,
   "chg_ytd": -42.35,
   "high_52w": 5.94,
   "low_52w": 1.99,
@@ -231,11 +231,11 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "AUSTINLAZ",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AVACAP": {
   "chg_1y": null,
-  "chg_30d": 21.26,
+  "chg_30d": 13.04,
   "chg_ytd": null,
   "high_52w": 11.95,
   "low_52w": 4.45,
@@ -248,7 +248,7 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "AVACAP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "AVAIF": {
   "chg_1y": null,
@@ -265,7 +265,7 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "AVAIF",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "BAPLC": {
   "chg_1y": 0.0,
@@ -282,10 +282,10 @@
   ],
   "sector": "ICT",
   "ticker": "BAPLC",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "BERGER": {
-  "chg_1y": 297.57,
+  "chg_1y": 310.89,
   "chg_30d": -0.34,
   "chg_ytd": 206.46,
   "high_52w": 168.95,
@@ -299,7 +299,7 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "BERGER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "BETAGLAS": {
   "chg_1y": 38.24,
@@ -316,14 +316,14 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "BETAGLAS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "BUACEMENT": {
   "chg_1y": 77.38,
   "chg_30d": 0.34,
   "chg_ytd": 66.95,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 460.0,
   "low_52w": 151.2,
   "peers": [
@@ -334,21 +334,21 @@
    "BERGER"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 0,
-   "n": 7,
+   "buy": 6,
+   "hold": 3,
+   "n": 11,
    "sell": 2
   },
   "sector": "INDUSTRIAL GOODS",
   "ticker": "BUACEMENT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "BUAFOODS": {
   "chg_1y": 9.83,
   "chg_30d": 0.0,
   "chg_ytd": -4.79,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 967.0,
   "low_52w": 692.5,
   "peers": [
@@ -359,18 +359,18 @@
    "DANGSUGAR"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 0,
-   "n": 5,
-   "sell": 1
+   "buy": 2,
+   "hold": 5,
+   "n": 9,
+   "sell": 2
   },
   "sector": "CONSUMER GOODS",
   "ticker": "BUAFOODS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CADBURY": {
   "chg_1y": 6.36,
-  "chg_30d": 4.5,
+  "chg_30d": 10.0,
   "chg_ytd": 4.67,
   "high_52w": 75.25,
   "low_52w": 53.0,
@@ -383,11 +383,11 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "CADBURY",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CAP": {
   "chg_1y": 50.68,
-  "chg_30d": 1.34,
+  "chg_30d": 0.0,
   "chg_ytd": 59.42,
   "high_52w": 233.7,
   "low_52w": 68.5,
@@ -400,12 +400,12 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "CAP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CAVERTON": {
-  "chg_1y": -18.45,
-  "chg_30d": 2.44,
-  "chg_ytd": -22.22,
+  "chg_1y": -14.14,
+  "chg_30d": -2.3,
+  "chg_ytd": -21.3,
   "high_52w": 8.45,
   "low_52w": 3.05,
   "peers": [
@@ -417,12 +417,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "CAVERTON",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CHAMPION": {
-  "chg_1y": -17.42,
-  "chg_30d": 18.5,
-  "chg_ytd": -15.36,
+  "chg_1y": -14.39,
+  "chg_30d": 25.56,
+  "chg_ytd": -19.29,
   "high_52w": 21.15,
   "low_52w": 8.0,
   "peers": [
@@ -434,14 +434,14 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "CHAMPION",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CHAMS": {
-  "chg_1y": -2.19,
-  "chg_30d": -10.57,
-  "chg_ytd": -19.74,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 0.0,
+  "chg_30d": -11.5,
+  "chg_ytd": -23.08,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 5.45,
   "low_52w": 2.81,
   "peers": [
@@ -452,20 +452,20 @@
    "NCR"
   ],
   "ratings": {
-   "buy": 2,
-   "hold": 0,
+   "buy": 1,
+   "hold": 1,
    "n": 2,
    "sell": 0
   },
   "sector": "ICT",
   "ticker": "CHAMS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CHELLARAM": {
-  "chg_1y": -34.46,
-  "chg_30d": 9.79,
-  "chg_ytd": -19.32,
-  "high_52w": 16.25,
+  "chg_1y": -20.14,
+  "chg_30d": 20.62,
+  "chg_ytd": -11.36,
+  "high_52w": 16.0,
   "low_52w": 9.7,
   "peers": [
    "UACN",
@@ -476,12 +476,12 @@
   ],
   "sector": "CONGLOMERATES",
   "ticker": "CHELLARAM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CILEASING": {
-  "chg_1y": -3.77,
-  "chg_30d": -5.56,
-  "chg_ytd": -25.55,
+  "chg_1y": -6.98,
+  "chg_30d": -3.7,
+  "chg_ytd": -24.09,
   "high_52w": 8.8,
   "low_52w": 4.7,
   "peers": [
@@ -493,7 +493,7 @@
   ],
   "sector": "SERVICES",
   "ticker": "CILEASING",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CNIF": {
   "chg_1y": 54.3,
@@ -510,11 +510,11 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "CNIF",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CONHALLPLC": {
-  "chg_1y": 68.27,
-  "chg_30d": 0.0,
+  "chg_1y": 69.08,
+  "chg_30d": 7.69,
   "chg_ytd": 61.29,
   "high_52w": 9.08,
   "low_52w": 3.7,
@@ -527,14 +527,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "CONHALLPLC",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CONOIL": {
   "chg_1y": 10.12,
   "chg_30d": 0.0,
   "chg_ytd": 12.18,
-  "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus": "SELL",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 213.0,
   "low_52w": 169.0,
   "peers": [
@@ -545,19 +545,19 @@
    "ETERNA"
   ],
   "ratings": {
-   "buy": 2,
+   "buy": 1,
    "hold": 0,
-   "n": 4,
+   "n": 3,
    "sell": 2
   },
   "sector": "OIL AND GAS",
   "ticker": "CONOIL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CORNERST": {
-  "chg_1y": -31.97,
-  "chg_30d": -15.31,
-  "chg_ytd": -30.37,
+  "chg_1y": 14.66,
+  "chg_30d": 38.54,
+  "chg_ytd": 11.58,
   "high_52w": 6.8,
   "low_52w": 3.7,
   "peers": [
@@ -569,14 +569,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "CORNERST",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CUSTODIAN": {
-  "chg_1y": 55.39,
-  "chg_30d": -7.32,
-  "chg_ytd": 44.19,
+  "chg_1y": 50.38,
+  "chg_30d": -7.26,
+  "chg_ytd": 39.53,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 89.95,
   "low_52w": 35.1,
   "peers": [
@@ -587,19 +587,19 @@
    "JOHNHOLT"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 1,
-   "n": 4,
+   "buy": 5,
+   "hold": 2,
+   "n": 7,
    "sell": 0
   },
   "sector": "CONGLOMERATES",
   "ticker": "CUSTODIAN",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CUTIX": {
-  "chg_1y": -26.76,
-  "chg_30d": 17.45,
-  "chg_ytd": -19.68,
+  "chg_1y": -29.18,
+  "chg_30d": 0.47,
+  "chg_ytd": -30.32,
   "high_52w": 4.19,
   "low_52w": 2.0,
   "peers": [
@@ -611,14 +611,14 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "CUTIX",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "CWG": {
-  "chg_1y": 10.32,
-  "chg_30d": -6.73,
-  "chg_ytd": 3.89,
+  "chg_1y": 5.0,
+  "chg_30d": -5.05,
+  "chg_ytd": -0.83,
   "high_52w": 25.4,
-  "low_52w": 15.3,
+  "low_52w": 15.6,
   "peers": [
    "AIRTELAFRI",
    "MTNN",
@@ -628,12 +628,12 @@
   ],
   "sector": "ICT",
   "ticker": "CWG",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "DAARCOMM": {
-  "chg_1y": 44.21,
-  "chg_30d": -4.2,
-  "chg_ytd": 47.31,
+  "chg_1y": 36.36,
+  "chg_30d": 0.75,
+  "chg_ytd": 45.16,
   "high_52w": 3.0,
   "low_52w": 0.83,
   "peers": [
@@ -645,14 +645,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "DAARCOMM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "DANGCEM": {
   "chg_1y": 147.47,
-  "chg_30d": 31.25,
+  "chg_30d": 8.26,
   "chg_ytd": 117.24,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 1490.0,
   "low_52w": 534.6,
   "peers": [
@@ -663,21 +663,21 @@
    "BERGER"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 2,
-   "n": 8,
-   "sell": 1
+   "buy": 3,
+   "hold": 6,
+   "n": 12,
+   "sell": 3
   },
   "sector": "INDUSTRIAL GOODS",
   "ticker": "DANGCEM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "DANGSUGAR": {
-  "chg_1y": 20.69,
-  "chg_30d": 4.09,
-  "chg_ytd": 16.67,
+  "chg_1y": 21.74,
+  "chg_30d": 1.11,
+  "chg_ytd": 13.42,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 95.8,
   "low_52w": 53.55,
   "peers": [
@@ -688,14 +688,14 @@
    "GUINNESS"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 2,
-   "n": 7,
+   "buy": 7,
+   "hold": 4,
+   "n": 11,
    "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "DANGSUGAR",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "EKOCORP": {
   "chg_1y": 0.0,
@@ -712,12 +712,12 @@
   ],
   "sector": "HEALTHCARE",
   "ticker": "EKOCORP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ELLAHLAKES": {
-  "chg_1y": -43.75,
-  "chg_30d": -5.88,
-  "chg_ytd": -46.27,
+  "chg_1y": -45.92,
+  "chg_30d": -13.21,
+  "chg_ytd": -48.51,
   "high_52w": 18.35,
   "low_52w": 6.5,
   "peers": [
@@ -729,7 +729,7 @@
   ],
   "sector": "AGRICULTURE",
   "ticker": "ELLAHLAKES",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ENAMELWA": {
   "chg_1y": -18.52,
@@ -746,12 +746,12 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "ENAMELWA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ETERNA": {
-  "chg_1y": 1.41,
-  "chg_30d": -7.46,
-  "chg_ytd": 26.32,
+  "chg_1y": -1.83,
+  "chg_30d": -10.41,
+  "chg_ytd": 22.28,
   "high_52w": 51.2,
   "low_52w": 27.75,
   "peers": [
@@ -763,14 +763,14 @@
   ],
   "sector": "OIL AND GAS",
   "ticker": "ETERNA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ETI": {
-  "chg_1y": 116.02,
-  "chg_30d": 10.07,
-  "chg_ytd": 78.64,
+  "chg_1y": 96.39,
+  "chg_30d": 1.57,
+  "chg_ytd": 62.41,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 97.4,
   "low_52w": 34.0,
   "peers": [
@@ -781,18 +781,18 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 6,
-   "hold": 0,
-   "n": 7,
+   "buy": 7,
+   "hold": 2,
+   "n": 10,
    "sell": 1
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "ETI",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ETRANZACT": {
-  "chg_1y": 17.36,
-  "chg_30d": -4.31,
+  "chg_1y": 7.61,
+  "chg_30d": -7.44,
   "chg_ytd": 37.0,
   "high_52w": 24.05,
   "low_52w": 11.0,
@@ -805,10 +805,10 @@
   ],
   "sector": "ICT",
   "ticker": "ETRANZACT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "EUNISELL": {
-  "chg_1y": 139.24,
+  "chg_1y": 118.5,
   "chg_30d": 0.0,
   "chg_ytd": 64.35,
   "high_52w": 210.0,
@@ -822,14 +822,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "EUNISELL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FCMB": {
-  "chg_1y": 4.25,
-  "chg_30d": 1.84,
-  "chg_ytd": -8.3,
+  "chg_1y": 27.14,
+  "chg_30d": 21.36,
+  "chg_ytd": 10.79,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 14.5,
   "low_52w": 9.05,
   "peers": [
@@ -840,21 +840,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 6,
-   "hold": 0,
-   "n": 6,
+   "buy": 8,
+   "hold": 1,
+   "n": 9,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "FCMB",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FIDELITYBK": {
-  "chg_1y": 20.1,
-  "chg_30d": 10.58,
-  "chg_ytd": 21.05,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 13.09,
+  "chg_30d": -6.09,
+  "chg_ytd": 13.68,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 24.95,
   "low_52w": 17.65,
   "peers": [
@@ -865,21 +865,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 2,
-   "n": 7,
-   "sell": 0
+   "buy": 3,
+   "hold": 4,
+   "n": 8,
+   "sell": 1
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "FIDELITYBK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FIDSON": {
   "chg_1y": 129.5,
   "chg_30d": 9.94,
   "chg_ytd": 83.23,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 136.5,
   "low_52w": 40.0,
   "peers": [
@@ -890,44 +890,44 @@
    "EKOCORP"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 1,
+   "buy": 1,
+   "hold": 3,
    "n": 4,
    "sell": 0
   },
   "sector": "HEALTHCARE",
   "ticker": "FIDSON",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FIRSTHOLDCO": {
-  "chg_1y": 264.84,
-  "chg_30d": -19.88,
-  "chg_ytd": 129.65,
-  "consensus": "SELL",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 237.1,
+  "chg_30d": -32.58,
+  "chg_ytd": 118.16,
+  "consensus": "BUY",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 165.0,
-  "low_52w": 30.0,
+  "low_52w": 30.15,
   "peers": [
    "ZENITHBANK",
    "GTCO",
    "STERLINGNG",
    "STANBIC",
-   "ETI"
+   "UBA"
   ],
   "ratings": {
-   "buy": 0,
-   "hold": 2,
-   "n": 6,
-   "sell": 4
+   "buy": 6,
+   "hold": 4,
+   "n": 10,
+   "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "FIRSTHOLDCO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FTGINSURE": {
-  "chg_1y": 900.0,
-  "chg_30d": 5.26,
-  "chg_ytd": 900.0,
+  "chg_1y": 725.0,
+  "chg_30d": -10.81,
+  "chg_ytd": 725.0,
   "high_52w": 3.57,
   "low_52w": 0.2,
   "peers": [
@@ -939,12 +939,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "FTGINSURE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "FTNCOCOA": {
-  "chg_1y": 23.34,
-  "chg_30d": -14.59,
-  "chg_ytd": 30.0,
+  "chg_1y": 31.0,
+  "chg_30d": -16.03,
+  "chg_ytd": 31.0,
   "high_52w": 11.95,
   "low_52w": 4.42,
   "peers": [
@@ -956,28 +956,28 @@
   ],
   "sector": "AGRICULTURE",
   "ticker": "FTNCOCOA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "GEREGU": {
   "chg_1y": -27.67,
   "chg_30d": 0.0,
   "chg_ytd": -27.67,
   "consensus": "SELL",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 1141.5,
   "low_52w": 825.7,
   "peers": [
    "TRANSPOWER"
   ],
   "ratings": {
-   "buy": 0,
-   "hold": 0,
-   "n": 2,
+   "buy": 1,
+   "hold": 1,
+   "n": 4,
    "sell": 2
   },
   "sector": "UTILITIES",
   "ticker": "GEREGU",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "GOLDBREW": {
   "chg_1y": 0.0,
@@ -994,14 +994,14 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "GOLDBREW",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "GTCO": {
-  "chg_1y": 35.2,
-  "chg_30d": -5.69,
-  "chg_ytd": 27.89,
+  "chg_1y": 27.91,
+  "chg_30d": -12.07,
+  "chg_ytd": 21.28,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 156.95,
   "low_52w": 80.5,
   "peers": [
@@ -1009,22 +1009,22 @@
    "ZENITHBANK",
    "STERLINGNG",
    "STANBIC",
-   "ETI"
+   "UBA"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 2,
-   "n": 6,
+   "buy": 11,
+   "hold": 1,
+   "n": 12,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "GTCO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "GUINEAINS": {
-  "chg_1y": -21.88,
-  "chg_30d": 11.11,
-  "chg_ytd": -24.81,
+  "chg_1y": -22.52,
+  "chg_30d": 0.0,
+  "chg_ytd": -35.34,
   "high_52w": 1.72,
   "low_52w": 0.66,
   "peers": [
@@ -1036,16 +1036,16 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "GUINEAINS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "GUINNESS": {
-  "chg_1y": 144.71,
+  "chg_1y": 149.1,
   "chg_30d": -1.65,
   "chg_ytd": 18.89,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 499.0,
-  "low_52w": 153.0,
+  "low_52w": 167.0,
   "peers": [
    "BUAFOODS",
    "NB",
@@ -1054,21 +1054,21 @@
    "DANGSUGAR"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 2,
-   "n": 7,
-   "sell": 1
+   "buy": 5,
+   "hold": 6,
+   "n": 11,
+   "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "GUINNESS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "HBMNG": {
-  "chg_1y": 155.97,
-  "chg_30d": -3.38,
-  "chg_ytd": 155.02,
+  "chg_1y": 144.03,
+  "chg_30d": -6.57,
+  "chg_ytd": 143.12,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 389.9,
   "low_52w": 132.8,
   "peers": [
@@ -1079,19 +1079,19 @@
    "BERGER"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 4,
-   "n": 8,
+   "buy": 5,
+   "hold": 7,
+   "n": 12,
    "sell": 0
   },
   "sector": "INDUSTRIAL GOODS",
   "ticker": "HBMNG",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "HMCALL": {
-  "chg_1y": -22.14,
-  "chg_30d": -4.11,
-  "chg_ytd": -18.25,
+  "chg_1y": -29.18,
+  "chg_30d": -11.73,
+  "chg_ytd": -24.75,
   "high_52w": 4.69,
   "low_52w": 2.85,
   "peers": [
@@ -1103,13 +1103,13 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "HMCALL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "HONYFLOUR": {
-  "chg_1y": 80.9,
-  "chg_30d": 103.39,
-  "chg_ytd": 64.38,
-  "high_52w": 36.5,
+  "chg_1y": 95.83,
+  "chg_30d": 79.39,
+  "chg_ytd": 60.96,
+  "high_52w": 39.8,
   "low_52w": 14.0,
   "peers": [
    "BUAFOODS",
@@ -1120,14 +1120,14 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "HONYFLOUR",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "IKEJAHOTEL": {
-  "chg_1y": 111.95,
+  "chg_1y": 90.15,
   "chg_30d": -3.44,
   "chg_ytd": 3.7,
   "high_52w": 48.4,
-  "low_52w": 19.0,
+  "low_52w": 22.8,
   "peers": [
    "TRANSCOHOT",
    "NAHCO",
@@ -1137,12 +1137,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "IKEJAHOTEL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "IMG": {
-  "chg_1y": -13.58,
-  "chg_30d": 0.0,
-  "chg_ytd": -12.5,
+  "chg_1y": -4.94,
+  "chg_30d": 10.0,
+  "chg_ytd": -3.75,
   "high_52w": 47.0,
   "low_52w": 27.65,
   "peers": [
@@ -1152,7 +1152,7 @@
   ],
   "sector": "NATURAL RESOURCES",
   "ticker": "IMG",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "INFINITY": {
   "chg_1y": 60.71,
@@ -1169,14 +1169,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "INFINITY",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "INTBREW": {
-  "chg_1y": -16.32,
-  "chg_30d": 0.0,
-  "chg_ytd": -28.57,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": -24.58,
+  "chg_30d": -2.69,
+  "chg_ytd": -35.36,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 15.95,
   "low_52w": 8.35,
   "peers": [
@@ -1189,19 +1189,19 @@
   "ratings": {
    "buy": 3,
    "hold": 2,
-   "n": 5,
-   "sell": 0
+   "n": 8,
+   "sell": 3
   },
   "sector": "CONSUMER GOODS",
   "ticker": "INTBREW",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "INTENEGINS": {
-  "chg_1y": -26.47,
-  "chg_30d": -0.99,
-  "chg_ytd": -20.0,
+  "chg_1y": -19.74,
+  "chg_30d": -8.33,
+  "chg_ytd": -25.2,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 9.64,
   "low_52w": 1.59,
   "peers": [
@@ -1211,16 +1211,22 @@
    "STERLINGNG",
    "STANBIC"
   ],
+  "ratings": {
+   "buy": 1,
+   "hold": 1,
+   "n": 2,
+   "sell": 0
+  },
   "sector": "FINANCIAL SERVICES",
   "ticker": "INTENEGINS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "JAIZBANK": {
-  "chg_1y": 49.57,
+  "chg_1y": 55.56,
   "chg_30d": -10.26,
   "chg_ytd": 53.85,
   "high_52w": 15.43,
-  "low_52w": 4.42,
+  "low_52w": 4.43,
   "peers": [
    "FIRSTHOLDCO",
    "ZENITHBANK",
@@ -1230,14 +1236,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "JAIZBANK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "JAPAULGOLD": {
-  "chg_1y": 12.11,
+  "chg_1y": 15.71,
   "chg_30d": 0.0,
-  "chg_ytd": 8.23,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_ytd": 5.19,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 4.49,
   "low_52w": 2.07,
   "peers": [
@@ -1248,21 +1254,21 @@
    "CONOIL"
   ],
   "ratings": {
-   "buy": 2,
-   "hold": 0,
-   "n": 2,
+   "buy": 1,
+   "hold": 2,
+   "n": 3,
    "sell": 0
   },
   "sector": "OIL AND GAS",
   "ticker": "JAPAULGOLD",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "JBERGER": {
-  "chg_1y": 124.89,
-  "chg_30d": 0.0,
-  "chg_ytd": 103.27,
+  "chg_1y": 90.34,
+  "chg_30d": -9.97,
+  "chg_ytd": 83.0,
   "high_52w": 315.0,
-  "low_52w": 138.2,
+  "low_52w": 139.0,
   "peers": [
    "NIDF",
    "NREIT",
@@ -1272,7 +1278,7 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "JBERGER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "JOHNHOLT": {
   "chg_1y": 46.3,
@@ -1289,7 +1295,7 @@
   ],
   "sector": "CONGLOMERATES",
   "ticker": "JOHNHOLT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "JULI": {
   "chg_1y": -18.73,
@@ -1306,14 +1312,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "JULI",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LASACO": {
-  "chg_1y": -34.21,
-  "chg_30d": 0.0,
-  "chg_ytd": -28.57,
+  "chg_1y": -25.6,
+  "chg_30d": 4.49,
+  "chg_ytd": -24.08,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 2.99,
   "low_52w": 1.6,
   "peers": [
@@ -1331,12 +1337,12 @@
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "LASACO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LEARNAFRCA": {
-  "chg_1y": 45.3,
-  "chg_30d": -7.1,
-  "chg_ytd": 29.77,
+  "chg_1y": 20.69,
+  "chg_30d": -23.5,
+  "chg_ytd": 6.87,
   "high_52w": 14.35,
   "low_52w": 5.22,
   "peers": [
@@ -1348,12 +1354,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "LEARNAFRCA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LEGENDINT": {
-  "chg_1y": -43.8,
-  "chg_30d": 0.0,
-  "chg_ytd": -35.73,
+  "chg_1y": -38.21,
+  "chg_30d": -4.41,
+  "chg_ytd": -38.56,
   "high_52w": 8.77,
   "low_52w": 3.0,
   "peers": [
@@ -1365,12 +1371,12 @@
   ],
   "sector": "ICT",
   "ticker": "LEGENDINT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LINKASSURE": {
-  "chg_1y": -15.68,
-  "chg_30d": -4.88,
-  "chg_ytd": -12.36,
+  "chg_1y": 8.93,
+  "chg_30d": 14.37,
+  "chg_ytd": 2.81,
   "high_52w": 2.05,
   "low_52w": 1.38,
   "peers": [
@@ -1382,12 +1388,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "LINKASSURE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LIVESTOCK": {
-  "chg_1y": 113.74,
-  "chg_30d": -26.12,
-  "chg_ytd": 131.4,
+  "chg_1y": 78.29,
+  "chg_30d": -25.81,
+  "chg_ytd": 90.08,
   "high_52w": 20.45,
   "low_52w": 5.65,
   "peers": [
@@ -1399,12 +1405,12 @@
   ],
   "sector": "AGRICULTURE",
   "ticker": "LIVESTOCK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "LIVINGTRUST": {
-  "chg_1y": -24.66,
-  "chg_30d": -4.1,
-  "chg_ytd": -18.55,
+  "chg_1y": -16.2,
+  "chg_30d": -6.83,
+  "chg_ytd": -13.04,
   "high_52w": 6.55,
   "low_52w": 2.33,
   "peers": [
@@ -1416,14 +1422,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "LIVINGTRUST",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MANSARD": {
-  "chg_1y": 8.08,
-  "chg_30d": 27.73,
-  "chg_ytd": 2.55,
+  "chg_1y": 3.61,
+  "chg_30d": 17.27,
+  "chg_ytd": -5.84,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 18.0,
   "low_52w": 10.6,
   "peers": [
@@ -1434,21 +1440,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 2,
-   "n": 5,
+   "buy": 4,
+   "hold": 3,
+   "n": 7,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "MANSARD",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MAYBAKER": {
-  "chg_1y": 127.92,
-  "chg_30d": 0.63,
-  "chg_ytd": 110.53,
+  "chg_1y": 158.06,
+  "chg_30d": 10.69,
+  "chg_ytd": 131.58,
   "high_52w": 52.5,
-  "low_52w": 15.7,
+  "low_52w": 16.2,
   "peers": [
    "MECURE",
    "FIDSON",
@@ -1458,14 +1464,14 @@
   ],
   "sector": "HEALTHCARE",
   "ticker": "MAYBAKER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MBENEFIT": {
-  "chg_1y": -14.79,
-  "chg_30d": -10.0,
+  "chg_1y": -14.03,
+  "chg_30d": -2.37,
   "chg_ytd": -7.1,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 5.95,
   "low_52w": 2.66,
   "peers": [
@@ -1483,12 +1489,12 @@
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "MBENEFIT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MCNICHOLS": {
-  "chg_1y": 81.32,
-  "chg_30d": -6.6,
-  "chg_ytd": 51.38,
+  "chg_1y": 57.41,
+  "chg_30d": -18.27,
+  "chg_ytd": 29.97,
   "high_52w": 9.6,
   "low_52w": 2.44,
   "peers": [
@@ -1500,7 +1506,7 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "MCNICHOLS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MECURE": {
   "chg_1y": 102.89,
@@ -1517,12 +1523,12 @@
   ],
   "sector": "HEALTHCARE",
   "ticker": "MECURE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MEYER": {
-  "chg_1y": -1.24,
-  "chg_30d": 0.0,
-  "chg_ytd": 23.17,
+  "chg_1y": -10.53,
+  "chg_30d": -17.43,
+  "chg_ytd": 11.58,
   "high_52w": 23.9,
   "low_52w": 11.8,
   "peers": [
@@ -1534,10 +1540,10 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "MEYER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MOFIREIF": {
-  "chg_1y": null,
+  "chg_1y": 0.0,
   "chg_30d": 0.0,
   "chg_ytd": 0.0,
   "high_52w": 100.0,
@@ -1551,7 +1557,7 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "MOFIREIF",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MORISON": {
   "chg_1y": 222.98,
@@ -1568,14 +1574,14 @@
   ],
   "sector": "HEALTHCARE",
   "ticker": "MORISON",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MTNN": {
-  "chg_1y": 76.21,
-  "chg_30d": 1.45,
-  "chg_ytd": 63.8,
+  "chg_1y": 71.29,
+  "chg_30d": -3.45,
+  "chg_ytd": 55.87,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 915.0,
   "low_52w": 465.0,
   "peers": [
@@ -1586,14 +1592,14 @@
    "NCR"
   ],
   "ratings": {
-   "buy": 8,
-   "hold": 0,
-   "n": 8,
+   "buy": 11,
+   "hold": 1,
+   "n": 12,
    "sell": 0
   },
   "sector": "ICT",
   "ticker": "MTNN",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MULTITREX": {
   "chg_1y": 100.0,
@@ -1610,7 +1616,7 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "MULTITREX",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "MULTIVERSE": {
   "chg_1y": 72.14,
@@ -1625,14 +1631,14 @@
   ],
   "sector": "NATURAL RESOURCES",
   "ticker": "MULTIVERSE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NAHCO": {
-  "chg_1y": 31.94,
-  "chg_30d": 3.57,
-  "chg_ytd": 34.26,
+  "chg_1y": 22.54,
+  "chg_30d": -6.79,
+  "chg_ytd": 20.83,
   "high_52w": 258.0,
-  "low_52w": 99.15,
+  "low_52w": 100.0,
   "peers": [
    "TRANSCOHOT",
    "SKYAVN",
@@ -1642,14 +1648,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "NAHCO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NASCON": {
-  "chg_1y": 61.2,
-  "chg_30d": -2.34,
-  "chg_ytd": 55.35,
+  "chg_1y": 53.47,
+  "chg_30d": -13.35,
+  "chg_ytd": 47.91,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 222.0,
   "low_52w": 95.1,
   "peers": [
@@ -1660,21 +1666,21 @@
    "GUINNESS"
   ],
   "ratings": {
-   "buy": 6,
-   "hold": 0,
-   "n": 6,
+   "buy": 8,
+   "hold": 1,
+   "n": 9,
    "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "NASCON",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NB": {
-  "chg_1y": 0.0,
-  "chg_30d": -6.67,
-  "chg_ytd": -7.04,
+  "chg_1y": 2.12,
+  "chg_30d": -5.47,
+  "chg_ytd": -7.1,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 103.0,
   "low_52w": 66.0,
   "peers": [
@@ -1685,21 +1691,21 @@
    "DANGSUGAR"
   ],
   "ratings": {
-   "buy": 7,
-   "hold": 1,
-   "n": 8,
+   "buy": 9,
+   "hold": 2,
+   "n": 11,
    "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "NB",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NCR": {
-  "chg_1y": 420.84,
+  "chg_1y": 256.64,
   "chg_30d": 0.0,
   "chg_ytd": 121.73,
   "high_52w": 199.0,
-  "low_52w": 30.95,
+  "low_52w": 45.2,
   "peers": [
    "AIRTELAFRI",
    "MTNN",
@@ -1709,14 +1715,14 @@
   ],
   "sector": "ICT",
   "ticker": "NCR",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NEIMETH": {
-  "chg_1y": 26.79,
-  "chg_30d": -12.35,
+  "chg_1y": 31.48,
+  "chg_30d": -2.74,
   "chg_ytd": 22.41,
   "high_52w": 16.15,
-  "low_52w": 4.95,
+  "low_52w": 5.05,
   "peers": [
    "MECURE",
    "FIDSON",
@@ -1726,14 +1732,14 @@
   ],
   "sector": "HEALTHCARE",
   "ticker": "NEIMETH",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NEM": {
-  "chg_1y": -5.2,
-  "chg_30d": -0.18,
-  "chg_ytd": 5.41,
+  "chg_1y": 10.02,
+  "chg_30d": 0.0,
+  "chg_ytd": 4.48,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 36.0,
   "low_52w": 22.55,
   "peers": [
@@ -1744,23 +1750,23 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 4,
+   "buy": 5,
    "hold": 0,
    "n": 5,
-   "sell": 1
+   "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "NEM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NESTLE": {
-  "chg_1y": 53.18,
+  "chg_1y": 48.88,
   "chg_30d": -3.64,
   "chg_ytd": 35.34,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 3395.0,
-  "low_52w": 1730.0,
+  "low_52w": 1780.0,
   "peers": [
    "BUAFOODS",
    "NB",
@@ -1769,19 +1775,19 @@
    "DANGSUGAR"
   ],
   "ratings": {
-   "buy": 6,
-   "hold": 1,
-   "n": 7,
+   "buy": 9,
+   "hold": 3,
+   "n": 12,
    "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "NESTLE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NGXGROUP": {
-  "chg_1y": 239.15,
-  "chg_30d": 6.06,
-  "chg_ytd": 150.0,
+  "chg_1y": 223.64,
+  "chg_30d": 1.21,
+  "chg_ytd": 138.57,
   "high_52w": 196.9,
   "low_52w": 51.1,
   "peers": [
@@ -1793,7 +1799,7 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "NGXGROUP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NIDF": {
   "chg_1y": 37.39,
@@ -1810,7 +1816,7 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "NIDF",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NNFM": {
   "chg_1y": -5.81,
@@ -1827,12 +1833,12 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "NNFM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NPFMCRFBK": {
-  "chg_1y": 48.83,
-  "chg_30d": 2.3,
-  "chg_ytd": 19.95,
+  "chg_1y": 62.96,
+  "chg_30d": 2.33,
+  "chg_ytd": 18.6,
   "high_52w": 8.0,
   "low_52w": 2.7,
   "peers": [
@@ -1844,7 +1850,7 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "NPFMCRFBK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NREIT": {
   "chg_1y": null,
@@ -1861,10 +1867,10 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "NREIT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "NSLTECH": {
-  "chg_1y": -25.88,
+  "chg_1y": -18.18,
   "chg_30d": -10.0,
   "chg_ytd": -17.11,
   "high_52w": 1.8,
@@ -1878,14 +1884,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "NSLTECH",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "OANDO": {
-  "chg_1y": -14.08,
-  "chg_30d": 4.8,
-  "chg_ytd": -10.45,
-  "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": -15.38,
+  "chg_30d": -0.3,
+  "chg_ytd": -17.91,
+  "consensus": "BUY",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 56.8,
   "low_52w": 31.0,
   "peers": [
@@ -1896,21 +1902,21 @@
    "ETERNA"
   ],
   "ratings": {
-   "buy": 1,
+   "buy": 4,
    "hold": 2,
-   "n": 3,
+   "n": 6,
    "sell": 0
   },
   "sector": "OIL AND GAS",
   "ticker": "OANDO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "OKOMUOIL": {
   "chg_1y": 2.44,
   "chg_30d": -10.9,
   "chg_ytd": 3.84,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 1765.0,
   "low_52w": 1038.0,
   "peers": [
@@ -1921,19 +1927,19 @@
    "ZICHIS"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 1,
-   "n": 8,
-   "sell": 3
+   "buy": 6,
+   "hold": 4,
+   "n": 11,
+   "sell": 1
   },
   "sector": "AGRICULTURE",
   "ticker": "OKOMUOIL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "OMATEK": {
-  "chg_1y": 11.54,
-  "chg_30d": 0.0,
-  "chg_ytd": 28.32,
+  "chg_1y": 30.84,
+  "chg_30d": 3.7,
+  "chg_ytd": 23.89,
   "high_52w": 3.5,
   "low_52w": 1.04,
   "peers": [
@@ -1945,7 +1951,7 @@
   ],
   "sector": "ICT",
   "ticker": "OMATEK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "PREMPAINTS": {
   "chg_1y": 204.0,
@@ -1962,14 +1968,14 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "PREMPAINTS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "PRESCO": {
   "chg_1y": 14.26,
   "chg_30d": -18.99,
   "chg_ytd": 14.26,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 2315.4,
   "low_52w": 1425.0,
   "peers": [
@@ -1980,19 +1986,19 @@
    "ZICHIS"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 2,
-   "n": 8,
-   "sell": 1
+   "buy": 6,
+   "hold": 3,
+   "n": 9,
+   "sell": 0
   },
   "sector": "AGRICULTURE",
   "ticker": "PRESCO",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "PRESTIGE": {
-  "chg_1y": -17.5,
-  "chg_30d": -5.04,
-  "chg_ytd": -16.46,
+  "chg_1y": -7.38,
+  "chg_30d": 0.0,
+  "chg_ytd": -12.66,
   "high_52w": 2.1,
   "low_52w": 1.3,
   "peers": [
@@ -2004,16 +2010,16 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "PRESTIGE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "PZ": {
-  "chg_1y": 63.64,
-  "chg_30d": 0.47,
-  "chg_ytd": 46.11,
+  "chg_1y": 61.88,
+  "chg_30d": 1.65,
+  "chg_ytd": 46.0,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 109.0,
-  "low_52w": 39.6,
+  "low_52w": 40.0,
   "peers": [
    "BUAFOODS",
    "NB",
@@ -2022,19 +2028,19 @@
    "GUINNESS"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 0,
-   "n": 3,
+   "buy": 4,
+   "hold": 2,
+   "n": 6,
    "sell": 0
   },
   "sector": "CONSUMER GOODS",
   "ticker": "PZ",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "REDSTAREX": {
-  "chg_1y": 26.63,
-  "chg_30d": -13.06,
-  "chg_ytd": 33.91,
+  "chg_1y": 11.96,
+  "chg_30d": -23.13,
+  "chg_ytd": 18.39,
   "high_52w": 34.95,
   "low_52w": 8.7,
   "peers": [
@@ -2046,11 +2052,11 @@
   ],
   "sector": "SERVICES",
   "ticker": "REDSTAREX",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "REGALINS": {
-  "chg_1y": -37.72,
-  "chg_30d": -6.58,
+  "chg_1y": -32.38,
+  "chg_30d": 1.43,
   "chg_ytd": -34.26,
   "high_52w": 1.33,
   "low_52w": 0.6,
@@ -2063,12 +2069,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "REGALINS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ROYALEX": {
-  "chg_1y": -51.22,
-  "chg_30d": -0.99,
-  "chg_ytd": -46.24,
+  "chg_1y": -52.76,
+  "chg_30d": -12.15,
+  "chg_ytd": -49.46,
   "high_52w": 2.59,
   "low_52w": 0.83,
   "peers": [
@@ -2080,12 +2086,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "ROYALEX",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "RTBRISCOE": {
-  "chg_1y": 123.37,
-  "chg_30d": -18.38,
-  "chg_ytd": 115.71,
+  "chg_1y": 139.52,
+  "chg_30d": -13.98,
+  "chg_ytd": 128.57,
   "high_52w": 19.16,
   "low_52w": 3.0,
   "peers": [
@@ -2097,7 +2103,7 @@
   ],
   "sector": "SERVICES",
   "ticker": "RTBRISCOE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SCOA": {
   "chg_1y": 365.49,
@@ -2114,14 +2120,14 @@
   ],
   "sector": "CONGLOMERATES",
   "ticker": "SCOA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SEPLAT": {
   "chg_1y": 179.6,
   "chg_30d": 1.51,
   "chg_ytd": 179.6,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 16500.0,
   "low_52w": 5610.0,
   "peers": [
@@ -2132,14 +2138,14 @@
    "ETERNA"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 2,
-   "n": 8,
-   "sell": 3
+   "buy": 4,
+   "hold": 6,
+   "n": 10,
+   "sell": 0
   },
   "sector": "OIL AND GAS",
   "ticker": "SEPLAT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SFSREIT": {
   "chg_1y": 0.0,
@@ -2156,7 +2162,7 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "SFSREIT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SKYAVN": {
   "chg_1y": 112.41,
@@ -2173,12 +2179,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "SKYAVN",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SOVRENINS": {
-  "chg_1y": -26.18,
-  "chg_30d": 18.96,
-  "chg_ytd": -34.29,
+  "chg_1y": -14.04,
+  "chg_30d": 25.64,
+  "chg_ytd": -35.86,
   "high_52w": 4.3,
   "low_52w": 1.6,
   "peers": [
@@ -2190,14 +2196,14 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "SOVRENINS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "STANBIC": {
-  "chg_1y": 57.14,
-  "chg_30d": 3.13,
-  "chg_ytd": 65.0,
+  "chg_1y": 52.48,
+  "chg_30d": 0.06,
+  "chg_ytd": 60.1,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 188.55,
   "low_52w": 94.6,
   "peers": [
@@ -2205,24 +2211,24 @@
    "ZENITHBANK",
    "GTCO",
    "STERLINGNG",
-   "ETI"
+   "UBA"
   ],
   "ratings": {
-   "buy": 3,
-   "hold": 3,
-   "n": 7,
-   "sell": 1
+   "buy": 4,
+   "hold": 4,
+   "n": 8,
+   "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "STANBIC",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "STERLINGNG": {
-  "chg_1y": 906.71,
-  "chg_30d": -2.6,
+  "chg_1y": 927.4,
+  "chg_30d": -1.32,
   "chg_ytd": 963.83,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 77.0,
   "low_52w": 6.55,
   "peers": [
@@ -2230,7 +2236,7 @@
    "ZENITHBANK",
    "GTCO",
    "STANBIC",
-   "ETI"
+   "UBA"
   ],
   "ratings": {
    "buy": 2,
@@ -2240,14 +2246,14 @@
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "STERLINGNG",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "SUNUASSUR": {
-  "chg_1y": -39.78,
-  "chg_30d": -7.67,
-  "chg_ytd": -49.64,
+  "chg_1y": -30.59,
+  "chg_30d": 1.33,
+  "chg_ytd": -44.73,
   "high_52w": 5.5,
-  "low_52w": 2.62,
+  "low_52w": 2.6,
   "peers": [
    "FIRSTHOLDCO",
    "ZENITHBANK",
@@ -2257,12 +2263,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "SUNUASSUR",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TANTALIZER": {
-  "chg_1y": 37.21,
-  "chg_30d": -5.09,
-  "chg_ytd": 41.6,
+  "chg_1y": 46.81,
+  "chg_30d": -9.21,
+  "chg_ytd": 38.0,
   "high_52w": 6.25,
   "low_52w": 2.17,
   "peers": [
@@ -2274,12 +2280,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "TANTALIZER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TIP": {
-  "chg_1y": 118.88,
-  "chg_30d": 1.59,
-  "chg_ytd": 91.73,
+  "chg_1y": 107.33,
+  "chg_30d": 3.0,
+  "chg_ytd": 80.83,
   "high_52w": 42.3,
   "low_52w": 11.0,
   "peers": [
@@ -2291,14 +2297,14 @@
   ],
   "sector": "SERVICES",
   "ticker": "TIP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TOTAL": {
   "chg_1y": -19.0,
   "chg_30d": 0.0,
   "chg_ytd": -19.0,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 640.0,
   "low_52w": 518.4,
   "peers": [
@@ -2316,14 +2322,14 @@
   },
   "sector": "OIL AND GAS",
   "ticker": "TOTAL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TRANSCOHOT": {
   "chg_1y": 66.09,
   "chg_30d": 0.0,
   "chg_ytd": 69.98,
   "consensus": "SELL",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 290.5,
   "low_52w": 155.6,
   "peers": [
@@ -2333,16 +2339,22 @@
    "EUNISELL",
    "TIP"
   ],
+  "ratings": {
+   "buy": 0,
+   "hold": 0,
+   "n": 2,
+   "sell": 2
+  },
   "sector": "SERVICES",
   "ticker": "TRANSCOHOT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TRANSCORP": {
-  "chg_1y": -28.89,
-  "chg_30d": -11.36,
-  "chg_ytd": -29.52,
+  "chg_1y": -24.84,
+  "chg_30d": -16.62,
+  "chg_ytd": -33.7,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 55.05,
   "low_52w": 30.0,
   "peers": [
@@ -2354,20 +2366,20 @@
   ],
   "ratings": {
    "buy": 3,
-   "hold": 1,
-   "n": 4,
+   "hold": 2,
+   "n": 5,
    "sell": 0
   },
   "sector": "CONGLOMERATES",
   "ticker": "TRANSCORP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TRANSEXPR": {
-  "chg_1y": 13.95,
-  "chg_30d": -9.26,
-  "chg_ytd": 13.95,
+  "chg_1y": 8.37,
+  "chg_30d": -13.7,
+  "chg_ytd": 8.37,
   "high_52w": 8.71,
-  "low_52w": 2.15,
+  "low_52w": 2.12,
   "peers": [
    "TRANSCOHOT",
    "NAHCO",
@@ -2377,33 +2389,33 @@
   ],
   "sector": "SERVICES",
   "ticker": "TRANSEXPR",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TRANSPOWER": {
   "chg_1y": -24.63,
   "chg_30d": 30.34,
   "chg_ytd": -24.43,
   "consensus": "HOLD",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 307.8,
   "low_52w": 178.0,
   "peers": [
    "GEREGU"
   ],
   "ratings": {
-   "buy": 1,
-   "hold": 1,
-   "n": 2,
-   "sell": 0
+   "buy": 2,
+   "hold": 0,
+   "n": 4,
+   "sell": 2
   },
   "sector": "UTILITIES",
   "ticker": "TRANSPOWER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "TRIPPLEG": {
-  "chg_1y": -45.48,
-  "chg_30d": -22.01,
-  "chg_ytd": -45.48,
+  "chg_1y": -45.7,
+  "chg_30d": -14.89,
+  "chg_ytd": -45.7,
   "high_52w": 7.7,
   "low_52w": 2.3,
   "peers": [
@@ -2415,16 +2427,16 @@
   ],
   "sector": "INDUSTRIAL GOODS",
   "ticker": "TRIPPLEG",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UACN": {
-  "chg_1y": 177.56,
-  "chg_30d": -3.31,
-  "chg_ytd": 92.31,
+  "chg_1y": 112.6,
+  "chg_30d": -10.5,
+  "chg_ytd": 78.02,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 203.95,
-  "low_52w": 58.5,
+  "low_52w": 73.0,
   "peers": [
    "CUSTODIAN",
    "TRANSCORP",
@@ -2440,16 +2452,16 @@
   },
   "sector": "CONGLOMERATES",
   "ticker": "UACN",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UBA": {
-  "chg_1y": 2.83,
-  "chg_30d": -4.76,
-  "chg_ytd": -3.96,
+  "chg_1y": 3.2,
+  "chg_30d": -9.19,
+  "chg_ytd": -11.04,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 55.2,
-  "low_52w": 35.6,
+  "low_52w": 35.8,
   "peers": [
    "FIRSTHOLDCO",
    "ZENITHBANK",
@@ -2458,21 +2470,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 2,
-   "n": 7,
-   "sell": 0
+   "buy": 8,
+   "hold": 1,
+   "n": 10,
+   "sell": 1
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "UBA",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UCAP": {
-  "chg_1y": -5.48,
-  "chg_30d": -3.24,
-  "chg_ytd": -12.3,
+  "chg_1y": -1.23,
+  "chg_30d": -3.02,
+  "chg_ytd": -14.17,
   "high_52w": 21.5,
-  "low_52w": 15.95,
+  "low_52w": 15.85,
   "peers": [
    "FIRSTHOLDCO",
    "ZENITHBANK",
@@ -2482,7 +2494,7 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "UCAP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UHREIT": {
   "chg_1y": null,
@@ -2499,16 +2511,16 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "UHREIT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UNILEVER": {
-  "chg_1y": 53.7,
-  "chg_30d": 8.93,
-  "chg_ytd": 55.83,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 40.28,
+  "chg_30d": -7.34,
+  "chg_ytd": 40.28,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 172.0,
-  "low_52w": 69.0,
+  "low_52w": 72.0,
   "peers": [
    "BUAFOODS",
    "NB",
@@ -2518,16 +2530,16 @@
   ],
   "ratings": {
    "buy": 4,
-   "hold": 2,
-   "n": 7,
+   "hold": 6,
+   "n": 11,
    "sell": 1
   },
   "sector": "CONSUMER GOODS",
   "ticker": "UNILEVER",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UNIONDICON": {
-  "chg_1y": 244.2,
+  "chg_1y": 276.98,
   "chg_30d": 0.0,
   "chg_ytd": 244.2,
   "high_52w": 23.75,
@@ -2541,10 +2553,10 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "UNIONDICON",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UNIVINSURE": {
-  "chg_1y": -40.77,
+  "chg_1y": -34.19,
   "chg_30d": 0.0,
   "chg_ytd": -36.36,
   "high_52w": 1.74,
@@ -2558,12 +2570,12 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "UNIVINSURE",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UPDC": {
-  "chg_1y": -34.56,
-  "chg_30d": -1.27,
-  "chg_ytd": -20.41,
+  "chg_1y": -38.33,
+  "chg_30d": 2.78,
+  "chg_ytd": -24.49,
   "high_52w": 6.5,
   "low_52w": 3.1,
   "peers": [
@@ -2575,12 +2587,12 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "UPDC",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UPDCREIT": {
-  "chg_1y": 183.82,
-  "chg_30d": -8.75,
-  "chg_ytd": 179.71,
+  "chg_1y": 194.57,
+  "chg_30d": 8.57,
+  "chg_ytd": 175.36,
   "high_52w": 26.95,
   "low_52w": 6.45,
   "peers": [
@@ -2592,12 +2604,12 @@
   ],
   "sector": "CONSTRUCTION/REAL ESTATE",
   "ticker": "UPDCREIT",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "UPL": {
-  "chg_1y": -10.71,
-  "chg_30d": 7.53,
-  "chg_ytd": -16.67,
+  "chg_1y": -20.0,
+  "chg_30d": 10.34,
+  "chg_ytd": -20.0,
   "high_52w": 6.6,
   "low_52w": 4.0,
   "peers": [
@@ -2609,12 +2621,12 @@
   ],
   "sector": "SERVICES",
   "ticker": "UPL",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "VERITASKAP": {
-  "chg_1y": -38.92,
-  "chg_30d": 3.67,
-  "chg_ytd": -33.92,
+  "chg_1y": -41.18,
+  "chg_30d": -7.41,
+  "chg_ytd": -41.52,
   "high_52w": 2.64,
   "low_52w": 0.86,
   "peers": [
@@ -2626,21 +2638,21 @@
   ],
   "sector": "FINANCIAL SERVICES",
   "ticker": "VERITASKAP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "VFDGROUP": {
-  "chg_1y": 8.13,
-  "chg_30d": -14.07,
-  "chg_ytd": 2.73,
+  "chg_1y": 5.77,
+  "chg_30d": -8.33,
+  "chg_ytd": 0.0,
   "high_52w": 15.0,
   "low_52w": 9.5,
   "peers": [],
   "sector": "INVESTMENT",
   "ticker": "VFDGROUP",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "VITAFOAM": {
-  "chg_1y": 61.15,
+  "chg_1y": 68.11,
   "chg_30d": -19.7,
   "chg_ytd": 52.39,
   "high_52w": 210.0,
@@ -2654,14 +2666,14 @@
   ],
   "sector": "CONSUMER GOODS",
   "ticker": "VITAFOAM",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "WAPIC": {
-  "chg_1y": -20.28,
-  "chg_30d": -3.86,
-  "chg_ytd": -31.08,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": -10.7,
+  "chg_30d": -13.2,
+  "chg_ytd": -33.23,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 4.06,
   "low_52w": 2.0,
   "peers": [
@@ -2672,21 +2684,21 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 4,
-   "hold": 1,
-   "n": 5,
+   "buy": 2,
+   "hold": 2,
+   "n": 4,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "WAPIC",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "WEMABANK": {
-  "chg_1y": 66.67,
-  "chg_30d": 10.37,
-  "chg_ytd": 61.76,
-  "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "chg_1y": 77.05,
+  "chg_30d": 8.36,
+  "chg_ytd": 58.82,
+  "consensus": "HOLD",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 36.0,
   "low_52w": 17.9,
   "peers": [
@@ -2697,43 +2709,43 @@
    "STANBIC"
   ],
   "ratings": {
-   "buy": 5,
-   "hold": 1,
-   "n": 6,
+   "buy": 1,
+   "hold": 8,
+   "n": 9,
    "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "WEMABANK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ZENITHBANK": {
-  "chg_1y": 85.25,
-  "chg_30d": -8.87,
-  "chg_ytd": 82.85,
+  "chg_1y": 73.22,
+  "chg_30d": -14.39,
+  "chg_ytd": 67.48,
   "consensus": "BUY",
-  "consensus_week": "21 Sept 2026",
+  "consensus_week": "23 Nov 2026",
   "high_52w": 136.9,
-  "low_52w": 59.0,
+  "low_52w": 59.5,
   "peers": [
    "FIRSTHOLDCO",
    "GTCO",
    "STERLINGNG",
    "STANBIC",
-   "ETI"
+   "UBA"
   ],
   "ratings": {
-   "buy": 7,
-   "hold": 0,
-   "n": 8,
-   "sell": 1
+   "buy": 10,
+   "hold": 1,
+   "n": 11,
+   "sell": 0
   },
   "sector": "FINANCIAL SERVICES",
   "ticker": "ZENITHBANK",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  },
  "ZICHIS": {
   "chg_1y": null,
-  "chg_30d": -6.43,
+  "chg_30d": -11.71,
   "chg_ytd": null,
   "high_52w": 42.5,
   "low_52w": 1.99,
@@ -2746,6 +2758,6 @@
   ],
   "sector": "AGRICULTURE",
   "ticker": "ZICHIS",
-  "updated": "2026-11-19"
+  "updated": "2026-11-26"
  }
 }

@@ -4009,6 +4009,16 @@
   "ticker": "ETI",
   "title": "ECOBANK TRANSNATIONAL INCORPORATED-PRESS RELEASE EXIT OF I DIRECTORS"
  },
+ "48441": {
+  "category": "Corporate Action",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "48441",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48441_AIRTEL_AFRICA_PLC-NOTIFICATION_OF_TRANSACTION_IN_OWN_SHARES_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "",
+  "ticker": "AIRTELAFRI",
+  "title": "AIRTEL AFRICA PLC-NOTIFICATION OF TRANSACTION IN OWN SHARES"
+ },
  "48442": {
   "category": "Corporate Action",
   "date": "2026-11-24",
@@ -4019,6 +4029,16 @@
   "ticker": "SUNUASSUR",
   "title": "SUNU ASSURANCES NIGERIA PLC-BOARD CHANGES"
  },
+ "48443": {
+  "category": "Corporate Action",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "48443",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48443_PRESCO_PLC-PRESCO_PLC_-_APPOINTMENT_OF_MANAGING_DIRECTOR__CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Presco Plc appointed Mr. Gangadhar Shetty as Managing Director of the Company, effective January 1, 2027.\n* Mr. Reji George resigned as Managing Director/Chief Executive Officer and as a member of the Board, effective December 31, 2026.",
+  "ticker": "PRESCO",
+  "title": "PRESCO PLC-PRESCO PLC - APPOINTMENT OF MANAGING DIRECTOR"
+ },
  "48444": {
   "category": "Financial Results",
   "date": "2026-11-24",
@@ -4028,6 +4048,46 @@
   "summary": "• Q2 2026 (6 Months ended 31st October 2026) | Unaudited\n• Revenue: ₦478.79m | PAT: (₦40.66m) | EPS: (53k) | Equity: (₦849.54m) | Assets: ₦2.97bn\n• Revenue increased by 6.13% year-on-year to ₦478.79m compared to ₦451.12m for the 6 months ended 31st October 2025.\n\n• Q1 2027 (3 Months ended 31st October 2026) | Unaudited\n• Revenue: ₦247.08m | PAT: (₦3.14m) | EPS: (4k) | Equity: (₦849.54m) | Assets: ₦2.97bn\n• Revenue decreased significantly by 38.92% compared to ₦404.51m for the corresponding 3-month period in 2025.",
   "ticker": "ENAMELWA",
   "title": "NIGERIAN ENAMELWARE PLC.- QUARTER 2 - FINANCIAL STATEMENT FOR 2027"
+ },
+ "48445": {
+  "category": "Corporate Action",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "48445",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48445_MCNICHOLS_CONSOLIDATED_PLC-PROPOSED_RIGHTS_ISSUE_AND_PUBLIC_OFFER_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* McNichols Consolidated Plc has announced a proposed Rights Issue of 744,528,753 ordinary shares of 50 kobo each at ₦1.50 per share, based on a ratio of 2 new shares for every 3 ordinary shares held as of July 8, 2026.\n* The company also proposed a Public Offer of 638,678,118 ordinary shares of 50 kobo each at ₦3.00 per share.\n* The Securities and Exchange Commission (SEC) conveyed its clearance of the draft offer documents on November 23, 2026, subject to the fulfillment of stipulated conditions.",
+  "ticker": "MCNICHOLS",
+  "title": "MCNICHOLS CONSOLIDATED PLC-PROPOSED RIGHTS ISSUE AND PUBLIC OFFER"
+ },
+ "48446": {
+  "category": "Corporate Action",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "48446",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48446_CUTIX_PLC.-CUTIX_PLC_-_NOTIFICATION_OF_APPOINTMENT_OF_EXTERNAL_AUDITORS__CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Cutix Plc appointed Madu, Onyekwena & Co as its new External Auditors, effective November 1, 2026.\n* The appointment follows the resignation of the former External Auditors, Ngozi Monica Okonkwo & Co, and was approved by the Board of Directors based on the recommendation of the Audit, Risk and Compliance Committee.\n* The new auditors will handle the statutory audit of the company's financial statements in compliance with the Companies and Allied Matters Act, 2020, and Financial Reporting Council regulations.",
+  "ticker": "CUTIX",
+  "title": "CUTIX PLC.-CUTIX PLC - NOTIFICATION OF APPOINTMENT OF EXTERNAL AUDITORS"
+ },
+ "48447": {
+  "category": "Corporate Action",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "48447",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48447_SUNU_ASSURANCES_NIGERIA_PLC-NOTICE_OF_APPOINTMENT_OF_BOARD_CHAIRMAN_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Mr. Michael Uchenna Chukwu has been appointed as the new Chairman of the Board of Directors of SUNU Assurances Nigeria Plc.\n* The appointment became effective on 23 October 2026, following the tenure expiration of the former Chairman, Mr. Kyari Abba Bukar.\n* Mr. Chukwu brings over four decades of experience in banking, taxation, corporate governance, and investment management, alongside extensive board-level service.",
+  "ticker": "SUNUASSUR",
+  "title": "SUNU ASSURANCES NIGERIA PLC-NOTICE OF APPOINTMENT OF BOARD CHAIRMAN"
+ },
+ "61": {
+  "category": "Director Dealing",
+  "date": "2026-11-25",
+  "first_seen": "2026-11-26T03:10:35+01:00",
+  "id": "61",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/61_NOTIFICATION_OF_DIRECTOR_DEALING_OKECHUKWU_ASHIEGBU.25.11.2026.pdf",
+  "summary": "* Executive Director Okechukwu Ashiegbu purchased 35,000 ordinary shares of Eterna Plc.\n* The shares were bought at a price of N36.00 per share, totaling an aggregated volume of 35,000 units.\n* The transaction took place on 19 November 2026 at the Nigerian Exchange Limited in Lagos.",
+  "ticker": "ETERNA",
+  "title": "ETERNA PLC. DIRECTORSDEALINGS"
  },
  "65": {
   "category": "Director Dealing",

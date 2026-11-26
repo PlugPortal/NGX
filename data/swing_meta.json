@@ -1,7 +1,6 @@
 {
- "run_at": "2026-11-25T03:01:38",
+ "run_at": "2026-11-26T02:13:58",
  "candidates": [
-  "DANGCEM",
   "HONYFLOUR",
   "WEMABANK"
  ],
@@ -24,52 +23,52 @@
    "avg_30d": 15.17
   },
   {
+   "sector": "HEALTHCARE",
+   "avg_30d": 2.98
+  },
+  {
    "sector": "CONSUMER GOODS",
-   "avg_30d": 5.18
+   "avg_30d": 2.35
   },
   {
    "sector": "FINANCIAL SERVICES",
-   "avg_30d": 0.29
-  },
-  {
-   "sector": "INDUSTRIAL GOODS",
-   "avg_30d": 0.09
-  },
-  {
-   "sector": "HEALTHCARE",
-   "avg_30d": -0.3
-  },
-  {
-   "sector": "CONSTRUCTION/REAL ESTATE",
-   "avg_30d": -1.28
-  },
-  {
-   "sector": "ICT",
-   "avg_30d": -2.31
+   "avg_30d": 0.46
   },
   {
    "sector": "NATURAL RESOURCES",
-   "avg_30d": -3.3
+   "avg_30d": 0.03
   },
   {
-   "sector": "OIL AND GAS",
-   "avg_30d": -3.34
+   "sector": "CONSTRUCTION/REAL ESTATE",
+   "avg_30d": -0.94
   },
   {
-   "sector": "SERVICES",
-   "avg_30d": -3.38
+   "sector": "ICT",
+   "avg_30d": -3.2
+  },
+  {
+   "sector": "INDUSTRIAL GOODS",
+   "avg_30d": -3.43
   },
   {
    "sector": "CONGLOMERATES",
-   "avg_30d": -3.65
+   "avg_30d": -3.91
   },
   {
-   "sector": "AGRICULTURE",
-   "avg_30d": -13.82
+   "sector": "OIL AND GAS",
+   "avg_30d": -4.03
+  },
+  {
+   "sector": "SERVICES",
+   "avg_30d": -5.58
   },
   {
    "sector": "INVESTMENT",
-   "avg_30d": -14.07
+   "avg_30d": -8.33
+  },
+  {
+   "sector": "AGRICULTURE",
+   "avg_30d": -16.11
   }
  ]
 }
