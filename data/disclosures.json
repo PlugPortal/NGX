@@ -119,6 +119,16 @@
   "ticker": "ACCESSCORP",
   "title": "ACCESS HOLDINGS PLC DIRECTORSDEALINGS"
  },
+ "247": {
+  "category": "Director Dealing",
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27T03:09:19+01:00",
+  "id": "247",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/247_INSIDER_DEALINGS-_MADIBA_CONSTRUCTION_LIMITED.pdf",
+  "summary": "* **Insider Dealing Notification:** Madiba Construction Limited (a related party) notified VFD Group Plc of the sale of company shares.\n* **Transaction Details:** A total of 2,255,700 ordinary shares were sold at an aggregated average price of N10.91 per share.\n* **Date and Location:** The transactions took place in Lagos on November 23, 2026.",
+  "ticker": "VFDGROUP",
+  "title": "VFD GROUP PLC DIRECTORSDEALINGS"
+ },
  "261": {
   "category": "Director Dealing",
   "date": "2026-10-28",
@@ -4078,6 +4088,36 @@
   "summary": "* Mr. Michael Uchenna Chukwu has been appointed as the new Chairman of the Board of Directors of SUNU Assurances Nigeria Plc.\n* The appointment became effective on 23 October 2026, following the tenure expiration of the former Chairman, Mr. Kyari Abba Bukar.\n* Mr. Chukwu brings over four decades of experience in banking, taxation, corporate governance, and investment management, alongside extensive board-level service.",
   "ticker": "SUNUASSUR",
   "title": "SUNU ASSURANCES NIGERIA PLC-NOTICE OF APPOINTMENT OF BOARD CHAIRMAN"
+ },
+ "48449": {
+  "category": "Corporate Action",
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27T03:09:19+01:00",
+  "id": "48449",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48449_ABBEY_BANK_PLC-ANNOUNCEMENT_OF_CHANGE_OF_BRAND_IDENTITY_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Abbey Bank Plc announced a change to its logo and brand identity.\n* The rebranding follows the approval of the Central Bank of Nigeria (CBN).\n* The announcement was signed by John Okonkwo, Executive Director, on November 25, 2026.",
+  "ticker": "ABBEYBANK",
+  "title": "ABBEY BANK PLC-ANNOUNCEMENT OF CHANGE OF BRAND IDENTITY"
+ },
+ "48450": {
+  "category": "Corporate Action",
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27T03:09:19+01:00",
+  "id": "48450",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48450_PRESTIGE_ASSURANCE_PLC-NOTICE_OF_BOARD_MEETING__CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Prestige Assurance Plc will hold a hybrid Board of Directors meeting on Wednesday, 2nd December 2026.\n* The meeting will take place at No. 19, Ligali Ayorinde Street, Victoria Island, Lagos.\n* The primary agenda is to consider and approve the Company's Budget for the financial year 2027.",
+  "ticker": "PRESTIGE",
+  "title": "PRESTIGE ASSURANCE PLC-NOTICE OF BOARD MEETING"
+ },
+ "48453": {
+  "category": "Corporate Action",
+  "date": "2026-11-26",
+  "first_seen": "2026-11-27T03:09:19+01:00",
+  "id": "48453",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48453_VFD_GROUP_PLC-VFD_GROUP-CORPORATE_DISCLOSURE_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Mrs. Morenike Ominike has been redeployed as Group Executive Director, Operations at Anchoria Capital Group (ACG), effective December 1, 2026.\n* In her new role, Mrs. Ominike will oversee ACG’s operational activities across the group's capital market subsidiaries to ensure close alignment with VFD Group.\n* The leadership change stems from VFD Group's succession planning process aimed at leadership continuity and strengthening execution within key subsidiaries.",
+  "ticker": "VFDGROUP",
+  "title": "VFD GROUP PLC-VFD GROUP-CORPORATE DISCLOSURE"
  },
  "61": {
   "category": "Director Dealing",

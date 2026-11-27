@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T02:15:04+01:00",
+ "generated": "2026-11-27T03:09:20+01:00",
  "ideas": [
   {
    "facts": {
@@ -28,149 +28,35 @@
    "name": "Nigerian Exchange Group Plc",
    "passed": 9,
    "plan": {
-    "entry": 173.0,
-    "entry_low": 167.81,
-    "entry_text": "Entry zone ₦167.81 – ₦173.00",
+    "entry": 168.0,
+    "entry_low": 162.96,
+    "entry_text": "Entry zone ₦162.96 – ₦168.00",
     "notes": [],
     "price_action": {
-     "below_52w_high_pct": 12.14,
-     "chg_1d": -1.14,
-     "chg_1y": 239.15,
-     "chg_30d": 6.06,
-     "chg_7d": 4.85,
-     "chg_ytd": 150.0,
+     "below_52w_high_pct": 14.68,
+     "chg_1d": 0.6,
+     "chg_1y": 223.64,
+     "chg_30d": 1.21,
+     "chg_7d": -2.89,
+     "chg_ytd": 138.57,
      "high_52w": 196.9,
      "low_52w": 51.1,
-     "price": 173.0,
-     "range_position_pct": 83.61,
-     "rs_rank": 95.0,
-     "volume_vs_avg": 0.4,
-     "vs_20d_avg_pct": 4.71
+     "price": 168.0,
+     "range_position_pct": 80.18,
+     "rs_rank": 94.29,
+     "volume_vs_avg": 0.5,
+     "vs_20d_avg_pct": 0.07
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 722,
-    "stop": 159.16,
+    "shares_per_1m_capital": 744,
+    "stop": 154.56,
     "stop_pct": 8,
-    "target_2r": 200.68,
-    "target_3r": 214.52
+    "target_2r": 194.88,
+    "target_3r": 208.32
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "NGXGROUP"
-  },
-  {
-   "facts": {
-    "capital_raises_90d": [],
-    "director_dealings_90d": [],
-    "eps_basis": "no comparable periods",
-    "eps_growth_pct": null,
-    "last_results": {
-     "date": "2026-10-29",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48223_HBM_NIGERIA_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "• 9M 2026 | Unaudited\n• Revenue: ₦928.25bn | PAT: ₦272bn | EPS: 1,689k | Equity: ₦611.61bn | Assets: ₦1,219.04bn\n• Name changed from Lafarge Africa Plc to HBM Nigeria Plc on 6th May 2026.",
-     "title": "HBM NIGERIA PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
-    },
-    "meetings_90d": [],
-    "sales_basis": "no comparable periods",
-    "sales_growth_pct": null
-   },
-   "name": "HBM Nigeria Plc",
-   "passed": 9,
-   "plan": {
-    "entry": 345.8,
-    "entry_low": 335.43,
-    "entry_text": "Entry zone ₦335.43 – ₦345.80",
-    "notes": [],
-    "price_action": {
-     "below_52w_high_pct": 11.31,
-     "chg_1d": 0.82,
-     "chg_1y": 155.97,
-     "chg_30d": -3.38,
-     "chg_7d": 9.4,
-     "chg_ytd": 155.02,
-     "high_52w": 389.9,
-     "low_52w": 132.8,
-     "price": 345.8,
-     "range_position_pct": 82.85,
-     "rs_rank": 90.71,
-     "volume_vs_avg": 1.92,
-     "vs_20d_avg_pct": 1.66
-    },
-    "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 361,
-    "stop": 318.14,
-    "stop_pct": 8,
-    "target_2r": 401.13,
-    "target_3r": 428.79
-   },
-   "sector": "INDUSTRIAL GOODS",
-   "ticker": "HBMNG"
-  },
-  {
-   "facts": {
-    "capital_raises_90d": [],
-    "director_dealings_90d": [],
-    "eps_basis": "no comparable periods",
-    "eps_growth_pct": null,
-    "last_results": {
-     "date": "2026-10-27",
-     "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48191_DANGOTE_CEMENT_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2026_FINANCIAL_STATEMENTS_OCTOBER_2026.pdf",
-     "summary": "",
-     "title": "DANGOTE CEMENT PLC- QUARTER 3 - FINANCIAL STATEMENT FOR 2026"
-    },
-    "meetings_90d": [
-     {
-      "date": "2026-11-10",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48385_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_NOVEMBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
-     },
-     {
-      "date": "2026-10-28",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48190_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_BOARD_RESOLUTION_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - BOARD RESOLUTION"
-     },
-     {
-      "date": "2026-10-15",
-      "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48085_DANGOTE_CEMENT_PLC-_NOTICES_OF_BOARD_MEETING_(BM)_-_NOTICE_BOARD_MEETING_(BM)_OCTOBER_2026.pdf",
-      "title": "DANGOTE CEMENT PLC- NOTICES OF BOARD MEETING (BM) - NOTICE"
-     }
-    ],
-    "sales_basis": "no comparable periods",
-    "sales_growth_pct": null
-   },
-   "name": "Dangote Cement Plc",
-   "passed": 9,
-   "plan": {
-    "entry": 1323.0,
-    "entry_low": 1283.31,
-    "entry_text": "Entry zone ₦1,283.31 – ₦1,323.00",
-    "notes": [],
-    "price_action": {
-     "below_52w_high_pct": 11.21,
-     "chg_1d": 0.0,
-     "chg_1y": 147.47,
-     "chg_30d": 31.25,
-     "chg_7d": -9.99,
-     "chg_ytd": 117.24,
-     "high_52w": 1490.0,
-     "low_52w": 534.6,
-     "price": 1323.0,
-     "range_position_pct": 82.52,
-     "rs_rank": 90.0,
-     "volume_vs_avg": 0.11,
-     "vs_20d_avg_pct": -2.62
-    },
-    "risk_per_trade_pct": 1,
-    "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 94,
-    "stop": 1217.16,
-    "stop_pct": 8,
-    "target_2r": 1534.68,
-    "target_3r": 1640.52
-   },
-   "sector": "INDUSTRIAL GOODS",
-   "ticker": "DANGCEM"
   },
   {
    "facts": {
@@ -197,32 +83,32 @@
    "name": "Honeywell Flour Mills Plc",
    "passed": 9,
    "plan": {
-    "entry": 38.88,
-    "entry_low": 38.88,
-    "entry_text": "Buy-stop above the 52-week high: ₦38.88",
+    "entry": 35.2,
+    "entry_low": 34.14,
+    "entry_text": "Entry zone ₦34.14 – ₦35.20",
     "notes": [],
     "price_action": {
-     "below_52w_high_pct": 0.0,
-     "chg_1d": 6.94,
-     "chg_1y": 80.9,
-     "chg_30d": 103.39,
-     "chg_7d": 22.61,
-     "chg_ytd": 64.38,
-     "high_52w": 38.5,
+     "below_52w_high_pct": 11.56,
+     "chg_1d": -0.14,
+     "chg_1y": 95.83,
+     "chg_30d": 79.39,
+     "chg_7d": -8.57,
+     "chg_ytd": 60.96,
+     "high_52w": 39.8,
      "low_52w": 14.0,
-     "price": 38.5,
-     "range_position_pct": 100.0,
-     "rs_rank": 83.57,
-     "volume_vs_avg": 0.42,
-     "vs_20d_avg_pct": 40.2
+     "price": 35.2,
+     "range_position_pct": 82.17,
+     "rs_rank": 85.71,
+     "volume_vs_avg": 0.18,
+     "vs_20d_avg_pct": 11.52
     },
     "risk_per_trade_pct": 1,
-    "setup": "Breakout watch",
-    "shares_per_1m_capital": 3214,
-    "stop": 35.77,
+    "setup": "Pullback in uptrend",
+    "shares_per_1m_capital": 3551,
+    "stop": 32.38,
     "stop_pct": 8,
-    "target_2r": 45.11,
-    "target_3r": 48.22
+    "target_2r": 40.83,
+    "target_3r": 43.65
    },
    "sector": "CONSUMER GOODS",
    "ticker": "HONYFLOUR"
@@ -254,36 +140,36 @@
    "name": "Wema Bank Plc",
    "passed": 9,
    "plan": {
-    "entry": 33.0,
-    "entry_low": 32.01,
-    "entry_text": "Entry zone ₦32.01 – ₦33.00",
+    "entry": 32.4,
+    "entry_low": 31.43,
+    "entry_text": "Entry zone ₦31.43 – ₦32.40",
     "notes": [],
     "price_action": {
-     "below_52w_high_pct": 8.33,
+     "below_52w_high_pct": 10.0,
      "chg_1d": 0.0,
-     "chg_1y": 66.67,
-     "chg_30d": 10.37,
-     "chg_7d": 1.54,
-     "chg_ytd": 61.76,
+     "chg_1y": 77.05,
+     "chg_30d": 8.36,
+     "chg_7d": -1.82,
+     "chg_ytd": 58.82,
      "high_52w": 36.0,
      "low_52w": 17.9,
-     "price": 33.0,
-     "range_position_pct": 83.43,
-     "rs_rank": 77.14,
-     "volume_vs_avg": 0.18,
-     "vs_20d_avg_pct": 3.35
+     "price": 32.4,
+     "range_position_pct": 80.11,
+     "rs_rank": 79.29,
+     "volume_vs_avg": 0.26,
+     "vs_20d_avg_pct": -0.49
     },
     "risk_per_trade_pct": 1,
     "setup": "Pullback in uptrend",
-    "shares_per_1m_capital": 3787,
-    "stop": 30.36,
+    "shares_per_1m_capital": 3858,
+    "stop": 29.81,
     "stop_pct": 8,
-    "target_2r": 38.28,
-    "target_3r": 40.92
+    "target_2r": 37.58,
+    "target_3r": 40.18
    },
    "sector": "FINANCIAL SERVICES",
    "ticker": "WEMABANK"
   }
  ],
- "week_of": "2026-11-16"
+ "week_of": "2026-11-23"
 }
