@@ -139,6 +139,16 @@
   "ticker": "AVACAP",
   "title": "AVA CAPITAL PLC DIRECTORSDEALINGS"
  },
+ "3": {
+  "category": "Director Dealing",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "3",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/3_2_Notification_of_insider_share_dealing_VFD_26_11_266.pdf",
+  "summary": "* VFD Group PLC, a substantial shareholder, acquired 1,141,830 ordinary shares of Abbey Bank Plc.\n* The shares were purchased at an average price of N6.70 per share on November 26, 2026.\n* The transaction took place on the Nigerian Exchange Limited in Lagos.",
+  "ticker": "ABBEYBANK",
+  "title": "ABBEY BANK PLC DIRECTORSDEALINGS"
+ },
  "38": {
   "category": "Director Dealing",
   "date": "2026-11-10",
@@ -4089,6 +4099,16 @@
   "ticker": "SUNUASSUR",
   "title": "SUNU ASSURANCES NIGERIA PLC-NOTICE OF APPOINTMENT OF BOARD CHAIRMAN"
  },
+ "48448": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48448",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48448_ABBEY_BANK_PLC-ANNOUNCEMENT_OF_NEW_BRAND_IDENTITY_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Abbey Bank Plc announced a change to its logo and brand identity, effective 25th November 2026.\n* The rebranding follows the receipt of formal approval from the Central Bank of Nigeria (CBN).",
+  "ticker": "ABBEYBANK",
+  "title": "ABBEY BANK PLC-ANNOUNCEMENT OF NEW BRAND IDENTITY"
+ },
  "48449": {
   "category": "Corporate Action",
   "date": "2026-11-26",
@@ -4118,6 +4138,56 @@
   "summary": "* Mrs. Morenike Ominike has been redeployed as Group Executive Director, Operations at Anchoria Capital Group (ACG), effective December 1, 2026.\n* In her new role, Mrs. Ominike will oversee ACG’s operational activities across the group's capital market subsidiaries to ensure close alignment with VFD Group.\n* The leadership change stems from VFD Group's succession planning process aimed at leadership continuity and strengthening execution within key subsidiaries.",
   "ticker": "VFDGROUP",
   "title": "VFD GROUP PLC-VFD GROUP-CORPORATE DISCLOSURE"
+ },
+ "48455": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48455",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48455_AIRTEL_AFRICA_PLC-NOTIFICATION_OF_TRANSACTION_IN_OWN_SHARES_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Airtel Africa announced the purchase of 12,033,748 ordinary shares in aggregate at a volume weighted average price of 278.31 GBp per ordinary share since the commencement of the buyback programme on 5 November 2026.\n* Between 23 November 2026 and 26 November 2026, the company purchased ordinary shares across multiple dates from Citigroup Global Markets Limited (\"Citi\"), with daily volume-weighted average prices ranging between 270.17p and 274.86p GBp.\n* All purchased ordinary shares will be cancelled, and this specific tranche of the buyback programme has now been completed in accordance with its terms.",
+  "ticker": "AIRTELAFRI",
+  "title": "AIRTEL AFRICA PLC-NOTIFICATION OF TRANSACTION IN OWN SHARES"
+ },
+ "48456": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48456",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48456_AIRTEL_AFRICA_PLC-LAUNCH_OF_SHARE_BUYBACK_PROGRAMME_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Airtel Africa's Board of directors has approved a new share buyback programme to repurchase up to 1% of the company’s issued share capital, following the completion of its previous programme on 26 November 2026.\n* The programme, conducted via an agreement with Barclays Capital Securities Limited, consists of a non-discretionary element (purchasing between $60m and $70m of shares, ending no later than 30 March 2027) and a discretionary element, with the entire programme terminating no later than 30 June 2027.\n* The sole purpose of the programme is to reduce the company's capital, and all shares purchased under the agreement will be cancelled.",
+  "ticker": "AIRTELAFRI",
+  "title": "AIRTEL AFRICA PLC-LAUNCH OF SHARE BUYBACK PROGRAMME"
+ },
+ "48457": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48457",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48457_OANDO_PLC-OANDO_PLC_-_RIGHTS_ISSUE__CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* **Rights Issue Announcement:** Oando PLC announced the final terms of its ₦203.8 billion rights issue, offering up to 4,076,185,240 new ordinary shares at ₦50.00 per share (or R0.632487 per share for South African shareholders) on a basis of one new share for every two existing shares.\n* **Use of Proceeds:** The capital raised will be applied toward working capital, capital expenditure on OMLs 60 to 63, debt repayment, and the settlement of intra-group funding obligations, following the acquisition of the Nigerian Agip Oil Company.\n* **Key Dates:** For South African shareholders, the last day to trade to qualify is 1 December 2026, letters of allocation will trade from 7 December 2026 until 12 January 2027, and the rights issue closes on 15 January 2027.",
+  "ticker": "OANDO",
+  "title": "OANDO PLC-OANDO PLC - RIGHTS ISSUE"
+ },
+ "48459": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48459",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48459_JAPAUL_GOLD_AND_VENTURES_PLC-ANNOUNCEMENT_OF_CONFIRMATION_OF_SUBSTANTIVE_GMD_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "* Japaul Gold & Ventures Plc announced the appointment of Mr. Henry Alakhume as the Substantive Group Managing Director.\n* The appointment took effect from August 21, 2026, and he will serve in this capacity until the expiration of his tenure.\n* The Board noted that Mr. Alakhume previously served as Acting Group Managing Director and his appointment is expected to ensure leadership continuity and support the company's strategic objectives.",
+  "ticker": "JAPAULGOLD",
+  "title": "JAPAUL GOLD AND VENTURES PLC-ANNOUNCEMENT OF CONFIRMATION OF SUBSTANTIVE GMD"
+ },
+ "48460": {
+  "category": "Corporate Action",
+  "date": "2026-11-27",
+  "first_seen": "2026-11-28T02:56:35+01:00",
+  "id": "48460",
+  "pdf": "https://doclib.ngxgroup.com/Financial_NewsDocs/48460_CORONATION_INSURANCE_PLC-TRADING_SUSPENSION_CORPORATE_ACTIONS_NOVEMBER_2026.pdf",
+  "summary": "- Coronation Insurance Plc announced a full suspension of trading in its shares on the Nigerian Exchange Limited (NGX) effective November 27, 2026.\n- The suspension follows approvals from shareholders, the Securities and Exchange Commission (SEC), and the Federal High Court for the acquisition and transfer of shares held by Scheme Shareholders to the Core Shareholders.\n- The purpose of the suspension is to allow the company and its registrars to determine the final register of shareholders entitled to receive the Scheme Consideration ahead of the company's eventual delisting from the NGX Daily Official List.",
+  "ticker": "WAPIC",
+  "title": "CORONATION INSURANCE PLC-TRADING SUSPENSION"
  },
  "61": {
   "category": "Director Dealing",
